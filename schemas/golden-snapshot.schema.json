@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GOLDENCROWN Leaderboard Snapshot (source/evidence form)",
+  "type": "object",
+  "required": [
+    "snapshot_id",
+    "clan",
+    "official_timestamp_persian",
+    "member_count",
+    "baseline_rule",
+    "fields",
+    "members"
+  ],
+  "properties": {
+    "snapshot_id": {
+      "type": "string",
+      "pattern": "^G-S[0-9]+$"
+    },
+    "clan": {
+      "const": "GOLDENCROWN"
+    },
+    "official_timestamp_persian": {
+      "type": "string"
+    },
+    "member_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "baseline_rule": {
+      "type": "object",
+      "required": [
+        "total_kills",
+        "clan_medals",
+        "kills_delta",
+        "clan_medals_delta"
+      ],
+      "properties": {
+        "total_kills": {
+          "const": "baseline"
+        },
+        "clan_medals": {
+          "const": "baseline"
+        },
+        "kills_delta": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "clan_medals_delta": {
+          "type": [
+            "null",
+            "number"
+          ]
+        }
+      }
+    },
+    "fields": {
+      "type": "array",
+      "minItems": 1
+    },
+    "members": {
+      "type": "array",
+      "minItems": 1
+    }
+  },
+  "additionalProperties": false
+}
