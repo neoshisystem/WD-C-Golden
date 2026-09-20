@@ -16,7 +16,10 @@
     "level",
     "current_league_medals",
     "total_kills",
-    "clan_medals_total"
+    "clan_medals_total",
+    "honor_medals",
+    "weapons",
+    "last_online_display"
   ],
   "members": [
     {
@@ -27,7 +30,18 @@
       "current_league_medals": 180712,
       "total_kills": 249732,
       "clan_medals_total": 1515874,
-      "snapshot_member_key": "G-S01-R001"
+      "snapshot_member_key": "G-S01-R001",
+      "honor_medals": {
+        "gold": 2,
+        "silver": 4,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 1268,
+        "hydra": 431,
+        "hellfire": 70
+      },
+      "last_online_display": "<1m ago"
     },
     {
       "rank": 2,
@@ -37,7 +51,18 @@
       "current_league_medals": 159614,
       "total_kills": 1014125,
       "clan_medals_total": 913754,
-      "snapshot_member_key": "G-S01-R002"
+      "snapshot_member_key": "G-S01-R002",
+      "honor_medals": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 3
+      },
+      "weapons": {
+        "25mm": 3090,
+        "hydra": 939,
+        "hellfire": 129
+      },
+      "last_online_display": "2m ago"
     },
     {
       "rank": 3,
@@ -47,7 +72,18 @@
       "current_league_medals": 120081,
       "total_kills": 782205,
       "clan_medals_total": 128103,
-      "snapshot_member_key": "G-S01-R003"
+      "snapshot_member_key": "G-S01-R003",
+      "honor_medals": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 6
+      },
+      "weapons": {
+        "25mm": 2179,
+        "hydra": 540,
+        "hellfire": 122
+      },
+      "last_online_display": "46m ago"
     },
     {
       "rank": 4,
@@ -57,7 +93,18 @@
       "current_league_medals": 109447,
       "total_kills": 236207,
       "clan_medals_total": 1123078,
-      "snapshot_member_key": "G-S01-R004"
+      "snapshot_member_key": "G-S01-R004",
+      "honor_medals": {
+        "gold": 4,
+        "silver": 6,
+        "bronze": 4
+      },
+      "weapons": {
+        "25mm": 1023,
+        "hydra": 293,
+        "hellfire": 54
+      },
+      "last_online_display": "42m ago"
     },
     {
       "rank": 5,
@@ -67,7 +114,18 @@
       "current_league_medals": 87673,
       "total_kills": 167467,
       "clan_medals_total": 161024,
-      "snapshot_member_key": "G-S01-R005"
+      "snapshot_member_key": "G-S01-R005",
+      "honor_medals": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 1
+      },
+      "weapons": {
+        "25mm": 1355,
+        "hydra": 317,
+        "hellfire": 44
+      },
+      "last_online_display": "1h ago"
     },
     {
       "rank": 6,
@@ -77,7 +135,18 @@
       "current_league_medals": 74089,
       "total_kills": 208929,
       "clan_medals_total": 687187,
-      "snapshot_member_key": "G-S01-R006"
+      "snapshot_member_key": "G-S01-R006",
+      "honor_medals": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 1073,
+        "hydra": 377,
+        "hellfire": 76
+      },
+      "last_online_display": "3h ago"
     },
     {
       "rank": 7,
@@ -87,7 +156,18 @@
       "current_league_medals": 70630,
       "total_kills": 244705,
       "clan_medals_total": 1062602,
-      "snapshot_member_key": "G-S01-R007"
+      "snapshot_member_key": "G-S01-R007",
+      "honor_medals": {
+        "gold": 3,
+        "silver": 5,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 1110,
+        "hydra": 369,
+        "hellfire": 82
+      },
+      "last_online_display": "3h ago"
     },
     {
       "rank": 8,
@@ -97,7 +177,18 @@
       "current_league_medals": 66879,
       "total_kills": 147430,
       "clan_medals_total": 66879,
-      "snapshot_member_key": "G-S01-R008"
+      "snapshot_member_key": "G-S01-R008",
+      "honor_medals": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      },
+      "weapons": {
+        "25mm": 903,
+        "hydra": 418,
+        "hellfire": 72
+      },
+      "last_online_display": "59m ago"
     },
     {
       "rank": 9,
@@ -107,7 +198,18 @@
       "current_league_medals": 61047,
       "total_kills": 137109,
       "clan_medals_total": 297949,
-      "snapshot_member_key": "G-S01-R009"
+      "snapshot_member_key": "G-S01-R009",
+      "honor_medals": {
+        "gold": 2,
+        "silver": 5,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 485,
+        "hydra": 236,
+        "hellfire": 37
+      },
+      "last_online_display": "7h ago"
     },
     {
       "rank": 10,
@@ -117,7 +219,18 @@
       "current_league_medals": 58605,
       "total_kills": 116978,
       "clan_medals_total": 622682,
-      "snapshot_member_key": "G-S01-R010"
+      "snapshot_member_key": "G-S01-R010",
+      "honor_medals": {
+        "gold": 1,
+        "silver": 3,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 661,
+        "hydra": 248,
+        "hellfire": 49
+      },
+      "last_online_display": "51m ago"
     },
     {
       "rank": 11,
@@ -127,7 +240,18 @@
       "current_league_medals": 57432,
       "total_kills": 79611,
       "clan_medals_total": 285732,
-      "snapshot_member_key": "G-S01-R011"
+      "snapshot_member_key": "G-S01-R011",
+      "honor_medals": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 640,
+        "hydra": 161,
+        "hellfire": 60
+      },
+      "last_online_display": "3h ago"
     },
     {
       "rank": 12,
@@ -137,7 +261,18 @@
       "current_league_medals": 55396,
       "total_kills": 282373,
       "clan_medals_total": 231633,
-      "snapshot_member_key": "G-S01-R012"
+      "snapshot_member_key": "G-S01-R012",
+      "honor_medals": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 796,
+        "hydra": 440,
+        "hellfire": 128
+      },
+      "last_online_display": "1h ago"
     },
     {
       "rank": 13,
@@ -147,7 +282,18 @@
       "current_league_medals": 54727,
       "total_kills": 82883,
       "clan_medals_total": 54727,
-      "snapshot_member_key": "G-S01-R013"
+      "snapshot_member_key": "G-S01-R013",
+      "honor_medals": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 0
+      },
+      "weapons": {
+        "25mm": 657,
+        "hydra": 244,
+        "hellfire": 34
+      },
+      "last_online_display": "1h ago"
     },
     {
       "rank": 14,
@@ -157,7 +303,18 @@
       "current_league_medals": 53162,
       "total_kills": 76741,
       "clan_medals_total": 90624,
-      "snapshot_member_key": "G-S01-R014"
+      "snapshot_member_key": "G-S01-R014",
+      "honor_medals": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      },
+      "weapons": {
+        "25mm": 541,
+        "hydra": 217,
+        "hellfire": 34
+      },
+      "last_online_display": "1h ago"
     },
     {
       "rank": 15,
@@ -167,7 +324,18 @@
       "current_league_medals": 51427,
       "total_kills": 98443,
       "clan_medals_total": 102371,
-      "snapshot_member_key": "G-S01-R015"
+      "snapshot_member_key": "G-S01-R015",
+      "honor_medals": {
+        "gold": 2,
+        "silver": 6,
+        "bronze": 3
+      },
+      "weapons": {
+        "25mm": 644,
+        "hydra": 302,
+        "hellfire": 51
+      },
+      "last_online_display": "1h ago"
     },
     {
       "rank": 16,
@@ -177,7 +345,18 @@
       "current_league_medals": 49481,
       "total_kills": 84771,
       "clan_medals_total": 132527,
-      "snapshot_member_key": "G-S01-R016"
+      "snapshot_member_key": "G-S01-R016",
+      "honor_medals": {
+        "gold": 1,
+        "silver": 3,
+        "bronze": 1
+      },
+      "weapons": {
+        "25mm": 454,
+        "hydra": 249,
+        "hellfire": 44
+      },
+      "last_online_display": "1h ago"
     },
     {
       "rank": 17,
@@ -187,7 +366,18 @@
       "current_league_medals": 44576,
       "total_kills": 104882,
       "clan_medals_total": 44576,
-      "snapshot_member_key": "G-S01-R017"
+      "snapshot_member_key": "G-S01-R017",
+      "honor_medals": {
+        "gold": 0,
+        "silver": 3,
+        "bronze": 3
+      },
+      "weapons": {
+        "25mm": 1069,
+        "hydra": 266,
+        "hellfire": 58
+      },
+      "last_online_display": "43m ago"
     },
     {
       "rank": 18,
@@ -197,7 +387,18 @@
       "current_league_medals": 42784,
       "total_kills": 139395,
       "clan_medals_total": 125218,
-      "snapshot_member_key": "G-S01-R018"
+      "snapshot_member_key": "G-S01-R018",
+      "honor_medals": {
+        "gold": 4,
+        "silver": 4,
+        "bronze": 1
+      },
+      "weapons": {
+        "25mm": 631,
+        "hydra": 383,
+        "hellfire": 95
+      },
+      "last_online_display": "3h ago"
     },
     {
       "rank": 19,
@@ -207,7 +408,18 @@
       "current_league_medals": 38809,
       "total_kills": 42683,
       "clan_medals_total": 309663,
-      "snapshot_member_key": "G-S01-R019"
+      "snapshot_member_key": "G-S01-R019",
+      "honor_medals": {
+        "gold": 2,
+        "silver": 3,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 284,
+        "hydra": 128,
+        "hellfire": 30
+      },
+      "last_online_display": "58m ago"
     },
     {
       "rank": 20,
@@ -217,7 +429,18 @@
       "current_league_medals": 37526,
       "total_kills": 125030,
       "clan_medals_total": 85006,
-      "snapshot_member_key": "G-S01-R020"
+      "snapshot_member_key": "G-S01-R020",
+      "honor_medals": {
+        "gold": 2,
+        "silver": 5,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 666,
+        "hydra": 235,
+        "hellfire": 80
+      },
+      "last_online_display": "1h ago"
     },
     {
       "rank": 21,
@@ -227,7 +450,18 @@
       "current_league_medals": 35088,
       "total_kills": 181740,
       "clan_medals_total": 409842,
-      "snapshot_member_key": "G-S01-R021"
+      "snapshot_member_key": "G-S01-R021",
+      "honor_medals": {
+        "gold": 0,
+        "silver": 3,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 1099,
+        "hydra": 181,
+        "hellfire": 43
+      },
+      "last_online_display": "1h ago"
     },
     {
       "rank": 22,
@@ -237,7 +471,18 @@
       "current_league_medals": 34951,
       "total_kills": 63929,
       "clan_medals_total": 343355,
-      "snapshot_member_key": "G-S01-R022"
+      "snapshot_member_key": "G-S01-R022",
+      "honor_medals": {
+        "gold": 1,
+        "silver": 3,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 435,
+        "hydra": 147,
+        "hellfire": 30
+      },
+      "last_online_display": "6h ago"
     },
     {
       "rank": 23,
@@ -247,7 +492,18 @@
       "current_league_medals": 33368,
       "total_kills": 120793,
       "clan_medals_total": 197893,
-      "snapshot_member_key": "G-S01-R023"
+      "snapshot_member_key": "G-S01-R023",
+      "honor_medals": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 880,
+        "hydra": 231,
+        "hellfire": 64
+      },
+      "last_online_display": "1m ago"
     },
     {
       "rank": 24,
@@ -257,7 +513,18 @@
       "current_league_medals": 31029,
       "total_kills": 81430,
       "clan_medals_total": 310811,
-      "snapshot_member_key": "G-S01-R024"
+      "snapshot_member_key": "G-S01-R024",
+      "honor_medals": {
+        "gold": 2,
+        "silver": 4,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 504,
+        "hydra": 272,
+        "hellfire": 61
+      },
+      "last_online_display": "1h ago"
     },
     {
       "rank": 25,
@@ -267,7 +534,18 @@
       "current_league_medals": 28338,
       "total_kills": 140076,
       "clan_medals_total": 305412,
-      "snapshot_member_key": "G-S01-R025"
+      "snapshot_member_key": "G-S01-R025",
+      "honor_medals": {
+        "gold": 2,
+        "silver": 3,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 700,
+        "hydra": 330,
+        "hellfire": 57
+      },
+      "last_online_display": "2h ago"
     },
     {
       "rank": 26,
@@ -277,7 +555,18 @@
       "current_league_medals": 27936,
       "total_kills": 286491,
       "clan_medals_total": 27936,
-      "snapshot_member_key": "G-S01-R026"
+      "snapshot_member_key": "G-S01-R026",
+      "honor_medals": {
+        "gold": 3,
+        "silver": 4,
+        "bronze": 3
+      },
+      "weapons": {
+        "25mm": 1007,
+        "hydra": 349,
+        "hellfire": 94
+      },
+      "last_online_display": "31m ago"
     },
     {
       "rank": 27,
@@ -287,7 +576,18 @@
       "current_league_medals": 24584,
       "total_kills": 154278,
       "clan_medals_total": 213615,
-      "snapshot_member_key": "G-S01-R027"
+      "snapshot_member_key": "G-S01-R027",
+      "honor_medals": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 621,
+        "hydra": 422,
+        "hellfire": 74
+      },
+      "last_online_display": "<1m ago"
     },
     {
       "rank": 28,
@@ -297,7 +597,18 @@
       "current_league_medals": 24435,
       "total_kills": 132850,
       "clan_medals_total": 34759,
-      "snapshot_member_key": "G-S01-R028"
+      "snapshot_member_key": "G-S01-R028",
+      "honor_medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      },
+      "weapons": {
+        "25mm": 784,
+        "hydra": 294,
+        "hellfire": 52
+      },
+      "last_online_display": "2m ago"
     },
     {
       "rank": 29,
@@ -307,7 +618,18 @@
       "current_league_medals": 23457,
       "total_kills": 134789,
       "clan_medals_total": 23457,
-      "snapshot_member_key": "G-S01-R029"
+      "snapshot_member_key": "G-S01-R029",
+      "honor_medals": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 813,
+        "hydra": 200,
+        "hellfire": 69
+      },
+      "last_online_display": "29m ago"
     },
     {
       "rank": 30,
@@ -317,7 +639,18 @@
       "current_league_medals": 22358,
       "total_kills": 66639,
       "clan_medals_total": 60573,
-      "snapshot_member_key": "G-S01-R030"
+      "snapshot_member_key": "G-S01-R030",
+      "honor_medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      },
+      "weapons": {
+        "25mm": 602,
+        "hydra": 153,
+        "hellfire": 38
+      },
+      "last_online_display": "1h ago"
     },
     {
       "rank": 31,
@@ -327,7 +660,18 @@
       "current_league_medals": 21679,
       "total_kills": 123135,
       "clan_medals_total": 360040,
-      "snapshot_member_key": "G-S01-R031"
+      "snapshot_member_key": "G-S01-R031",
+      "honor_medals": {
+        "gold": 1,
+        "silver": 3,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 712,
+        "hydra": 201,
+        "hellfire": 36
+      },
+      "last_online_display": "49m ago"
     },
     {
       "rank": 32,
@@ -337,7 +681,18 @@
       "current_league_medals": 20203,
       "total_kills": 58979,
       "clan_medals_total": 288289,
-      "snapshot_member_key": "G-S01-R032"
+      "snapshot_member_key": "G-S01-R032",
+      "honor_medals": {
+        "gold": 2,
+        "silver": 3,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 885,
+        "hydra": 264,
+        "hellfire": 47
+      },
+      "last_online_display": "4h ago"
     },
     {
       "rank": 33,
@@ -347,7 +702,18 @@
       "current_league_medals": 19789,
       "total_kills": 96620,
       "clan_medals_total": 426902,
-      "snapshot_member_key": "G-S01-R033"
+      "snapshot_member_key": "G-S01-R033",
+      "honor_medals": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 531,
+        "hydra": 171,
+        "hellfire": 22
+      },
+      "last_online_display": "3h ago"
     },
     {
       "rank": 34,
@@ -357,7 +723,18 @@
       "current_league_medals": 18921,
       "total_kills": 177265,
       "clan_medals_total": 18921,
-      "snapshot_member_key": "G-S01-R034"
+      "snapshot_member_key": "G-S01-R034",
+      "honor_medals": {
+        "gold": 2,
+        "silver": 3,
+        "bronze": 3
+      },
+      "weapons": {
+        "25mm": 568,
+        "hydra": 240,
+        "hellfire": 56
+      },
+      "last_online_display": "<1m ago"
     },
     {
       "rank": 35,
@@ -367,7 +744,18 @@
       "current_league_medals": 17525,
       "total_kills": 218402,
       "clan_medals_total": 17525,
-      "snapshot_member_key": "G-S01-R035"
+      "snapshot_member_key": "G-S01-R035",
+      "honor_medals": {
+        "gold": 2,
+        "silver": 2,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 1176,
+        "hydra": 315,
+        "hellfire": 70
+      },
+      "last_online_display": "2h ago"
     },
     {
       "rank": 36,
@@ -377,7 +765,18 @@
       "current_league_medals": 17295,
       "total_kills": 36638,
       "clan_medals_total": 82394,
-      "snapshot_member_key": "G-S01-R036"
+      "snapshot_member_key": "G-S01-R036",
+      "honor_medals": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      },
+      "weapons": {
+        "25mm": 431,
+        "hydra": 107,
+        "hellfire": 53
+      },
+      "last_online_display": "1h ago"
     },
     {
       "rank": 37,
@@ -387,7 +786,18 @@
       "current_league_medals": 16597,
       "total_kills": 134273,
       "clan_medals_total": 16597,
-      "snapshot_member_key": "G-S01-R037"
+      "snapshot_member_key": "G-S01-R037",
+      "honor_medals": {
+        "gold": 2,
+        "silver": 3,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 862,
+        "hydra": 257,
+        "hellfire": 72
+      },
+      "last_online_display": "31m ago"
     },
     {
       "rank": 38,
@@ -397,7 +807,18 @@
       "current_league_medals": 16253,
       "total_kills": 141817,
       "clan_medals_total": 16253,
-      "snapshot_member_key": "G-S01-R038"
+      "snapshot_member_key": "G-S01-R038",
+      "honor_medals": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 656,
+        "hydra": 183,
+        "hellfire": 52
+      },
+      "last_online_display": "54m ago"
     },
     {
       "rank": 39,
@@ -407,7 +828,18 @@
       "current_league_medals": 13392,
       "total_kills": 240816,
       "clan_medals_total": 13392,
-      "snapshot_member_key": "G-S01-R039"
+      "snapshot_member_key": "G-S01-R039",
+      "honor_medals": {
+        "gold": 3,
+        "silver": 3,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 990,
+        "hydra": 253,
+        "hellfire": 68
+      },
+      "last_online_display": "<1m ago"
     },
     {
       "rank": 40,
@@ -417,7 +849,18 @@
       "current_league_medals": 13357,
       "total_kills": 198621,
       "clan_medals_total": 69925,
-      "snapshot_member_key": "G-S01-R040"
+      "snapshot_member_key": "G-S01-R040",
+      "honor_medals": {
+        "gold": 1,
+        "silver": 4,
+        "bronze": 4
+      },
+      "weapons": {
+        "25mm": 1311,
+        "hydra": 341,
+        "hellfire": 67
+      },
+      "last_online_display": "<1m ago"
     },
     {
       "rank": 41,
@@ -427,7 +870,18 @@
       "current_league_medals": 12183,
       "total_kills": 56219,
       "clan_medals_total": 260853,
-      "snapshot_member_key": "G-S01-R041"
+      "snapshot_member_key": "G-S01-R041",
+      "honor_medals": {
+        "gold": 2,
+        "silver": 3,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 452,
+        "hydra": 116,
+        "hellfire": 31
+      },
+      "last_online_display": "1h ago"
     },
     {
       "rank": 42,
@@ -437,7 +891,18 @@
       "current_league_medals": 11978,
       "total_kills": 328266,
       "clan_medals_total": 11978,
-      "snapshot_member_key": "G-S01-R042"
+      "snapshot_member_key": "G-S01-R042",
+      "honor_medals": {
+        "gold": 5,
+        "silver": 5,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 1043,
+        "hydra": 305,
+        "hellfire": 51
+      },
+      "last_online_display": "41m ago"
     },
     {
       "rank": 43,
@@ -447,7 +912,18 @@
       "current_league_medals": 11190,
       "total_kills": 44806,
       "clan_medals_total": 11190,
-      "snapshot_member_key": "G-S01-R043"
+      "snapshot_member_key": "G-S01-R043",
+      "honor_medals": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      },
+      "weapons": {
+        "25mm": 492,
+        "hydra": 158,
+        "hellfire": 33
+      },
+      "last_online_display": "1h ago"
     },
     {
       "rank": 44,
@@ -457,7 +933,18 @@
       "current_league_medals": 11112,
       "total_kills": 65752,
       "clan_medals_total": 318029,
-      "snapshot_member_key": "G-S01-R044"
+      "snapshot_member_key": "G-S01-R044",
+      "honor_medals": {
+        "gold": 2,
+        "silver": 3,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 544,
+        "hydra": 189,
+        "hellfire": 46
+      },
+      "last_online_display": "2m ago"
     },
     {
       "rank": 45,
@@ -467,7 +954,18 @@
       "current_league_medals": 11009,
       "total_kills": 113645,
       "clan_medals_total": 11009,
-      "snapshot_member_key": "G-S01-R045"
+      "snapshot_member_key": "G-S01-R045",
+      "honor_medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 660,
+        "hydra": 190,
+        "hellfire": 42
+      },
+      "last_online_display": "34m ago"
     },
     {
       "rank": 46,
@@ -477,7 +975,18 @@
       "current_league_medals": 7719,
       "total_kills": 106548,
       "clan_medals_total": 8491,
-      "snapshot_member_key": "G-S01-R046"
+      "snapshot_member_key": "G-S01-R046",
+      "honor_medals": {
+        "gold": 2,
+        "silver": 3,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 438,
+        "hydra": 156,
+        "hellfire": 32
+      },
+      "last_online_display": "1m ago"
     },
     {
       "rank": 47,
@@ -487,7 +996,18 @@
       "current_league_medals": 1512,
       "total_kills": 166109,
       "clan_medals_total": 1728,
-      "snapshot_member_key": "G-S01-R047"
+      "snapshot_member_key": "G-S01-R047",
+      "honor_medals": {
+        "gold": 3,
+        "silver": 3,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 943,
+        "hydra": 311,
+        "hellfire": 79
+      },
+      "last_online_display": "<1m ago"
     },
     {
       "rank": 48,
@@ -497,7 +1017,18 @@
       "current_league_medals": 1163,
       "total_kills": 161058,
       "clan_medals_total": 1163,
-      "snapshot_member_key": "G-S01-R048"
+      "snapshot_member_key": "G-S01-R048",
+      "honor_medals": {
+        "gold": 3,
+        "silver": 4,
+        "bronze": 1
+      },
+      "weapons": {
+        "25mm": 1123,
+        "hydra": 281,
+        "hellfire": 57
+      },
+      "last_online_display": "3h ago"
     },
     {
       "rank": 49,
@@ -507,7 +1038,18 @@
       "current_league_medals": 234,
       "total_kills": 123634,
       "clan_medals_total": 234,
-      "snapshot_member_key": "G-S01-R049"
+      "snapshot_member_key": "G-S01-R049",
+      "honor_medals": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 1
+      },
+      "weapons": {
+        "25mm": 967,
+        "hydra": 285,
+        "hellfire": 73
+      },
+      "last_online_display": "2h ago"
     },
     {
       "rank": 50,
@@ -517,7 +1059,18 @@
       "current_league_medals": 0,
       "total_kills": 162047,
       "clan_medals_total": 5000,
-      "snapshot_member_key": "G-S01-R050"
+      "snapshot_member_key": "G-S01-R050",
+      "honor_medals": {
+        "gold": 3,
+        "silver": 5,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 920,
+        "hydra": 325,
+        "hellfire": 63
+      },
+      "last_online_display": "<1m ago"
     }
   ],
   "integrity": {
