@@ -22,12 +22,13 @@ Fingerprinting and identity matching are review aids only. Ambiguous identity is
 
 ## Validation
 
+The published baseline currently includes the canonical snapshot validator:
+
 ```bash
 node tools/validate-snapshot.js data/canonical/G-S01.json
-node tools/test-common-core.js
-node tools/test-common-vocabulary.js
-node tools/test-identity-matcher.js
 ```
+
+The broader synthetic Common-Core and identity-matcher test suite remains in the local v0.9 working package until that scaffolding is promoted as a repository-wide test contract.
 
 No PERSIA data is imported as canonical GOLDENCROWN history. The repositories remain independent; portable Core semantics are documented so improvements can be back-ported where appropriate.
 
