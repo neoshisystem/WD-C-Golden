@@ -47,7 +47,7 @@
 
   function render(target, metrics, members, mode, dataMode, snapshots) {
     const keys = viewerData.KEYS.slice();
-    const playerById = new Map(members.filter(member => member.player_id).map(member => [member.name, member.player_id]));
+    const playerById = new Map(members.map(member => [member.name, member.snapshot_member_key || member.player_id]));
     const playerName = name => { const id = playerById.get(name); return id ? `<a class="player-name-link" href="${navUrl('player.html', `?id=${encodeURIComponent(id)}`)}">${esc(name)}</a>` : esc(name); };
     const index = snapshots.findIndex(snapshot => snapshot.snapshot_id === target.snapshot_id);
     const previous = index > 0 ? snapshots[index - 1] : null;
