@@ -1,7 +1,7 @@
 (() => {
   'use strict';
 
-  const C = window.WAR_DRONE_WIKI_CONFIG;
+  const C = window.WAR_DRONE_WIKI_CONFIG || {clanName:'GOLDENCROWN',projectAuthor:'Noshika',projectTitle:'GOLDENCROWN Clan Leaderboard',defaultTheme:'dark',locale:'fa-IR',stageMin:1,stageMax:100};
   const STAGE_NAMES = [
     "Iron Hawk","COLD FIRE","Desert Storm","Thunderbolt","Viper's Nest","Missing Link","Silent Strike","Steel Hammer","Bust Flush","Desert Fox",
     "Shadow Phoenix","Silent Viper","Iron Shield","Desert Falcon","Night Hawk","Midnight Thunder","Ghost Recon","Crimson Tide","Shadow Hunter","Dark Horizon",
