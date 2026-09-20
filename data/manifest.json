@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "dataset": "goldencrown-leaderboard",
+  "status": "baseline-published",
+  "current_snapshot_id": "G-S01",
+  "files": {
+    "current_snapshot": "data/canonical/G-S01.json",
+    "source_normalization": "data/snapshots/G-S01.json",
+    "common_schema": "schemas/common-snapshot.schema.json",
+    "golden_source_schema": "schemas/golden-snapshot.schema.json",
+    "evidence_report": "docs/G-S01_EVIDENCE_REPORT.md"
+  },
+  "rules": {
+    "player_id_is_stable_identity_key": true,
+    "rank_is_snapshot_local": true,
+    "rename_is_not_new_identity": true,
+    "ambiguous_identity_is_never_guessed": true,
+    "raw_source_evidence_is_immutable": true,
+    "g_s01_permanent_player_ids_assigned": false,
+    "g_s01_snapshot_member_keys_unique": true
+  }
+}
