@@ -39,7 +39,45 @@
     return members;
   };
 
-  const snapshotPath = requestedSource || '../data/canonical/G-S02.json'; fetchJson(snapshotPath).then(snapshot=>{const isBaseline=snapshot.snapshot_id==='G-S01';const target={...snapshot,members:snapshot.member_count,date_persian:snapshot.official_timestamp_persian.split(' ')[0],time_iran:snapshot.official_timestamp_persian.split(' ')[1],type:isBaseline?'baseline':'period'};const canonical=viewerData.buildMembers(snapshot);const metrics={baseline_snapshot_id:'G-S01',league_week:snapshot.snapshot_id,period_clan_medals_change:isBaseline?0:1451196,period_kills_change:isBaseline?0:128098,weekly_clan_medals_earned:isBaseline?0:1451196,weekly_kills_earned:isBaseline?0:128098};render(target,metrics,canonical.members,requestedMode,'canonical',[target]);}).catch(error=>{console.error(error);root.innerHTML='<p class="error">دادهٔ Snapshot رسمی GOLDENCROWN قابل بارگذاری نیست.</p>';});
+  const snapshotIdFromSource = source => (String(source ?? '').match(/G-S\\d+/) || [null])[0];
+  const sumContinuingDeltas = (snapshot, field) => (snapshot.members || []).reduce((sum, member) => sum + (Number.isFinite(member[field]) ? member[field] : 0), 0);
+  const loadViewer = async () => {
+    const manifest = await fetchJson('../data/manifest.json');
+    const publishedIds = Array.isArray(manifest.published_snapshot_ids) && manifest.published_snapshot_ids.length
+      ? manifest.published_snapshot_ids
+      : ['G-S01', 'G-S02', 'G-S03'];
+    const requestedSnapshotId = qs.get('snapshot') || snapshotIdFromSource(requestedSource) || manifest.current_snapshot_id;
+    const snapshots = await Promise.all(publishedIds.map(id => fetchJson(`../data/canonical/${encodeURIComponent(id)}.json`)));
+    let snapshot = snapshots.find(item => item.snapshot_id === requestedSnapshotId);
+    if (!snapshot && requestedSource) {
+      snapshot = await fetchJson(requestedSource);
+    }
+    if (!snapshot) throw new Error(`Snapshot not found: ${requestedSnapshotId}`);
+    const isBaseline = snapshot.snapshot_id === 'G-S01';
+    const periodClanMedals = isBaseline ? 0 : sumContinuingDeltas(snapshot, 'clan_medals_delta');
+    const periodKills = isBaseline ? 0 : sumContinuingDeltas(snapshot, 'kills_delta');
+    const target = {
+      ...snapshot,
+      members: snapshot.member_count,
+      date_persian: snapshot.official_timestamp_persian.split(' ')[0],
+      time_iran: snapshot.official_timestamp_persian.split(' ')[1],
+      type: isBaseline ? 'baseline' : 'period'
+    };
+    const canonical = viewerData.buildMembers(snapshot);
+    const metrics = {
+      baseline_snapshot_id: 'G-S01',
+      league_week: snapshot.snapshot_id,
+      period_clan_medals_change: periodClanMedals,
+      period_kills_change: periodKills,
+      weekly_clan_medals_earned: periodClanMedals,
+      weekly_kills_earned: periodKills
+    };
+    render(target, metrics, canonical.members, requestedMode, 'canonical', snapshots);
+  };
+  loadViewer().catch(error => {
+    console.error(error);
+    root.innerHTML = '<p class="error">دادهٔ Snapshot رسمی GOLDENCROWN قابل بارگذاری نیست.</p>';
+  });
   function fallbackTable(members) {
     const keys = viewerData.KEYS;
     return `<div class="table-wrap"><table><thead><tr>${['رتبه','نام کاربری','سمت',...keys].map(key => `<th>${key}</th>`).join('')}</tr></thead><tbody>${members.map(member => `<tr><td>${esc(member.rank)}</td><td>${esc(member.name)}</td><td>${esc(member.role)}</td>${keys.map(key => `<td>${esc(member.stats[key] || '—')}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
