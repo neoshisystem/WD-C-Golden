@@ -9,7 +9,7 @@
   "leagues": [
     {
       "league_week": "2026-09-17",
-      "league": "GOLDENCROWN observed league week",
+      "league": "GOLDENCROWN observed",
       "rank": null,
       "member_count": 49,
       "score_display": "—",
@@ -18,6 +18,6 @@
     }
   ],
   "notes": [
-    "Presentation adapter only; canonical league semantics remain in root GOLDENCROWN data."
+    "Presentation adapter only. Canonical performance values remain in data/canonical/G-Sxx.json."
   ]
 }
