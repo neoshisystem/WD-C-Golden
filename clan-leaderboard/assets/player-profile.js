@@ -165,13 +165,10 @@
             <table class="profile-history-table">
               <thead>
                 <tr>
-                  <th>رتبه</th><th>نام کاربری</th><th>سمت</th><th>استیج</th>
-                  <th>مدال لیگ جاری</th><th>تغییر مدال کلن</th><th>مدال کل کلن</th>
-                  <th>مدال افتخار</th><th>مجموع کیل 💀</th><th>افزایش کیل 💀</th>
-                  <th>لول سلاح‌ها</th><th>آخرین آنلاین</th><th>Snapshot</th>
+                  ${['رتبه','نام کاربری','سمت','استیج','مدال لیگ جاری','تغییر مدال کلن','مدال کل کلن','مدال افتخار','مجموع کیل 💀','افزایش کیل 💀','لول سلاح‌ها','آخرین آنلاین','Snapshot'].map((label, index) => `<th aria-sort="none"><button type="button" class="sort-button" data-history-sort="${index}" aria-label="مرتب‌سازی بر اساس ${label}"><span class="sort-label">${label}</span><span class="sort-indicator" aria-hidden="true">↕</span></button></th>`).join('')}
                 </tr>
               </thead>
-              <tbody>${rows.map(renderHistoricalRow).join('')}</tbody>
+              <tbody id="profileHistoryBody"></tbody>
             </table>
           </div>
         </section>`
@@ -278,6 +275,62 @@
         هیچ داده، Identity یا History از PERSIA خوانده نشده است.
       </section>
     </div>`;
+    const historySortKeys = ['rank','display_name','role','stage','league_medals','clan_medals_delta','clan_medals','honor_medals','total_kills','kills_delta','weapons','last_online_display','snapshot'];
+    const historyNum = value => {
+      const match = String(value ?? '').replace(/[٬,]/g, '').match(/-?\d+(?:\.\d+)?/);
+      return match ? Number(match[0]) : null;
+    };
+    const historySortValue = (row, index) => {
+      const { snapshot, observation } = row;
+      if (!observation) return null;
+      const key = historySortKeys[index];
+      if (key === 'snapshot') return String(snapshot.official_timestamp_persian || snapshot.snapshot_id || '').toLocaleLowerCase('fa');
+      if (key === 'display_name') return String(observation.display_name || latestObservation?.display_name || '').toLocaleLowerCase('fa');
+      if (key === 'role') return String(observation.role || latestObservation?.role || 'Member').toLocaleLowerCase('fa');
+      if (key === 'honor_medals') return historyNum(honors(observation));
+      if (key === 'weapons') return historyNum(weapons(observation));
+      if (key === 'last_online_display') return String(observation.last_online_display || '').toLocaleLowerCase('fa');
+      return historyNum(observation[key]);
+    };
+    const historyRows = rows.slice();
+    let historySortIndex = null;
+    let historySortDirection = 1;
+    const renderHistoryTable = () => {
+      const body = root.querySelector('#profileHistoryBody');
+      if (!body) return;
+      const headers = [...root.querySelectorAll('[data-history-sort]')];
+      const sortedRows = [...historyRows].sort((a, b) => {
+        if (historySortIndex === null) return 0;
+        const x = historySortValue(a, historySortIndex);
+        const y = historySortValue(b, historySortIndex);
+        if (x === y) return 0;
+        if (x === null) return 1;
+        if (y === null) return -1;
+        return (x < y ? -1 : 1) * historySortDirection;
+      });
+      body.innerHTML = sortedRows.map(renderHistoricalRow).join('');
+      headers.forEach(button => {
+        const index = Number(button.dataset.historySort);
+        const active = index === historySortIndex;
+        const direction = active ? (historySortDirection > 0 ? '↑' : '↓') : '↕';
+        const th = button.closest('th');
+        th.setAttribute('aria-sort', active ? (historySortDirection > 0 ? 'ascending' : 'descending') : 'none');
+        button.querySelector('.sort-indicator').textContent = direction;
+      });
+    };
+    renderHistoryTable();
+    root.querySelectorAll('[data-history-sort]').forEach(button => {
+      button.onclick = () => {
+        const index = Number(button.dataset.historySort);
+        if (historySortIndex === index) historySortDirection *= -1;
+        else {
+          historySortIndex = index;
+          historySortDirection = 1;
+        }
+        renderHistoryTable();
+      };
+    });
+
   }).catch(error => {
     console.error(error);
     root.innerHTML = '<div class="shell profile-shell"><div class="panel empty">داده پروفایل GOLDENCROWN قابل بارگذاری نیست.</div></div>';
