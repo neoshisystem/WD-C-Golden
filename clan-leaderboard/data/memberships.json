@@ -1,0 +1,372 @@
+{
+  "version": 1,
+  "description": "Golden UI compatibility membership view derived from snapshot presence; not canonical identity history.",
+  "memberships": [
+    {
+      "player_id": "GOLDEN-UI-0434cd87",
+      "from_snapshot": "S01",
+      "through_snapshot": "S01",
+      "status": "former",
+      "end_precision": "between_snapshots",
+      "end_event": "left_or_kicked"
+    },
+    {
+      "player_id": "GOLDEN-UI-08cc86f7",
+      "from_snapshot": "S02",
+      "through_snapshot": "S02",
+      "status": "former",
+      "end_precision": "between_snapshots",
+      "end_event": "left_or_kicked"
+    },
+    {
+      "player_id": "GOLDEN-UI-08e3b49c",
+      "from_snapshot": "S01",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-09ad3b9d",
+      "from_snapshot": "S02",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-1b1f438a",
+      "from_snapshot": "S01",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-1c97b387",
+      "from_snapshot": "S01",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-20146c0f",
+      "from_snapshot": "S01",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-222b728d",
+      "from_snapshot": "S01",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-228f63df",
+      "from_snapshot": "S01",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-2a78075a",
+      "from_snapshot": "S01",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-398a64ef",
+      "from_snapshot": "S01",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-3aea04ed",
+      "from_snapshot": "S01",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-3fa0be0c",
+      "from_snapshot": "S01",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-4d1964e1",
+      "from_snapshot": "S03",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-4f6131d3",
+      "from_snapshot": "S01",
+      "through_snapshot": "S02",
+      "status": "former",
+      "end_precision": "between_snapshots",
+      "end_event": "left_or_kicked"
+    },
+    {
+      "player_id": "GOLDEN-UI-57d7de44",
+      "from_snapshot": "S01",
+      "through_snapshot": "S01",
+      "status": "former",
+      "end_precision": "between_snapshots",
+      "end_event": "left_or_kicked"
+    },
+    {
+      "player_id": "GOLDEN-UI-5cd5c824",
+      "from_snapshot": "S02",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-6090c5a7",
+      "from_snapshot": "S01",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-653e1f20",
+      "from_snapshot": "S01",
+      "through_snapshot": "S01",
+      "status": "former",
+      "end_precision": "between_snapshots",
+      "end_event": "left_or_kicked"
+    },
+    {
+      "player_id": "GOLDEN-UI-6584895d",
+      "from_snapshot": "S02",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-663f2128",
+      "from_snapshot": "S01",
+      "through_snapshot": "S01",
+      "status": "former",
+      "end_precision": "between_snapshots",
+      "end_event": "left_or_kicked"
+    },
+    {
+      "player_id": "GOLDEN-UI-68ce691b",
+      "from_snapshot": "S01",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-745c00f3",
+      "from_snapshot": "S01",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-766f236c",
+      "from_snapshot": "S01",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-77810fed",
+      "from_snapshot": "S02",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-7798bfbf",
+      "from_snapshot": "S01",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-783c48e6",
+      "from_snapshot": "S01",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-7b68e46d",
+      "from_snapshot": "S01",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-88e48dfa",
+      "from_snapshot": "S01",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-9072ba2b",
+      "from_snapshot": "S01",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-9a3f6fb0",
+      "from_snapshot": "S01",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-9e742439",
+      "from_snapshot": "S01",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-9ffb39ae",
+      "from_snapshot": "S01",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-a1fe3ef9",
+      "from_snapshot": "S01",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-a7fa62b0",
+      "from_snapshot": "S01",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-aa6526af",
+      "from_snapshot": "S01",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-b01b4a3a",
+      "from_snapshot": "S01",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-b0365625",
+      "from_snapshot": "S01",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-b6aaeca4",
+      "from_snapshot": "S01",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-b7a17725",
+      "from_snapshot": "S01",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-bb9c843a",
+      "from_snapshot": "S01",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-bcfbba19",
+      "from_snapshot": "S01",
+      "through_snapshot": "S01",
+      "status": "former",
+      "end_precision": "between_snapshots",
+      "end_event": "left_or_kicked"
+    },
+    {
+      "player_id": "GOLDEN-UI-bdc6a56b",
+      "from_snapshot": "S02",
+      "through_snapshot": "S02",
+      "status": "former",
+      "end_precision": "between_snapshots",
+      "end_event": "left_or_kicked"
+    },
+    {
+      "player_id": "GOLDEN-UI-be80058f",
+      "from_snapshot": "S01",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-c0c989be",
+      "from_snapshot": "S01",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-c32b2006",
+      "from_snapshot": "S01",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-c7f5a6cb",
+      "from_snapshot": "S01",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-c8d718e2",
+      "from_snapshot": "S01",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-cec317c1",
+      "from_snapshot": "S01",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-d280f340",
+      "from_snapshot": "S01",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-d44e7f4a",
+      "from_snapshot": "S01",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-d9e8ec1a",
+      "from_snapshot": "S01",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-e1d797c9",
+      "from_snapshot": "S01",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-e4d80454",
+      "from_snapshot": "S01",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-e8c357de",
+      "from_snapshot": "S01",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-f3520ca3",
+      "from_snapshot": "S02",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-f788228c",
+      "from_snapshot": "S01",
+      "through_snapshot": "S03",
+      "status": "active"
+    },
+    {
+      "player_id": "GOLDEN-UI-fbf079e4",
+      "from_snapshot": "S01",
+      "through_snapshot": "S01",
+      "status": "former",
+      "end_precision": "between_snapshots",
+      "end_event": "left_or_kicked"
+    }
+  ]
+}
