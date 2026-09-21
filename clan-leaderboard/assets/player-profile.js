@@ -35,7 +35,7 @@
     )).then(snapshots => ({ manifest, historyIndex, snapshots }));
   }).then(ctx => {
     const snapshots = ctx.snapshots.slice().sort((a, b) =>
-      String(a.official_timestamp_persian || '').localeCompare(String(b.official_timestamp_persian || ''))
+      String(b.official_timestamp_persian || '').localeCompare(String(a.official_timestamp_persian || ''))
     );
 
     const requestedSnapshotId =
@@ -79,7 +79,7 @@
       return { snapshot, observation };
     });
 
-    const latestObservedRow = [...rows].reverse().find(row => row.observation) || null;
+    const latestObservedRow = rows.find(row => row.observation) || null;
     const latestObservation = latestObservedRow?.observation || requestedObservation || null;
     const selectedRow = rows.find(row => row.snapshot.snapshot_id === selectedSnapshot?.snapshot_id) || null;
     const selected = selectedRow?.observation || requestedObservation || latestObservation;
@@ -91,7 +91,7 @@
 
     const isEvidenceHistory = Boolean(group && group.continuity_status === 'evidence-resolved-for-ui');
     const hasMultiSnapshotHistory = rows.filter(row => row.observation).length > 1;
-    const currentSnapshot = snapshots[snapshots.length - 1];
+    const currentSnapshot = snapshots[0];
 
     const honors = observation => observation?.honor_medals
       ? `${fmt(observation.honor_medals.gold)} / ${fmt(observation.honor_medals.silver)} / ${fmt(observation.honor_medals.bronze)}`

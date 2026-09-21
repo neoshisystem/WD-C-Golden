@@ -1,0 +1,26 @@
+name: Validate GOLDENCROWN UI data
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  validate-ui-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Syntax checks
+        run: |
+          node --check clan-leaderboard/assets/player-directory.js
+          node --check clan-leaderboard/assets/member-history.js
+          node --check clan-leaderboard/assets/player-profile.js
+          node --check clan-leaderboard/assets/viewer.js
+          node --check clan-leaderboard/assets/viewer-data.js
+      - name: Canonical UI-data integrity
+        run: node clan-leaderboard/tools/test-ui-data.js
