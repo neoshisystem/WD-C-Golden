@@ -34,4 +34,8 @@ No PERSIA data is imported as canonical GOLDENCROWN history. The repositories re
 
 ## Publication status
 
-`G-S01` is published as the opening GOLDENCROWN baseline/evidence snapshot. This publication does not assign permanent `player_id` values; identity seeding remains snapshot-local until cross-snapshot evidence is reviewed.
+- `G-S01` is the opening GOLDENCROWN baseline.
+- `G-S02` is the published second snapshot for `1405-06-28 24:00`, with 50 members.
+- `G-S03` is the current published snapshot for `1405-06-29 24:00`, with 49 members.
+- The Web viewer, player directory, member-history view, archive, and player profile resolve the current/published snapshot set from `data/manifest.json`; player profile URLs derive their snapshot from `G-Sxx-Ryyy` IDs.
+- `G-S02` evidence includes 59 images (8 ranking, 51 profile). The two `Reza_Gh` profile frames are one identity; the later frame is the authoritative canonical evidence for that identity.
