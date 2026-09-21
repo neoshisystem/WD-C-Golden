@@ -1,10 +1,30 @@
 {
   "version": 1,
-  "description": "Golden UI compatibility data derived from canonical GOLDENCROWN snapshots. player_id values here are presentation-only continuity keys; canonical player_id remains null.",
+  "description": "PERSIA-compatible UI observation adapter for GOLDENCROWN. The player_id values are presentation-only continuity keys derived from exact display names and are not canonical identities.",
+  "source_snapshots": {
+    "S01": {
+      "date_persian": "27 شهریور 1405",
+      "time_iran": "24:00",
+      "type": "baseline",
+      "members": 50
+    },
+    "S02": {
+      "date_persian": "28 شهریور 1405",
+      "time_iran": "24:00",
+      "type": "delta-report",
+      "members": 50
+    },
+    "S03": {
+      "date_persian": "29 شهریور 1405",
+      "time_iran": "24:00",
+      "type": "delta-report",
+      "members": 49
+    }
+  },
   "snapshots": {
     "S01": [
       {
-        "player_id": "GOLDEN-UI-b01b4a3a",
+        "player_id": "GOLDEN-UI-7889cafa",
         "display_name": "ehsan",
         "rank": 1,
         "rank_movement": null,
@@ -29,7 +49,7 @@
         "last_online_display": "<1m ago"
       },
       {
-        "player_id": "GOLDEN-UI-fbf079e4",
+        "player_id": "GOLDEN-UI-6f4f48ae",
         "display_name": "JoseGregorio",
         "rank": 2,
         "rank_movement": null,
@@ -54,7 +74,7 @@
         "last_online_display": "2m ago"
       },
       {
-        "player_id": "GOLDEN-UI-b0365625",
+        "player_id": "GOLDEN-UI-6247b47d",
         "display_name": "ДАВИД",
         "rank": 3,
         "rank_movement": null,
@@ -79,7 +99,7 @@
         "last_online_display": "46m ago"
       },
       {
-        "player_id": "GOLDEN-UI-745c00f3",
+        "player_id": "GOLDEN-UI-86773cf7",
         "display_name": "F 35",
         "rank": 4,
         "rank_movement": null,
@@ -104,7 +124,7 @@
         "last_online_display": "42m ago"
       },
       {
-        "player_id": "GOLDEN-UI-e4d80454",
+        "player_id": "GOLDEN-UI-5506c41e",
         "display_name": "MaZmoud",
         "rank": 5,
         "rank_movement": null,
@@ -129,7 +149,7 @@
         "last_online_display": "1h ago"
       },
       {
-        "player_id": "GOLDEN-UI-c32b2006",
+        "player_id": "GOLDEN-UI-6722d45c",
         "display_name": "RADMAN",
         "rank": 6,
         "rank_movement": null,
@@ -154,7 +174,7 @@
         "last_online_display": "3h ago"
       },
       {
-        "player_id": "GOLDEN-UI-3fa0be0c",
+        "player_id": "GOLDEN-UI-fc91a066",
         "display_name": "Worker Ant",
         "rank": 7,
         "rank_movement": null,
@@ -179,7 +199,7 @@
         "last_online_display": "3h ago"
       },
       {
-        "player_id": "GOLDEN-UI-aa6526af",
+        "player_id": "GOLDEN-UI-847c93ab",
         "display_name": "Shahram68",
         "rank": 8,
         "rank_movement": null,
@@ -204,7 +224,7 @@
         "last_online_display": "59m ago"
       },
       {
-        "player_id": "GOLDEN-UI-9ffb39ae",
+        "player_id": "GOLDEN-UI-fc82d3b4",
         "display_name": "Masoudpas_4612",
         "rank": 9,
         "rank_movement": null,
@@ -229,7 +249,7 @@
         "last_online_display": "7h ago"
       },
       {
-        "player_id": "GOLDEN-UI-e1d797c9",
+        "player_id": "GOLDEN-UI-eafa5fcd",
         "display_name": "Dariush",
         "rank": 10,
         "rank_movement": null,
@@ -254,7 +274,7 @@
         "last_online_display": "51m ago"
       },
       {
-        "player_id": "GOLDEN-UI-2a78075a",
+        "player_id": "GOLDEN-UI-3ee94798",
         "display_name": "ایران",
         "rank": 11,
         "rank_movement": null,
@@ -279,7 +299,7 @@
         "last_online_display": "3h ago"
       },
       {
-        "player_id": "GOLDEN-UI-1b1f438a",
+        "player_id": "GOLDEN-UI-f7d6db88",
         "display_name": "MyLord",
         "rank": 12,
         "rank_movement": null,
@@ -304,7 +324,7 @@
         "last_online_display": "1h ago"
       },
       {
-        "player_id": "GOLDEN-UI-b7a17725",
+        "player_id": "GOLDEN-UI-1ead477d",
         "display_name": "meysam javid",
         "rank": 13,
         "rank_movement": null,
@@ -329,7 +349,7 @@
         "last_online_display": "1h ago"
       },
       {
-        "player_id": "GOLDEN-UI-c8d718e2",
+        "player_id": "GOLDEN-UI-691127d0",
         "display_name": "boz qurd",
         "rank": 14,
         "rank_movement": null,
@@ -354,7 +374,7 @@
         "last_online_display": "1h ago"
       },
       {
-        "player_id": "GOLDEN-UI-f788228c",
+        "player_id": "GOLDEN-UI-c749a5e6",
         "display_name": "Power",
         "rank": 15,
         "rank_movement": null,
@@ -379,7 +399,7 @@
         "last_online_display": "1h ago"
       },
       {
-        "player_id": "GOLDEN-UI-783c48e6",
+        "player_id": "GOLDEN-UI-44c12ebc",
         "display_name": "Jul",
         "rank": 16,
         "rank_movement": null,
@@ -404,7 +424,7 @@
         "last_online_display": "1h ago"
       },
       {
-        "player_id": "GOLDEN-UI-398a64ef",
+        "player_id": "GOLDEN-UI-52618d6b",
         "display_name": "ALI",
         "rank": 17,
         "rank_movement": null,
@@ -429,7 +449,7 @@
         "last_online_display": "43m ago"
       },
       {
-        "player_id": "GOLDEN-UI-68ce691b",
+        "player_id": "GOLDEN-UI-9d33274f",
         "display_name": "ARM CR7",
         "rank": 18,
         "rank_movement": null,
@@ -454,7 +474,7 @@
         "last_online_display": "3h ago"
       },
       {
-        "player_id": "GOLDEN-UI-a7fa62b0",
+        "player_id": "GOLDEN-UI-991f32c2",
         "display_name": "hamid.iran",
         "rank": 19,
         "rank_movement": null,
@@ -479,7 +499,7 @@
         "last_online_display": "58m ago"
       },
       {
-        "player_id": "GOLDEN-UI-228f63df",
+        "player_id": "GOLDEN-UI-7a75541b",
         "display_name": "ADA",
         "rank": 20,
         "rank_movement": null,
@@ -504,7 +524,7 @@
         "last_online_display": "1h ago"
       },
       {
-        "player_id": "GOLDEN-UI-c0c989be",
+        "player_id": "GOLDEN-UI-44002084",
         "display_name": "Sajjad",
         "rank": 21,
         "rank_movement": null,
@@ -529,7 +549,7 @@
         "last_online_display": "1h ago"
       },
       {
-        "player_id": "GOLDEN-UI-7798bfbf",
+        "player_id": "GOLDEN-UI-12827a7b",
         "display_name": "محمد",
         "rank": 22,
         "rank_movement": null,
@@ -554,7 +574,7 @@
         "last_online_display": "6h ago"
       },
       {
-        "player_id": "GOLDEN-UI-7b68e46d",
+        "player_id": "GOLDEN-UI-ea1cbdd5",
         "display_name": "Morteza Safari",
         "rank": 23,
         "rank_movement": null,
@@ -579,7 +599,7 @@
         "last_online_display": "1m ago"
       },
       {
-        "player_id": "GOLDEN-UI-cec317c1",
+        "player_id": "GOLDEN-UI-c9b3a4f1",
         "display_name": "Reza_Gh",
         "rank": 24,
         "rank_movement": null,
@@ -604,7 +624,7 @@
         "last_online_display": "1h ago"
       },
       {
-        "player_id": "GOLDEN-UI-b6aaeca4",
+        "player_id": "GOLDEN-UI-6538e5ee",
         "display_name": "majid",
         "rank": 25,
         "rank_movement": null,
@@ -629,7 +649,7 @@
         "last_online_display": "2h ago"
       },
       {
-        "player_id": "GOLDEN-UI-bb9c843a",
+        "player_id": "GOLDEN-UI-03ee2725",
         "display_name": "Cpt. Of Persia",
         "rank": 26,
         "rank_movement": null,
@@ -654,7 +674,7 @@
         "last_online_display": "31m ago"
       },
       {
-        "player_id": "GOLDEN-UI-222b728d",
+        "player_id": "GOLDEN-UI-f51a84f5",
         "display_name": "ADNAN",
         "rank": 27,
         "rank_movement": null,
@@ -679,7 +699,7 @@
         "last_online_display": "<1m ago"
       },
       {
-        "player_id": "GOLDEN-UI-766f236c",
+        "player_id": "GOLDEN-UI-fee89346",
         "display_name": "Armin Lukas",
         "rank": 28,
         "rank_movement": null,
@@ -704,7 +724,7 @@
         "last_online_display": "2m ago"
       },
       {
-        "player_id": "GOLDEN-UI-e8c357de",
+        "player_id": "GOLDEN-UI-3323c1a4",
         "display_name": "Ardalan",
         "rank": 29,
         "rank_movement": null,
@@ -729,7 +749,7 @@
         "last_online_display": "29m ago"
       },
       {
-        "player_id": "GOLDEN-UI-9e742439",
+        "player_id": "GOLDEN-UI-a78c5539",
         "display_name": "KSIBAN 00",
         "rank": 30,
         "rank_movement": null,
@@ -754,7 +774,7 @@
         "last_online_display": "1h ago"
       },
       {
-        "player_id": "GOLDEN-UI-a1fe3ef9",
+        "player_id": "GOLDEN-UI-ea8aa279",
         "display_name": "persian boy",
         "rank": 31,
         "rank_movement": null,
@@ -779,7 +799,7 @@
         "last_online_display": "49m ago"
       },
       {
-        "player_id": "GOLDEN-UI-d280f340",
+        "player_id": "GOLDEN-UI-97c42552",
         "display_name": "حمید رضا",
         "rank": 32,
         "rank_movement": null,
@@ -804,7 +824,7 @@
         "last_online_display": "4h ago"
       },
       {
-        "player_id": "GOLDEN-UI-bcfbba19",
+        "player_id": "GOLDEN-UI-cbee4219",
         "display_name": "Elvin",
         "rank": 33,
         "rank_movement": null,
@@ -829,7 +849,7 @@
         "last_online_display": "3h ago"
       },
       {
-        "player_id": "GOLDEN-UI-be80058f",
+        "player_id": "GOLDEN-UI-dbc9c143",
         "display_name": "hisystem",
         "rank": 34,
         "rank_movement": null,
@@ -854,7 +874,7 @@
         "last_online_display": "<1m ago"
       },
       {
-        "player_id": "GOLDEN-UI-08e3b49c",
+        "player_id": "GOLDEN-UI-f610b7b6",
         "display_name": "Mehdi",
         "rank": 35,
         "rank_movement": null,
@@ -879,7 +899,7 @@
         "last_online_display": "2h ago"
       },
       {
-        "player_id": "GOLDEN-UI-653e1f20",
+        "player_id": "GOLDEN-UI-0371cab2",
         "display_name": "SOMMER",
         "rank": 36,
         "rank_movement": null,
@@ -904,7 +924,7 @@
         "last_online_display": "1h ago"
       },
       {
-        "player_id": "GOLDEN-UI-6090c5a7",
+        "player_id": "GOLDEN-UI-734bfd33",
         "display_name": "SORENA",
         "rank": 37,
         "rank_movement": null,
@@ -929,7 +949,7 @@
         "last_online_display": "31m ago"
       },
       {
-        "player_id": "GOLDEN-UI-d44e7f4a",
+        "player_id": "GOLDEN-UI-462633c8",
         "display_name": "paradise",
         "rank": 38,
         "rank_movement": null,
@@ -954,7 +974,7 @@
         "last_online_display": "54m ago"
       },
       {
-        "player_id": "GOLDEN-UI-d9e8ec1a",
+        "player_id": "GOLDEN-UI-5fc574a5",
         "display_name": "Commander",
         "rank": 39,
         "rank_movement": null,
@@ -979,7 +999,7 @@
         "last_online_display": "<1m ago"
       },
       {
-        "player_id": "GOLDEN-UI-57d7de44",
+        "player_id": "GOLDEN-UI-e2cb360e",
         "display_name": "007",
         "rank": 40,
         "rank_movement": null,
@@ -1004,7 +1024,7 @@
         "last_online_display": "<1m ago"
       },
       {
-        "player_id": "GOLDEN-UI-1c97b387",
+        "player_id": "GOLDEN-UI-34179c93",
         "display_name": "Hunter",
         "rank": 41,
         "rank_movement": null,
@@ -1029,7 +1049,7 @@
         "last_online_display": "1h ago"
       },
       {
-        "player_id": "GOLDEN-UI-9a3f6fb0",
+        "player_id": "GOLDEN-UI-2cd6c9c2",
         "display_name": "Alini",
         "rank": 42,
         "rank_movement": null,
@@ -1054,7 +1074,7 @@
         "last_online_display": "41m ago"
       },
       {
-        "player_id": "GOLDEN-UI-20146c0f",
+        "player_id": "GOLDEN-UI-1025470b",
         "display_name": "ali",
         "rank": 43,
         "rank_movement": null,
@@ -1079,7 +1099,7 @@
         "last_online_display": "1h ago"
       },
       {
-        "player_id": "GOLDEN-UI-663f2128",
+        "player_id": "GOLDEN-UI-2156ad2a",
         "display_name": "khoozestan212",
         "rank": 44,
         "rank_movement": null,
@@ -1104,7 +1124,7 @@
         "last_online_display": "2m ago"
       },
       {
-        "player_id": "GOLDEN-UI-c7f5a6cb",
+        "player_id": "GOLDEN-UI-d81bbb7f",
         "display_name": "hamedir",
         "rank": 45,
         "rank_movement": null,
@@ -1129,7 +1149,7 @@
         "last_online_display": "34m ago"
       },
       {
-        "player_id": "GOLDEN-UI-3aea04ed",
+        "player_id": "GOLDEN-UI-17bd3755",
         "display_name": "mohammad",
         "rank": 46,
         "rank_movement": null,
@@ -1154,7 +1174,7 @@
         "last_online_display": "1m ago"
       },
       {
-        "player_id": "GOLDEN-UI-88e48dfa",
+        "player_id": "GOLDEN-UI-0fcae438",
         "display_name": "kaveh",
         "rank": 47,
         "rank_movement": null,
@@ -1179,7 +1199,7 @@
         "last_online_display": "<1m ago"
       },
       {
-        "player_id": "GOLDEN-UI-0434cd87",
+        "player_id": "GOLDEN-UI-c24fca93",
         "display_name": "gilacecombat3",
         "rank": 48,
         "rank_movement": null,
@@ -1204,7 +1224,7 @@
         "last_online_display": "3h ago"
       },
       {
-        "player_id": "GOLDEN-UI-4f6131d3",
+        "player_id": "GOLDEN-UI-cfb4a7b7",
         "display_name": "Extreme",
         "rank": 49,
         "rank_movement": null,
@@ -1229,7 +1249,7 @@
         "last_online_display": "2h ago"
       },
       {
-        "player_id": "GOLDEN-UI-9072ba2b",
+        "player_id": "GOLDEN-UI-d9857adf",
         "display_name": "NaViD",
         "rank": 50,
         "rank_movement": null,
@@ -1256,7 +1276,7 @@
     ],
     "S02": [
       {
-        "player_id": "GOLDEN-UI-b01b4a3a",
+        "player_id": "GOLDEN-UI-7889cafa",
         "display_name": "ehsan",
         "rank": 1,
         "rank_movement": 0,
@@ -1281,7 +1301,7 @@
         "last_online_display": "1h ago"
       },
       {
-        "player_id": "GOLDEN-UI-bdc6a56b",
+        "player_id": "GOLDEN-UI-6f4f48ae",
         "display_name": "JoseGregorio",
         "rank": 2,
         "rank_movement": 0,
@@ -1306,7 +1326,7 @@
         "last_online_display": "37m ago"
       },
       {
-        "player_id": "GOLDEN-UI-b0365625",
+        "player_id": "GOLDEN-UI-6247b47d",
         "display_name": "ДАВИД",
         "rank": 3,
         "rank_movement": 0,
@@ -1331,7 +1351,7 @@
         "last_online_display": "3h ago"
       },
       {
-        "player_id": "GOLDEN-UI-745c00f3",
+        "player_id": "GOLDEN-UI-86773cf7",
         "display_name": "F 35",
         "rank": 4,
         "rank_movement": 0,
@@ -1356,7 +1376,7 @@
         "last_online_display": "1h ago"
       },
       {
-        "player_id": "GOLDEN-UI-e4d80454",
+        "player_id": "GOLDEN-UI-5506c41e",
         "display_name": "MaZmoud",
         "rank": 5,
         "rank_movement": 0,
@@ -1381,7 +1401,7 @@
         "last_online_display": "1h ago"
       },
       {
-        "player_id": "GOLDEN-UI-3fa0be0c",
+        "player_id": "GOLDEN-UI-fc91a066",
         "display_name": "Worker Ant",
         "rank": 6,
         "rank_movement": 1,
@@ -1406,7 +1426,7 @@
         "last_online_display": "2m ago"
       },
       {
-        "player_id": "GOLDEN-UI-c32b2006",
+        "player_id": "GOLDEN-UI-6722d45c",
         "display_name": "RADMAN",
         "rank": 7,
         "rank_movement": -1,
@@ -1431,7 +1451,7 @@
         "last_online_display": "1h ago"
       },
       {
-        "player_id": "GOLDEN-UI-e1d797c9",
+        "player_id": "GOLDEN-UI-eafa5fcd",
         "display_name": "Dariush",
         "rank": 8,
         "rank_movement": 2,
@@ -1456,7 +1476,7 @@
         "last_online_display": "1h ago"
       },
       {
-        "player_id": "GOLDEN-UI-bb9c843a",
+        "player_id": "GOLDEN-UI-03ee2725",
         "display_name": "Cpt. Of Persia",
         "rank": 9,
         "rank_movement": 17,
@@ -1481,7 +1501,7 @@
         "last_online_display": "1h ago"
       },
       {
-        "player_id": "GOLDEN-UI-f788228c",
+        "player_id": "GOLDEN-UI-c749a5e6",
         "display_name": "Power",
         "rank": 10,
         "rank_movement": 5,
@@ -1506,7 +1526,7 @@
         "last_online_display": "2m ago"
       },
       {
-        "player_id": "GOLDEN-UI-d9e8ec1a",
+        "player_id": "GOLDEN-UI-5fc574a5",
         "display_name": "Commander",
         "rank": 11,
         "rank_movement": 28,
@@ -1531,7 +1551,7 @@
         "last_online_display": "1h ago"
       },
       {
-        "player_id": "GOLDEN-UI-aa6526af",
+        "player_id": "GOLDEN-UI-847c93ab",
         "display_name": "Shahram68",
         "rank": 12,
         "rank_movement": -4,
@@ -1556,7 +1576,7 @@
         "last_online_display": "1h ago"
       },
       {
-        "player_id": "GOLDEN-UI-08cc86f7",
+        "player_id": "GOLDEN-UI-dbc9c143",
         "display_name": "hisystem",
         "rank": 13,
         "rank_movement": 21,
@@ -1581,7 +1601,7 @@
         "last_online_display": "<1m ago"
       },
       {
-        "player_id": "GOLDEN-UI-c8d718e2",
+        "player_id": "GOLDEN-UI-691127d0",
         "display_name": "boz qurd",
         "rank": 14,
         "rank_movement": 0,
@@ -1606,7 +1626,7 @@
         "last_online_display": "1h ago"
       },
       {
-        "player_id": "GOLDEN-UI-783c48e6",
+        "player_id": "GOLDEN-UI-44c12ebc",
         "display_name": "Jul",
         "rank": 15,
         "rank_movement": 1,
@@ -1631,7 +1651,7 @@
         "last_online_display": "2h ago"
       },
       {
-        "player_id": "GOLDEN-UI-228f63df",
+        "player_id": "GOLDEN-UI-7a75541b",
         "display_name": "ADA",
         "rank": 16,
         "rank_movement": 4,
@@ -1656,7 +1676,7 @@
         "last_online_display": "5m ago"
       },
       {
-        "player_id": "GOLDEN-UI-2a78075a",
+        "player_id": "GOLDEN-UI-3ee94798",
         "display_name": "ایران",
         "rank": 17,
         "rank_movement": -6,
@@ -1681,7 +1701,7 @@
         "last_online_display": "3h ago"
       },
       {
-        "player_id": "GOLDEN-UI-68ce691b",
+        "player_id": "GOLDEN-UI-9d33274f",
         "display_name": "ARM CR7",
         "rank": 18,
         "rank_movement": 0,
@@ -1706,7 +1726,7 @@
         "last_online_display": "1h ago"
       },
       {
-        "player_id": "GOLDEN-UI-9ffb39ae",
+        "player_id": "GOLDEN-UI-fc82d3b4",
         "display_name": "Masoudpas_4612",
         "rank": 19,
         "rank_movement": -10,
@@ -1731,7 +1751,7 @@
         "last_online_display": "7h ago"
       },
       {
-        "player_id": "GOLDEN-UI-6090c5a7",
+        "player_id": "GOLDEN-UI-734bfd33",
         "display_name": "SORENA",
         "rank": 20,
         "rank_movement": 17,
@@ -1756,7 +1776,7 @@
         "last_online_display": "50m ago"
       },
       {
-        "player_id": "GOLDEN-UI-e8c357de",
+        "player_id": "GOLDEN-UI-3323c1a4",
         "display_name": "Ardalan",
         "rank": 21,
         "rank_movement": 8,
@@ -1781,7 +1801,7 @@
         "last_online_display": "1h ago"
       },
       {
-        "player_id": "GOLDEN-UI-88e48dfa",
+        "player_id": "GOLDEN-UI-0fcae438",
         "display_name": "kaveh",
         "rank": 22,
         "rank_movement": 25,
@@ -1806,7 +1826,7 @@
         "last_online_display": "8m ago"
       },
       {
-        "player_id": "GOLDEN-UI-d44e7f4a",
+        "player_id": "GOLDEN-UI-462633c8",
         "display_name": "paradise",
         "rank": 23,
         "rank_movement": 15,
@@ -1831,7 +1851,7 @@
         "last_online_display": "1h ago"
       },
       {
-        "player_id": "GOLDEN-UI-3aea04ed",
+        "player_id": "GOLDEN-UI-17bd3755",
         "display_name": "mohammad",
         "rank": 24,
         "rank_movement": 22,
@@ -1856,7 +1876,7 @@
         "last_online_display": "1h ago"
       },
       {
-        "player_id": "GOLDEN-UI-1b1f438a",
+        "player_id": "GOLDEN-UI-f7d6db88",
         "display_name": "MyLord",
         "rank": 25,
         "rank_movement": -13,
@@ -1881,7 +1901,7 @@
         "last_online_display": "1h ago"
       },
       {
-        "player_id": "GOLDEN-UI-b7a17725",
+        "player_id": "GOLDEN-UI-1ead477d",
         "display_name": "meysam javid",
         "rank": 26,
         "rank_movement": -13,
@@ -1906,7 +1926,7 @@
         "last_online_display": "5h ago"
       },
       {
-        "player_id": "GOLDEN-UI-9a3f6fb0",
+        "player_id": "GOLDEN-UI-2cd6c9c2",
         "display_name": "Alini",
         "rank": 27,
         "rank_movement": 15,
@@ -1931,7 +1951,7 @@
         "last_online_display": "1h ago"
       },
       {
-        "player_id": "GOLDEN-UI-7798bfbf",
+        "player_id": "GOLDEN-UI-12827a7b",
         "display_name": "محمد",
         "rank": 28,
         "rank_movement": -6,
@@ -1956,7 +1976,7 @@
         "last_online_display": "2h ago"
       },
       {
-        "player_id": "GOLDEN-UI-b6aaeca4",
+        "player_id": "GOLDEN-UI-6538e5ee",
         "display_name": "majid",
         "rank": 29,
         "rank_movement": -4,
@@ -1981,7 +2001,7 @@
         "last_online_display": "1h ago"
       },
       {
-        "player_id": "GOLDEN-UI-c7f5a6cb",
+        "player_id": "GOLDEN-UI-d81bbb7f",
         "display_name": "hamedir",
         "rank": 30,
         "rank_movement": 15,
@@ -2006,7 +2026,7 @@
         "last_online_display": "1h ago"
       },
       {
-        "player_id": "GOLDEN-UI-09ad3b9d",
+        "player_id": "GOLDEN-UI-9d6edc05",
         "display_name": "Eren",
         "rank": 31,
         "rank_movement": null,
@@ -2031,7 +2051,7 @@
         "last_online_display": "1h ago"
       },
       {
-        "player_id": "GOLDEN-UI-398a64ef",
+        "player_id": "GOLDEN-UI-52618d6b",
         "display_name": "ALI",
         "rank": 32,
         "rank_movement": -15,
@@ -2056,7 +2076,7 @@
         "last_online_display": "7h ago"
       },
       {
-        "player_id": "GOLDEN-UI-cec317c1",
+        "player_id": "GOLDEN-UI-c9b3a4f1",
         "display_name": "Reza_Gh",
         "rank": 33,
         "rank_movement": -9,
@@ -2081,7 +2101,7 @@
         "last_online_display": "4h ago"
       },
       {
-        "player_id": "GOLDEN-UI-766f236c",
+        "player_id": "GOLDEN-UI-fee89346",
         "display_name": "Armin Lukas",
         "rank": 34,
         "rank_movement": -6,
@@ -2106,7 +2126,7 @@
         "last_online_display": "1h ago"
       },
       {
-        "player_id": "GOLDEN-UI-a7fa62b0",
+        "player_id": "GOLDEN-UI-991f32c2",
         "display_name": "hamid.iran",
         "rank": 35,
         "rank_movement": -16,
@@ -2131,7 +2151,7 @@
         "last_online_display": "4h ago"
       },
       {
-        "player_id": "GOLDEN-UI-7b68e46d",
+        "player_id": "GOLDEN-UI-ea1cbdd5",
         "display_name": "Morteza Safari",
         "rank": 36,
         "rank_movement": -13,
@@ -2156,7 +2176,7 @@
         "last_online_display": "7h ago"
       },
       {
-        "player_id": "GOLDEN-UI-c0c989be",
+        "player_id": "GOLDEN-UI-44002084",
         "display_name": "Sajjad",
         "rank": 37,
         "rank_movement": -16,
@@ -2181,7 +2201,7 @@
         "last_online_display": "1h ago"
       },
       {
-        "player_id": "GOLDEN-UI-08e3b49c",
+        "player_id": "GOLDEN-UI-f610b7b6",
         "display_name": "Mehdi",
         "rank": 38,
         "rank_movement": -3,
@@ -2206,7 +2226,7 @@
         "last_online_display": "1h ago"
       },
       {
-        "player_id": "GOLDEN-UI-9072ba2b",
+        "player_id": "GOLDEN-UI-d9857adf",
         "display_name": "NaViD",
         "rank": 39,
         "rank_movement": 11,
@@ -2231,7 +2251,7 @@
         "last_online_display": "23m ago"
       },
       {
-        "player_id": "GOLDEN-UI-222b728d",
+        "player_id": "GOLDEN-UI-f51a84f5",
         "display_name": "ADNAN",
         "rank": 40,
         "rank_movement": -13,
@@ -2256,7 +2276,7 @@
         "last_online_display": "7h ago"
       },
       {
-        "player_id": "GOLDEN-UI-20146c0f",
+        "player_id": "GOLDEN-UI-1025470b",
         "display_name": "ali",
         "rank": 41,
         "rank_movement": 2,
@@ -2281,7 +2301,7 @@
         "last_online_display": "2h ago"
       },
       {
-        "player_id": "GOLDEN-UI-4f6131d3",
+        "player_id": "GOLDEN-UI-cfb4a7b7",
         "display_name": "Extreme",
         "rank": 42,
         "rank_movement": 7,
@@ -2306,7 +2326,7 @@
         "last_online_display": "1h ago"
       },
       {
-        "player_id": "GOLDEN-UI-1c97b387",
+        "player_id": "GOLDEN-UI-34179c93",
         "display_name": "Hunter",
         "rank": 43,
         "rank_movement": -2,
@@ -2331,7 +2351,7 @@
         "last_online_display": "5h ago"
       },
       {
-        "player_id": "GOLDEN-UI-9e742439",
+        "player_id": "GOLDEN-UI-a78c5539",
         "display_name": "KSIBAN 00",
         "rank": 44,
         "rank_movement": -14,
@@ -2356,7 +2376,7 @@
         "last_online_display": "7h ago"
       },
       {
-        "player_id": "GOLDEN-UI-a1fe3ef9",
+        "player_id": "GOLDEN-UI-ea8aa279",
         "display_name": "persian boy",
         "rank": 45,
         "rank_movement": -14,
@@ -2381,7 +2401,7 @@
         "last_online_display": "3h ago"
       },
       {
-        "player_id": "GOLDEN-UI-d280f340",
+        "player_id": "GOLDEN-UI-97c42552",
         "display_name": "حمید رضا",
         "rank": 46,
         "rank_movement": -14,
@@ -2406,7 +2426,7 @@
         "last_online_display": "1h ago"
       },
       {
-        "player_id": "GOLDEN-UI-6584895d",
+        "player_id": "GOLDEN-UI-c2b2cc45",
         "display_name": "حسين",
         "rank": 47,
         "rank_movement": null,
@@ -2431,7 +2451,7 @@
         "last_online_display": "4h ago"
       },
       {
-        "player_id": "GOLDEN-UI-77810fed",
+        "player_id": "GOLDEN-UI-b92e6855",
         "display_name": "Mehrad_Persion",
         "rank": 48,
         "rank_movement": null,
@@ -2456,7 +2476,7 @@
         "last_online_display": "2h ago"
       },
       {
-        "player_id": "GOLDEN-UI-f3520ca3",
+        "player_id": "GOLDEN-UI-024b7d87",
         "display_name": "ایرانی باوقار",
         "rank": 49,
         "rank_movement": null,
@@ -2481,7 +2501,7 @@
         "last_online_display": "2m ago"
       },
       {
-        "player_id": "GOLDEN-UI-5cd5c824",
+        "player_id": "GOLDEN-UI-67a3a06e",
         "display_name": "تکاور",
         "rank": 50,
         "rank_movement": null,
@@ -2506,25 +2526,5 @@
         "last_online_display": "44m ago"
       }
     ]
-  },
-  "source_snapshots": {
-    "S01": {
-      "date_persian": "27 شهریور 1405",
-      "time_iran": "24:00",
-      "type": "baseline",
-      "members": 50
-    },
-    "S02": {
-      "date_persian": "28 شهریور 1405",
-      "time_iran": "24:00",
-      "type": "delta-report",
-      "members": 50
-    },
-    "S03": {
-      "date_persian": "29 شهریور 1405",
-      "time_iran": "24:00",
-      "type": "delta-report",
-      "members": 49
-    }
   }
 }
