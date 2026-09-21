@@ -39,7 +39,7 @@
     return members;
   };
 
-  const snapshotIdFromSource = source => (String(source ?? '').match(/G-S\\d+/) || [null])[0];
+  const snapshotIdFromSource = source => (String(source ?? '').match(/G-S[0-9]+/) || [null])[0];
   const sumContinuingDeltas = (snapshot, field) => (snapshot.members || []).reduce((sum, member) => sum + (Number.isFinite(member[field]) ? member[field] : 0), 0);
   const loadViewer = async () => {
     const manifest = await fetchJson('../data/manifest.json');
