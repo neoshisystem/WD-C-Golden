@@ -35,7 +35,7 @@
     )).then(snapshots => ({ manifest, historyIndex, snapshots }));
   }).then(ctx => {
     const snapshots = ctx.snapshots.slice().sort((a, b) =>
-      String(a.official_timestamp_persian || '').localeCompare(String(b.official_timestamp_persian || ''))
+      String(b.official_timestamp_persian || '').localeCompare(String(a.official_timestamp_persian || ''))
     );
 
     const requestedSnapshotId =
