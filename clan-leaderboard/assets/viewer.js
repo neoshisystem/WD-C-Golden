@@ -95,7 +95,7 @@
       if (String(snapshot.source_report || '').startsWith('/clan-leaderboard/')) return snapshot.source_report.slice('/clan-leaderboard/'.length);
       return String(snapshot.source_report || '').replace(/^\//, '');
     };
-    const viewerHref = snapshot => navUrl('index.html', `?source=${encodeURIComponent(sourceForSnapshot(snapshot))}&mode=${encodeURIComponent(mode)}`);
+    const viewerHref = snapshot => navUrl('index.html', `?snapshot=${encodeURIComponent(snapshot.snapshot_id)}&mode=${encodeURIComponent(mode)}`);
     const nav = `<nav class="viewer-nav"><a class="btn" href="${previous ? viewerHref(previous) : '#'}" ${previous ? '' : 'aria-disabled="true"'}>← دوره قبل</a><a class="btn" href="${navUrl('archive.html')}">آرشیو</a><a class="btn" href="${next ? viewerHref(next) : '#'}" ${next ? '' : 'aria-disabled="true"'}>دوره بعد →</a></nav>`;
     const title = target.type === 'baseline' ? `ثبت اولیه ${target.members} عضو` : 'جدول جامع عملکرد و تغییرات اعضای کلن';
     const weeklyLabel = metrics.baseline_snapshot_id === target.snapshot_id ? '— / baseline' : signed(metrics.weekly_clan_medals_earned);
