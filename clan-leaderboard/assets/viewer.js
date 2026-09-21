@@ -125,10 +125,10 @@
     const summaryColumns = [
       { label: 'رتبه', value: member => num(member.rank) },
       { label: 'بازیکن', value: member => String(member.name || '').toLocaleLowerCase('fa') },
-      { label: 'افزایش مدال کلن', value: member => num(member.stats['تغییر مدال کلن']) },
-      { label: 'افزایش کیل', value: member => num(member.stats['افزایش کیل 💀']) },
-      { label: 'مدال لیگ جاری', value: member => num(member.stats['مدال لیگ جاری']) },
-      { label: 'مجموع کیل 💀', value: member => num(member.stats['مجموع کیل 💀']) }
+      { label: 'Δ مدال', value: member => num(member.stats['تغییر مدال کلن']) },
+      { label: 'Δ کیل', value: member => num(member.stats['افزایش کیل 💀']) },
+      { label: 'مدال کلن', value: member => num(member.stats['مدال لیگ جاری']) },
+      { label: 'جمع کیل', value: member => num(member.stats['مجموع کیل 💀']) }
     ];
     const summaryTable = list => `<div class="table-wrap summary-table-wrap"><table class="summary-table"><thead><tr>${summaryColumns.map((column, i) => `<th aria-sort="${sortState(i)}"><button type="button" class="sort-button" data-sort="${i}" aria-label="مرتب‌سازی بر اساس ${column.label}"><span class="sort-label">${column.label}</span><span class="sort-indicator" aria-hidden="true">${sortIndicator(i)}</span></button></th>`).join('')}</tr></thead><tbody>${list.map(member => `<tr><td>${esc(member.rank)}</td><td>${stageName(member)}</td><td>${esc(member.stats['تغییر مدال کلن'] || '—')}</td><td>${esc(member.stats['افزایش کیل 💀'] || '—')}</td><td>${esc(member.stats['مدال لیگ جاری'] || '—')}</td><td>${esc(member.stats['مجموع کیل 💀'] || '—')}</td></tr>`).join('')}</tbody></table></div>`;
     const table = list => `<div class="table-wrap"><table><thead><tr>${['رتبه','نام کاربری','سمت',...keys].map((key, i) => `<th aria-sort="${sortState(i)}"><button type="button" class="sort-button" data-sort="${i}" aria-label="مرتب‌سازی بر اساس ${key}"><span class="sort-label">${key}</span><span class="sort-indicator" aria-hidden="true">${sortIndicator(i)}</span></button></th>`).join('')}</tr></thead><tbody>${list.map(member => `<tr><td>${esc(member.rank)}</td><td>${playerName(member.name)}</td><td>${esc(member.role)}</td>${keys.map(key => `<td>${esc(member.stats[key] || '—')}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
