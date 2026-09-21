@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "reset": {
+    "weekday": "Thursday",
+    "time_iran": "03:30",
+    "time_utc": "00:00"
+  },
+  "performance_tracking_start_snapshot_id": "S01",
+  "leagues": [
+    {
+      "league_week": "2026-09-17",
+      "league": "GOLDENCROWN observed league week",
+      "rank": null,
+      "member_count": 49,
+      "score_display": "—",
+      "result": "in_progress",
+      "source": "GOLDENCROWN snapshot evidence"
+    }
+  ],
+  "notes": [
+    "Presentation adapter only; canonical league semantics remain in root GOLDENCROWN data."
+  ]
+}
