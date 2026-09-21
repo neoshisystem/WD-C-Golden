@@ -12,7 +12,7 @@
 ### Main
 
 - Initial audited `main` SHA: `148d30e3df073af91ab675ff676da32c0a0a81de`
-- Current `main` after this mission's implementation commit: `ebd22d157878dae9ae52c85c9066613e6dbe9227`
+- Current `main` at this report revision: `5ab3d3a4ac54f33739891e0edd2493395eb95927`
 - Current manifest:
   - `current_snapshot_id = G-S03`
   - published snapshots: `G-S01, G-S02, G-S03`
@@ -28,10 +28,10 @@ Only two branches are currently present:
 
 | Branch | SHA | State |
 |---|---|---|
-| `main` | `ebd22d157878dae9ae52c85c9066613e6dbe9227` | current authority |
+| `main` | `5ab3d3a4ac54f33739891e0edd2493395eb95927` | current authority |
 | `fix/goldencrown-persia-ui-parity` | `7cbd62a0a2cbbe18acd243a80fca0e25b06e18a6` | unmerged work |
 
-The parity branch is **17 commits ahead and 15 commits behind** `main`. Merge base: `6ab98afa0191ca092e63607939299e33a12f61a2`.
+The parity branch is currently **17 commits ahead and 19 commits behind** `main`. Merge base: `6ab98afa0191ca092e63607939299e33a12f61a2`.
 
 ### Pull requests
 
@@ -118,9 +118,9 @@ The previous handoff correctly identified several unfinished areas, and the curr
    - Players and Member History remain simpler than the PERSIA registry/membership model.
    - Archive is Golden-specific and has not been proven pixel/behavior equivalent.
 
-2. **Player History was incomplete.**
-   - Before this mission, `player-profile.js` loaded all published canonical snapshots but ultimately selected one snapshot and rendered only that observation.
-   - Therefore it did not satisfy the required aggregated historical-player model.
+2. **Player History required completion.**
+   - Before the completion commits, `player-profile.js` selected and rendered one snapshot observation only.
+   - The current implementation now aggregates all published snapshots through a derived, noncanonical Evidence Continuity Index, while preserving the null Canonical `player_id` state.
 
 3. **Golden stable identity continuity is still unresolved.**
    - G-S01/G-S02/G-S03 canonical `player_id` values are all null.
@@ -224,33 +224,35 @@ This is the required safety behavior for the current Golden dataset.
 
 # 7. Implementation completed in this mission
 
-### Commit
+### Completion commits
 
-**`ebd22d157878dae9ae52c85c9066613e6dbe9227`**
+**`ebd22d157878dae9ae52c85c9066613e6dbe9227`** — `fix(golden): make player history identity-safe across snapshots`
 
-Message:
+**`ccdbc4d5193518de4fb0130b02c0fdecc7306d2d`** — `feat(golden): add noncanonical evidence index for player history`
 
-`fix(golden): make player history identity-safe across snapshots`
+**`5ab3d3a4ac54f33739891e0edd2493395eb95927`** — `feat(golden): aggregate player history from evidence index`
 
-### File
+### Files
 
-`clan-leaderboard/assets/player-profile.js`
+- `clan-leaderboard/assets/player-profile.js`
+- `data/derived/player-history-index.json`
 
 ### Changes
 
-- Added loading of all published GOLDENCROWN canonical snapshots.
-- Added stable-`player_id` historical aggregation.
-- Added explicit missing-snapshot membership rows.
-- Added current-vs-latest-observed distinction.
-- Added snapshot timeline.
-- Preserved current snapshot-local profile behavior for `G-Sxx-Rxxx` navigation IDs.
-- Explicitly blocked name/rank/case-based continuity.
-- Preserved Honor Medals, Weapon Levels, Last Online, Rank, League Medals, Clan Medals and Total Kills.
-- Kept all data sources inside GOLDENCROWN.
+- Player Profile now distinguishes current state from selected historical Snapshot.
+- All published GOLDENCROWN canonical snapshots are loaded for a Player page.
+- A derived noncanonical Evidence Continuity Index connects snapshot-local observation keys only where adjacent Snapshot evidence gives a unique one-to-one continuation.
+- The index uses exact display name plus fingerprint consistency for the current S01→S02 and S02→S03 reconciliations; rank is explicitly excluded from identity matching.
+- The index never assigns or writes a canonical `player_id`.
+- Missing membership remains explicit in the historical timeline.
+- Historical rows preserve Rank, rank movement, League Medals, Clan Medal Delta, cumulative Clan Medals, Honor Medals, Total Kills, Kill Delta, Weapon Levels, Last Online, and Snapshot metadata.
+- `ALI` and `ali` remain separate continuity groups.
 
-Local JavaScript syntax validation of the implementation passed with Node.js `--check` before publication.
+Repository-side JavaScript syntax validation passed using `new Function()` over the committed `player-profile.js` source.
 
-No canonical snapshot, manifest identity field, historical record, or PERSIA repository was modified.
+Index invariants verified: 56 groups, 93 adjacent continuity edges, 149 indexed observations, 149 unique observation keys, and a consistent key map. The 45 S01→S02 and 48 S02→S03 continuation counts match the published Golden evidence reports.
+
+No canonical snapshot, manifest identity field, permanent `player_id`, or PERSIA repository was modified.
 
 ---
 
@@ -297,12 +299,12 @@ No Live PASS is claimed.
 
 # 9. Remaining UNKNOWNs
 
-1. Whether the latest `ebd22d157...` deployment has completed successfully.
-2. Whether the public Pages site currently serves `ebd22d157...`.
+1. Whether the latest `5ab3d3a4...` Pages deployment has completed successfully.
+2. Whether the public Pages site currently serves `5ab3d3a4...`; the current web retrieval path cannot access the public GitHub Pages URL.
 3. Whether every visual/interaction detail of Golden matches PERSIA.
-4. Whether Players and Member History should receive further parity work before permanent Golden identities exist.
+4. Whether Players and Member History should receive further parity work; those surfaces are still simpler than PERSIA.
 5. Final disposition of `report.html`.
-6. Permanent identity decisions for G-S01/G-S02/G-S03.
+6. Permanent canonical identity decisions for G-S01/G-S02/G-S03; intentionally not assigned by this implementation.
 
 The identity questions are intentionally not resolved by inference.
 
@@ -314,11 +316,32 @@ The previous parity branch was **not safe to merge as-is**.
 
 Its strongest contribution is the identification of the PERSIA behavioral/data shape. Its compatibility data layer, however, crosses the boundary between presentation compatibility and effective identity continuity. That layer is therefore not accepted as Golden canonical history.
 
-The current `main` now has an identity-safe Player Profile implementation that is structurally capable of PERSIA-style multi-snapshot history **when a permanent Canonical `player_id` exists**.
+The current `main` now has a PERSIA-shaped multi-snapshot Player Profile implementation that uses an explicitly noncanonical Evidence Continuity Index for the currently verified S01→S03 continuation set.
 
-With the present Golden data, all permanent `player_id` values remain null. Consequently, the UI correctly refuses to manufacture cross-snapshot history from rank/name matching.
+This gives current Golden player pages a historical timeline without writing permanent `player_id` values or merging identity based on rank alone. Ambiguous/future rename cases remain blocked from automatic continuity.
 
-**This is intentional and evidence-safe.**
+**Canonical identity continuity is still unresolved by design; UI history no longer depends on inventing a permanent identity key.**
 
-The remaining blocker for actual historical aggregation of current Golden players is **Canonical identity continuity**, not a missing UI renderer.
 
+
+---
+
+# 11. Completion revision after initial audit
+
+This revision supersedes the earlier conclusion that Golden could only show multi-snapshot history after permanent `player_id` assignment.
+
+The repository now contains a separate derived file:
+
+`data/derived/player-history-index.json`
+
+It is explicitly noncanonical and contains no permanent identity assignment. It links the current 149 snapshot observations into 56 UI history groups through 93 adjacent evidence edges.
+
+The current evidence reconciliation is:
+
+- G-S01 → G-S02: 45 continuing observations; 5 new; 5 departed.
+- G-S02 → G-S03: 48 continuing observations; 1 new; 2 departed.
+- No duplicate display names were present in the adjacent snapshots used for these links.
+- `ALI` and `ali` remain separate groups across all three snapshots.
+- Maximum stored fingerprint-distance in the current continuation edges is 13.5 under the derived comparison formula used by the UI evidence index.
+
+The index is presentation/history evidence only. It does not mutate Canonical Golden identity data.
