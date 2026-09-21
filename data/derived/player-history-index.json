@@ -1,0 +1,2715 @@
+{
+  "version": 1,
+  "dataset": "goldencrown-player-history-derived",
+  "status": "derived-noncanonical-ui-index",
+  "canonical_identity_field": "player_id",
+  "canonical_identity_assigned": false,
+  "identity_policy": {
+    "permanent_player_id_is_untouched": true,
+    "rank_is_never_used_as_identity": true,
+    "display_name_alone_is_not_identity": true,
+    "continuity_basis": "Adjacent Golden evidence reports plus one-to-one exact display-name and fingerprint consistency. This derived grouping is UI history evidence, not a canonical identity registry.",
+    "ambiguous_matches_are_not_grouped": true,
+    "future_rename_requires_explicit_identity_decision": true
+  },
+  "source_snapshots": [
+    {
+      "snapshot_id": "G-S01",
+      "member_count": 50,
+      "official_timestamp_persian": "1405-06-27 24:00"
+    },
+    {
+      "snapshot_id": "G-S02",
+      "member_count": 50,
+      "official_timestamp_persian": "1405-06-28 24:00"
+    },
+    {
+      "snapshot_id": "G-S03",
+      "member_count": 49,
+      "official_timestamp_persian": "1405-06-29 24:00"
+    }
+  ],
+  "adjacent_reconciliation": [
+    {
+      "from_snapshot": "G-S01",
+      "to_snapshot": "G-S02",
+      "continuing_members": 45,
+      "new_members": [
+        "Eren",
+        "حسين",
+        "Mehrad_Persion",
+        "ایرانی باوقار",
+        "تکاور"
+      ],
+      "departed_members": [
+        "Elvin",
+        "SOMMER",
+        "007",
+        "khoozestan212",
+        "gilacecombat3"
+      ]
+    },
+    {
+      "from_snapshot": "G-S02",
+      "to_snapshot": "G-S03",
+      "continuing_members": 48,
+      "new_members": [
+        "saied"
+      ],
+      "departed_members": [
+        "JoseGregorio",
+        "Extreme"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R001",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R001",
+      "display_name": "ehsan",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0.8
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R002",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R002",
+      "display_name": "JoseGregorio",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 2.6
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R003",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R003",
+      "display_name": "ДАВИД",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0.2
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R004",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R004",
+      "display_name": "F 35",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0.6
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R005",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R005",
+      "display_name": "MaZmoud",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 4.9
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R006",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R007",
+      "display_name": "RADMAN",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0.2
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R007",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R006",
+      "display_name": "Worker Ant",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0.2
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R008",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R012",
+      "display_name": "Shahram68",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0.2
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R009",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R019",
+      "display_name": "Masoudpas_4612",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0.6
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R010",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R008",
+      "display_name": "Dariush",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0.5
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R011",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R017",
+      "display_name": "ایران",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R012",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R025",
+      "display_name": "MyLord",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R013",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R026",
+      "display_name": "meysam javid",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0.3
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R014",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R014",
+      "display_name": "boz qurd",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 1.4
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R015",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R010",
+      "display_name": "Power",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0.6
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R016",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R015",
+      "display_name": "Jul",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0.1
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R017",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R032",
+      "display_name": "ALI",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0.5
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R018",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R018",
+      "display_name": "ARM CR7",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R019",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R035",
+      "display_name": "hamid.iran",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R020",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R016",
+      "display_name": "ADA",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R021",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R037",
+      "display_name": "Sajjad",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0.2
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R022",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R028",
+      "display_name": "محمد",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0.6000000000000001
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R023",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R036",
+      "display_name": "Morteza Safari",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0.8
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R024",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R033",
+      "display_name": "Reza_Gh",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 1.3
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R025",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R029",
+      "display_name": "majid",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0.7
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R026",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R009",
+      "display_name": "Cpt. Of Persia",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R027",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R040",
+      "display_name": "ADNAN",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0.8999999999999999
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R028",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R034",
+      "display_name": "Armin Lukas",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 1.1
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R029",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R021",
+      "display_name": "Ardalan",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0.4
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R030",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R044",
+      "display_name": "KSIBAN 00",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0.5
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R031",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R045",
+      "display_name": "persian boy",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0.2
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R032",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R046",
+      "display_name": "حمید رضا",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0.1
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R034",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R013",
+      "display_name": "hisystem",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 2.4
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R035",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R038",
+      "display_name": "Mehdi",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 1.9
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R037",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R020",
+      "display_name": "SORENA",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 2.1
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R038",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R023",
+      "display_name": "paradise",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0.6000000000000001
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R039",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R011",
+      "display_name": "Commander",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 1.8
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R041",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R043",
+      "display_name": "Hunter",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 1.5
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R042",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R027",
+      "display_name": "Alini",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0.8
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R043",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R041",
+      "display_name": "ali",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 3.5
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R045",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R030",
+      "display_name": "hamedir",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 2.5
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R046",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R024",
+      "display_name": "mohammad",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0.2
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R047",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R022",
+      "display_name": "kaveh",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R049",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R042",
+      "display_name": "Extreme",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0.6
+      }
+    },
+    {
+      "from_snapshot": "G-S01",
+      "from_snapshot_member_key": "G-S01-R050",
+      "to_snapshot": "G-S02",
+      "to_snapshot_member_key": "G-S02-R039",
+      "display_name": "NaViD",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 1.8
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R001",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R001",
+      "display_name": "ehsan",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 1.9
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R003",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R003",
+      "display_name": "ДАВИД",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 8
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R004",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R008",
+      "display_name": "F 35",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R005",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R009",
+      "display_name": "MaZmoud",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R006",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R014",
+      "display_name": "Worker Ant",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 2.6
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R007",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R011",
+      "display_name": "RADMAN",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 3.5
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R008",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R015",
+      "display_name": "Dariush",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 3.4
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R009",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R002",
+      "display_name": "Cpt. Of Persia",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0.6
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R010",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R019",
+      "display_name": "Power",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 2.2
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R011",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R007",
+      "display_name": "Commander",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 2
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R012",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R020",
+      "display_name": "Shahram68",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0.4
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R013",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R017",
+      "display_name": "hisystem",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 4
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R014",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R018",
+      "display_name": "boz qurd",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 13.5
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R015",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R021",
+      "display_name": "Jul",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0.7
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R016",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R025",
+      "display_name": "ADA",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 3
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R017",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R024",
+      "display_name": "ایران",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 5.5
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R018",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R022",
+      "display_name": "ARM CR7",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 6
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R019",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R023",
+      "display_name": "Masoudpas_4612",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 1
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R020",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R010",
+      "display_name": "SORENA",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 2.5
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R021",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R016",
+      "display_name": "Ardalan",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 2
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R022",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R005",
+      "display_name": "kaveh",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 2
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R023",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R004",
+      "display_name": "paradise",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 2.6
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R024",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R012",
+      "display_name": "mohammad",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0.6
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R025",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R029",
+      "display_name": "MyLord",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R026",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R036",
+      "display_name": "meysam javid",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0.5
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R027",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R013",
+      "display_name": "Alini",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 6.7
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R028",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R033",
+      "display_name": "محمد",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 2.1
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R029",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R030",
+      "display_name": "majid",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R030",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R027",
+      "display_name": "hamedir",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 4.9
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R031",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R006",
+      "display_name": "Eren",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 2
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R032",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R034",
+      "display_name": "ALI",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 7.2
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R033",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R038",
+      "display_name": "Reza_Gh",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0.2
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R034",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R032",
+      "display_name": "Armin Lukas",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 5.1
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R035",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R035",
+      "display_name": "hamid.iran",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0.8
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R036",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R042",
+      "display_name": "Morteza Safari",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 4
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R037",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R043",
+      "display_name": "Sajjad",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 4
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R038",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R039",
+      "display_name": "Mehdi",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0.2
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R039",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R026",
+      "display_name": "NaViD",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 2.2
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R040",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R031",
+      "display_name": "ADNAN",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 5.4
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R041",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R037",
+      "display_name": "ali",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 3
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R043",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R040",
+      "display_name": "Hunter",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0.5
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R044",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R041",
+      "display_name": "KSIBAN 00",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 2.3
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R045",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R044",
+      "display_name": "persian boy",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 2.5
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R046",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R046",
+      "display_name": "حمید رضا",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0.5
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R047",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R028",
+      "display_name": "حسين",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 4
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R048",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R045",
+      "display_name": "Mehrad_Persion",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 3
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R049",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R047",
+      "display_name": "ایرانی باوقار",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 2.8
+      }
+    },
+    {
+      "from_snapshot": "G-S02",
+      "from_snapshot_member_key": "G-S02-R050",
+      "to_snapshot": "G-S03",
+      "to_snapshot_member_key": "G-S03-R049",
+      "display_name": "تکاور",
+      "evidence": {
+        "exact_display_name": true,
+        "exact_name_case_sensitive": true,
+        "rank_used_for_identity": false,
+        "unique_source_name_in_each_snapshot": true,
+        "fingerprint_distance": 0
+      }
+    }
+  ],
+  "groups": [
+    {
+      "history_group_id": "HG-G-S01-R001__G-S02-R001__G-S03-R001",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R001",
+          "display_name": "ehsan"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R001",
+          "display_name": "ehsan"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R001",
+          "display_name": "ehsan"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R002__G-S02-R002",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R002",
+          "display_name": "JoseGregorio"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R002",
+          "display_name": "JoseGregorio"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R003__G-S02-R003__G-S03-R003",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R003",
+          "display_name": "ДАВИД"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R003",
+          "display_name": "ДАВИД"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R003",
+          "display_name": "ДАВИД"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R004__G-S02-R004__G-S03-R008",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R004",
+          "display_name": "F 35"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R004",
+          "display_name": "F 35"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R008",
+          "display_name": "F 35"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R005__G-S02-R005__G-S03-R009",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R005",
+          "display_name": "MaZmoud"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R005",
+          "display_name": "MaZmoud"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R009",
+          "display_name": "MaZmoud"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R006__G-S02-R007__G-S03-R011",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R006",
+          "display_name": "RADMAN"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R007",
+          "display_name": "RADMAN"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R011",
+          "display_name": "RADMAN"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R007__G-S02-R006__G-S03-R014",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R007",
+          "display_name": "Worker Ant"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R006",
+          "display_name": "Worker Ant"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R014",
+          "display_name": "Worker Ant"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R008__G-S02-R012__G-S03-R020",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R008",
+          "display_name": "Shahram68"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R012",
+          "display_name": "Shahram68"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R020",
+          "display_name": "Shahram68"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R009__G-S02-R019__G-S03-R023",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R009",
+          "display_name": "Masoudpas_4612"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R019",
+          "display_name": "Masoudpas_4612"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R023",
+          "display_name": "Masoudpas_4612"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R010__G-S02-R008__G-S03-R015",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R010",
+          "display_name": "Dariush"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R008",
+          "display_name": "Dariush"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R015",
+          "display_name": "Dariush"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R011__G-S02-R017__G-S03-R024",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R011",
+          "display_name": "ایران"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R017",
+          "display_name": "ایران"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R024",
+          "display_name": "ایران"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R012__G-S02-R025__G-S03-R029",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R012",
+          "display_name": "MyLord"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R025",
+          "display_name": "MyLord"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R029",
+          "display_name": "MyLord"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R013__G-S02-R026__G-S03-R036",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R013",
+          "display_name": "meysam javid"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R026",
+          "display_name": "meysam javid"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R036",
+          "display_name": "meysam javid"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R014__G-S02-R014__G-S03-R018",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R014",
+          "display_name": "boz qurd"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R014",
+          "display_name": "boz qurd"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R018",
+          "display_name": "boz qurd"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R015__G-S02-R010__G-S03-R019",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R015",
+          "display_name": "Power"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R010",
+          "display_name": "Power"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R019",
+          "display_name": "Power"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R016__G-S02-R015__G-S03-R021",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R016",
+          "display_name": "Jul"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R015",
+          "display_name": "Jul"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R021",
+          "display_name": "Jul"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R017__G-S02-R032__G-S03-R034",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R017",
+          "display_name": "ALI"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R032",
+          "display_name": "ALI"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R034",
+          "display_name": "ALI"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R018__G-S02-R018__G-S03-R022",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R018",
+          "display_name": "ARM CR7"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R018",
+          "display_name": "ARM CR7"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R022",
+          "display_name": "ARM CR7"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R019__G-S02-R035__G-S03-R035",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R019",
+          "display_name": "hamid.iran"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R035",
+          "display_name": "hamid.iran"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R035",
+          "display_name": "hamid.iran"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R020__G-S02-R016__G-S03-R025",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R020",
+          "display_name": "ADA"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R016",
+          "display_name": "ADA"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R025",
+          "display_name": "ADA"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R021__G-S02-R037__G-S03-R043",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R021",
+          "display_name": "Sajjad"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R037",
+          "display_name": "Sajjad"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R043",
+          "display_name": "Sajjad"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R022__G-S02-R028__G-S03-R033",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R022",
+          "display_name": "محمد"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R028",
+          "display_name": "محمد"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R033",
+          "display_name": "محمد"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R023__G-S02-R036__G-S03-R042",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R023",
+          "display_name": "Morteza Safari"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R036",
+          "display_name": "Morteza Safari"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R042",
+          "display_name": "Morteza Safari"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R024__G-S02-R033__G-S03-R038",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R024",
+          "display_name": "Reza_Gh"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R033",
+          "display_name": "Reza_Gh"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R038",
+          "display_name": "Reza_Gh"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R025__G-S02-R029__G-S03-R030",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R025",
+          "display_name": "majid"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R029",
+          "display_name": "majid"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R030",
+          "display_name": "majid"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R026__G-S02-R009__G-S03-R002",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R026",
+          "display_name": "Cpt. Of Persia"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R009",
+          "display_name": "Cpt. Of Persia"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R002",
+          "display_name": "Cpt. Of Persia"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R027__G-S02-R040__G-S03-R031",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R027",
+          "display_name": "ADNAN"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R040",
+          "display_name": "ADNAN"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R031",
+          "display_name": "ADNAN"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R028__G-S02-R034__G-S03-R032",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R028",
+          "display_name": "Armin Lukas"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R034",
+          "display_name": "Armin Lukas"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R032",
+          "display_name": "Armin Lukas"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R029__G-S02-R021__G-S03-R016",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R029",
+          "display_name": "Ardalan"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R021",
+          "display_name": "Ardalan"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R016",
+          "display_name": "Ardalan"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R030__G-S02-R044__G-S03-R041",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R030",
+          "display_name": "KSIBAN 00"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R044",
+          "display_name": "KSIBAN 00"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R041",
+          "display_name": "KSIBAN 00"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R031__G-S02-R045__G-S03-R044",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R031",
+          "display_name": "persian boy"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R045",
+          "display_name": "persian boy"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R044",
+          "display_name": "persian boy"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R032__G-S02-R046__G-S03-R046",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R032",
+          "display_name": "حمید رضا"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R046",
+          "display_name": "حمید رضا"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R046",
+          "display_name": "حمید رضا"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R033",
+      "canonical_player_id": null,
+      "continuity_status": "snapshot-local-only",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R033",
+          "display_name": "Elvin"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R034__G-S02-R013__G-S03-R017",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R034",
+          "display_name": "hisystem"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R013",
+          "display_name": "hisystem"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R017",
+          "display_name": "hisystem"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R035__G-S02-R038__G-S03-R039",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R035",
+          "display_name": "Mehdi"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R038",
+          "display_name": "Mehdi"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R039",
+          "display_name": "Mehdi"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R036",
+      "canonical_player_id": null,
+      "continuity_status": "snapshot-local-only",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R036",
+          "display_name": "SOMMER"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R037__G-S02-R020__G-S03-R010",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R037",
+          "display_name": "SORENA"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R020",
+          "display_name": "SORENA"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R010",
+          "display_name": "SORENA"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R038__G-S02-R023__G-S03-R004",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R038",
+          "display_name": "paradise"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R023",
+          "display_name": "paradise"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R004",
+          "display_name": "paradise"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R039__G-S02-R011__G-S03-R007",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R039",
+          "display_name": "Commander"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R011",
+          "display_name": "Commander"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R007",
+          "display_name": "Commander"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R040",
+      "canonical_player_id": null,
+      "continuity_status": "snapshot-local-only",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R040",
+          "display_name": "007"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R041__G-S02-R043__G-S03-R040",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R041",
+          "display_name": "Hunter"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R043",
+          "display_name": "Hunter"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R040",
+          "display_name": "Hunter"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R042__G-S02-R027__G-S03-R013",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R042",
+          "display_name": "Alini"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R027",
+          "display_name": "Alini"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R013",
+          "display_name": "Alini"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R043__G-S02-R041__G-S03-R037",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R043",
+          "display_name": "ali"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R041",
+          "display_name": "ali"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R037",
+          "display_name": "ali"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R044",
+      "canonical_player_id": null,
+      "continuity_status": "snapshot-local-only",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R044",
+          "display_name": "khoozestan212"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R045__G-S02-R030__G-S03-R027",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R045",
+          "display_name": "hamedir"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R030",
+          "display_name": "hamedir"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R027",
+          "display_name": "hamedir"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R046__G-S02-R024__G-S03-R012",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R046",
+          "display_name": "mohammad"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R024",
+          "display_name": "mohammad"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R012",
+          "display_name": "mohammad"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R047__G-S02-R022__G-S03-R005",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R047",
+          "display_name": "kaveh"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R022",
+          "display_name": "kaveh"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R005",
+          "display_name": "kaveh"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R048",
+      "canonical_player_id": null,
+      "continuity_status": "snapshot-local-only",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R048",
+          "display_name": "gilacecombat3"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R049__G-S02-R042",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R049",
+          "display_name": "Extreme"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R042",
+          "display_name": "Extreme"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S01-R050__G-S02-R039__G-S03-R026",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S01",
+          "snapshot_member_key": "G-S01-R050",
+          "display_name": "NaViD"
+        },
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R039",
+          "display_name": "NaViD"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R026",
+          "display_name": "NaViD"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S02-R031__G-S03-R006",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R031",
+          "display_name": "Eren"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R006",
+          "display_name": "Eren"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S02-R047__G-S03-R028",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R047",
+          "display_name": "حسين"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R028",
+          "display_name": "حسين"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S02-R048__G-S03-R045",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R048",
+          "display_name": "Mehrad_Persion"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R045",
+          "display_name": "Mehrad_Persion"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S02-R049__G-S03-R047",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R049",
+          "display_name": "ایرانی باوقار"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R047",
+          "display_name": "ایرانی باوقار"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S02-R050__G-S03-R049",
+      "canonical_player_id": null,
+      "continuity_status": "evidence-resolved-for-ui",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S02",
+          "snapshot_member_key": "G-S02-R050",
+          "display_name": "تکاور"
+        },
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R049",
+          "display_name": "تکاور"
+        }
+      ]
+    },
+    {
+      "history_group_id": "HG-G-S03-R048",
+      "canonical_player_id": null,
+      "continuity_status": "snapshot-local-only",
+      "noncanonical": true,
+      "observations": [
+        {
+          "snapshot_id": "G-S03",
+          "snapshot_member_key": "G-S03-R048",
+          "display_name": "saied"
+        }
+      ]
+    }
+  ],
+  "key_map": {
+    "G-S01-R001": "HG-G-S01-R001__G-S02-R001__G-S03-R001",
+    "G-S02-R001": "HG-G-S01-R001__G-S02-R001__G-S03-R001",
+    "G-S03-R001": "HG-G-S01-R001__G-S02-R001__G-S03-R001",
+    "G-S01-R002": "HG-G-S01-R002__G-S02-R002",
+    "G-S02-R002": "HG-G-S01-R002__G-S02-R002",
+    "G-S01-R003": "HG-G-S01-R003__G-S02-R003__G-S03-R003",
+    "G-S02-R003": "HG-G-S01-R003__G-S02-R003__G-S03-R003",
+    "G-S03-R003": "HG-G-S01-R003__G-S02-R003__G-S03-R003",
+    "G-S01-R004": "HG-G-S01-R004__G-S02-R004__G-S03-R008",
+    "G-S02-R004": "HG-G-S01-R004__G-S02-R004__G-S03-R008",
+    "G-S03-R008": "HG-G-S01-R004__G-S02-R004__G-S03-R008",
+    "G-S01-R005": "HG-G-S01-R005__G-S02-R005__G-S03-R009",
+    "G-S02-R005": "HG-G-S01-R005__G-S02-R005__G-S03-R009",
+    "G-S03-R009": "HG-G-S01-R005__G-S02-R005__G-S03-R009",
+    "G-S01-R006": "HG-G-S01-R006__G-S02-R007__G-S03-R011",
+    "G-S02-R007": "HG-G-S01-R006__G-S02-R007__G-S03-R011",
+    "G-S03-R011": "HG-G-S01-R006__G-S02-R007__G-S03-R011",
+    "G-S01-R007": "HG-G-S01-R007__G-S02-R006__G-S03-R014",
+    "G-S02-R006": "HG-G-S01-R007__G-S02-R006__G-S03-R014",
+    "G-S03-R014": "HG-G-S01-R007__G-S02-R006__G-S03-R014",
+    "G-S01-R008": "HG-G-S01-R008__G-S02-R012__G-S03-R020",
+    "G-S02-R012": "HG-G-S01-R008__G-S02-R012__G-S03-R020",
+    "G-S03-R020": "HG-G-S01-R008__G-S02-R012__G-S03-R020",
+    "G-S01-R009": "HG-G-S01-R009__G-S02-R019__G-S03-R023",
+    "G-S02-R019": "HG-G-S01-R009__G-S02-R019__G-S03-R023",
+    "G-S03-R023": "HG-G-S01-R009__G-S02-R019__G-S03-R023",
+    "G-S01-R010": "HG-G-S01-R010__G-S02-R008__G-S03-R015",
+    "G-S02-R008": "HG-G-S01-R010__G-S02-R008__G-S03-R015",
+    "G-S03-R015": "HG-G-S01-R010__G-S02-R008__G-S03-R015",
+    "G-S01-R011": "HG-G-S01-R011__G-S02-R017__G-S03-R024",
+    "G-S02-R017": "HG-G-S01-R011__G-S02-R017__G-S03-R024",
+    "G-S03-R024": "HG-G-S01-R011__G-S02-R017__G-S03-R024",
+    "G-S01-R012": "HG-G-S01-R012__G-S02-R025__G-S03-R029",
+    "G-S02-R025": "HG-G-S01-R012__G-S02-R025__G-S03-R029",
+    "G-S03-R029": "HG-G-S01-R012__G-S02-R025__G-S03-R029",
+    "G-S01-R013": "HG-G-S01-R013__G-S02-R026__G-S03-R036",
+    "G-S02-R026": "HG-G-S01-R013__G-S02-R026__G-S03-R036",
+    "G-S03-R036": "HG-G-S01-R013__G-S02-R026__G-S03-R036",
+    "G-S01-R014": "HG-G-S01-R014__G-S02-R014__G-S03-R018",
+    "G-S02-R014": "HG-G-S01-R014__G-S02-R014__G-S03-R018",
+    "G-S03-R018": "HG-G-S01-R014__G-S02-R014__G-S03-R018",
+    "G-S01-R015": "HG-G-S01-R015__G-S02-R010__G-S03-R019",
+    "G-S02-R010": "HG-G-S01-R015__G-S02-R010__G-S03-R019",
+    "G-S03-R019": "HG-G-S01-R015__G-S02-R010__G-S03-R019",
+    "G-S01-R016": "HG-G-S01-R016__G-S02-R015__G-S03-R021",
+    "G-S02-R015": "HG-G-S01-R016__G-S02-R015__G-S03-R021",
+    "G-S03-R021": "HG-G-S01-R016__G-S02-R015__G-S03-R021",
+    "G-S01-R017": "HG-G-S01-R017__G-S02-R032__G-S03-R034",
+    "G-S02-R032": "HG-G-S01-R017__G-S02-R032__G-S03-R034",
+    "G-S03-R034": "HG-G-S01-R017__G-S02-R032__G-S03-R034",
+    "G-S01-R018": "HG-G-S01-R018__G-S02-R018__G-S03-R022",
+    "G-S02-R018": "HG-G-S01-R018__G-S02-R018__G-S03-R022",
+    "G-S03-R022": "HG-G-S01-R018__G-S02-R018__G-S03-R022",
+    "G-S01-R019": "HG-G-S01-R019__G-S02-R035__G-S03-R035",
+    "G-S02-R035": "HG-G-S01-R019__G-S02-R035__G-S03-R035",
+    "G-S03-R035": "HG-G-S01-R019__G-S02-R035__G-S03-R035",
+    "G-S01-R020": "HG-G-S01-R020__G-S02-R016__G-S03-R025",
+    "G-S02-R016": "HG-G-S01-R020__G-S02-R016__G-S03-R025",
+    "G-S03-R025": "HG-G-S01-R020__G-S02-R016__G-S03-R025",
+    "G-S01-R021": "HG-G-S01-R021__G-S02-R037__G-S03-R043",
+    "G-S02-R037": "HG-G-S01-R021__G-S02-R037__G-S03-R043",
+    "G-S03-R043": "HG-G-S01-R021__G-S02-R037__G-S03-R043",
+    "G-S01-R022": "HG-G-S01-R022__G-S02-R028__G-S03-R033",
+    "G-S02-R028": "HG-G-S01-R022__G-S02-R028__G-S03-R033",
+    "G-S03-R033": "HG-G-S01-R022__G-S02-R028__G-S03-R033",
+    "G-S01-R023": "HG-G-S01-R023__G-S02-R036__G-S03-R042",
+    "G-S02-R036": "HG-G-S01-R023__G-S02-R036__G-S03-R042",
+    "G-S03-R042": "HG-G-S01-R023__G-S02-R036__G-S03-R042",
+    "G-S01-R024": "HG-G-S01-R024__G-S02-R033__G-S03-R038",
+    "G-S02-R033": "HG-G-S01-R024__G-S02-R033__G-S03-R038",
+    "G-S03-R038": "HG-G-S01-R024__G-S02-R033__G-S03-R038",
+    "G-S01-R025": "HG-G-S01-R025__G-S02-R029__G-S03-R030",
+    "G-S02-R029": "HG-G-S01-R025__G-S02-R029__G-S03-R030",
+    "G-S03-R030": "HG-G-S01-R025__G-S02-R029__G-S03-R030",
+    "G-S01-R026": "HG-G-S01-R026__G-S02-R009__G-S03-R002",
+    "G-S02-R009": "HG-G-S01-R026__G-S02-R009__G-S03-R002",
+    "G-S03-R002": "HG-G-S01-R026__G-S02-R009__G-S03-R002",
+    "G-S01-R027": "HG-G-S01-R027__G-S02-R040__G-S03-R031",
+    "G-S02-R040": "HG-G-S01-R027__G-S02-R040__G-S03-R031",
+    "G-S03-R031": "HG-G-S01-R027__G-S02-R040__G-S03-R031",
+    "G-S01-R028": "HG-G-S01-R028__G-S02-R034__G-S03-R032",
+    "G-S02-R034": "HG-G-S01-R028__G-S02-R034__G-S03-R032",
+    "G-S03-R032": "HG-G-S01-R028__G-S02-R034__G-S03-R032",
+    "G-S01-R029": "HG-G-S01-R029__G-S02-R021__G-S03-R016",
+    "G-S02-R021": "HG-G-S01-R029__G-S02-R021__G-S03-R016",
+    "G-S03-R016": "HG-G-S01-R029__G-S02-R021__G-S03-R016",
+    "G-S01-R030": "HG-G-S01-R030__G-S02-R044__G-S03-R041",
+    "G-S02-R044": "HG-G-S01-R030__G-S02-R044__G-S03-R041",
+    "G-S03-R041": "HG-G-S01-R030__G-S02-R044__G-S03-R041",
+    "G-S01-R031": "HG-G-S01-R031__G-S02-R045__G-S03-R044",
+    "G-S02-R045": "HG-G-S01-R031__G-S02-R045__G-S03-R044",
+    "G-S03-R044": "HG-G-S01-R031__G-S02-R045__G-S03-R044",
+    "G-S01-R032": "HG-G-S01-R032__G-S02-R046__G-S03-R046",
+    "G-S02-R046": "HG-G-S01-R032__G-S02-R046__G-S03-R046",
+    "G-S03-R046": "HG-G-S01-R032__G-S02-R046__G-S03-R046",
+    "G-S01-R033": "HG-G-S01-R033",
+    "G-S01-R034": "HG-G-S01-R034__G-S02-R013__G-S03-R017",
+    "G-S02-R013": "HG-G-S01-R034__G-S02-R013__G-S03-R017",
+    "G-S03-R017": "HG-G-S01-R034__G-S02-R013__G-S03-R017",
+    "G-S01-R035": "HG-G-S01-R035__G-S02-R038__G-S03-R039",
+    "G-S02-R038": "HG-G-S01-R035__G-S02-R038__G-S03-R039",
+    "G-S03-R039": "HG-G-S01-R035__G-S02-R038__G-S03-R039",
+    "G-S01-R036": "HG-G-S01-R036",
+    "G-S01-R037": "HG-G-S01-R037__G-S02-R020__G-S03-R010",
+    "G-S02-R020": "HG-G-S01-R037__G-S02-R020__G-S03-R010",
+    "G-S03-R010": "HG-G-S01-R037__G-S02-R020__G-S03-R010",
+    "G-S01-R038": "HG-G-S01-R038__G-S02-R023__G-S03-R004",
+    "G-S02-R023": "HG-G-S01-R038__G-S02-R023__G-S03-R004",
+    "G-S03-R004": "HG-G-S01-R038__G-S02-R023__G-S03-R004",
+    "G-S01-R039": "HG-G-S01-R039__G-S02-R011__G-S03-R007",
+    "G-S02-R011": "HG-G-S01-R039__G-S02-R011__G-S03-R007",
+    "G-S03-R007": "HG-G-S01-R039__G-S02-R011__G-S03-R007",
+    "G-S01-R040": "HG-G-S01-R040",
+    "G-S01-R041": "HG-G-S01-R041__G-S02-R043__G-S03-R040",
+    "G-S02-R043": "HG-G-S01-R041__G-S02-R043__G-S03-R040",
+    "G-S03-R040": "HG-G-S01-R041__G-S02-R043__G-S03-R040",
+    "G-S01-R042": "HG-G-S01-R042__G-S02-R027__G-S03-R013",
+    "G-S02-R027": "HG-G-S01-R042__G-S02-R027__G-S03-R013",
+    "G-S03-R013": "HG-G-S01-R042__G-S02-R027__G-S03-R013",
+    "G-S01-R043": "HG-G-S01-R043__G-S02-R041__G-S03-R037",
+    "G-S02-R041": "HG-G-S01-R043__G-S02-R041__G-S03-R037",
+    "G-S03-R037": "HG-G-S01-R043__G-S02-R041__G-S03-R037",
+    "G-S01-R044": "HG-G-S01-R044",
+    "G-S01-R045": "HG-G-S01-R045__G-S02-R030__G-S03-R027",
+    "G-S02-R030": "HG-G-S01-R045__G-S02-R030__G-S03-R027",
+    "G-S03-R027": "HG-G-S01-R045__G-S02-R030__G-S03-R027",
+    "G-S01-R046": "HG-G-S01-R046__G-S02-R024__G-S03-R012",
+    "G-S02-R024": "HG-G-S01-R046__G-S02-R024__G-S03-R012",
+    "G-S03-R012": "HG-G-S01-R046__G-S02-R024__G-S03-R012",
+    "G-S01-R047": "HG-G-S01-R047__G-S02-R022__G-S03-R005",
+    "G-S02-R022": "HG-G-S01-R047__G-S02-R022__G-S03-R005",
+    "G-S03-R005": "HG-G-S01-R047__G-S02-R022__G-S03-R005",
+    "G-S01-R048": "HG-G-S01-R048",
+    "G-S01-R049": "HG-G-S01-R049__G-S02-R042",
+    "G-S02-R042": "HG-G-S01-R049__G-S02-R042",
+    "G-S01-R050": "HG-G-S01-R050__G-S02-R039__G-S03-R026",
+    "G-S02-R039": "HG-G-S01-R050__G-S02-R039__G-S03-R026",
+    "G-S03-R026": "HG-G-S01-R050__G-S02-R039__G-S03-R026",
+    "G-S02-R031": "HG-G-S02-R031__G-S03-R006",
+    "G-S03-R006": "HG-G-S02-R031__G-S03-R006",
+    "G-S02-R047": "HG-G-S02-R047__G-S03-R028",
+    "G-S03-R028": "HG-G-S02-R047__G-S03-R028",
+    "G-S02-R048": "HG-G-S02-R048__G-S03-R045",
+    "G-S03-R045": "HG-G-S02-R048__G-S03-R045",
+    "G-S02-R049": "HG-G-S02-R049__G-S03-R047",
+    "G-S03-R047": "HG-G-S02-R049__G-S03-R047",
+    "G-S02-R050": "HG-G-S02-R050__G-S03-R049",
+    "G-S03-R049": "HG-G-S02-R050__G-S03-R049",
+    "G-S03-R048": "HG-G-S03-R048"
+  }
+}
