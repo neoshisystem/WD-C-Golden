@@ -1,450 +1,10 @@
 {
   "version": 1,
   "id_prefix": "GOLDEN-UI-",
-  "identity_semantics": "presentation-only adapter; canonical GOLDENCROWN player_id remains null",
+  "identity_semantics": "presentation-only compatibility key derived from the exact display name; canonical GOLDENCROWN player_id remains null and rename/identity resolution is not inferred.",
   "players": [
     {
-      "player_id": "GOLDEN-UI-0434cd87",
-      "display_name": "gilacecombat3",
-      "status": "former",
-      "role": "Member",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S01"
-    },
-    {
-      "player_id": "GOLDEN-UI-08cc86f7",
-      "display_name": "hisystem",
-      "status": "former",
-      "role": "Member",
-      "first_seen_snapshot": "S02",
-      "last_seen_snapshot": "S02"
-    },
-    {
-      "player_id": "GOLDEN-UI-08e3b49c",
-      "display_name": "Mehdi",
-      "status": "active",
-      "role": "Member",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-09ad3b9d",
-      "display_name": "Eren",
-      "status": "active",
-      "role": "Member",
-      "first_seen_snapshot": "S02",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-1b1f438a",
-      "display_name": "MyLord",
-      "status": "active",
-      "role": "Member",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-1c97b387",
-      "display_name": "Hunter",
-      "status": "active",
-      "role": "Member",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-20146c0f",
-      "display_name": "ali",
-      "status": "active",
-      "role": "Member",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-222b728d",
-      "display_name": "ADNAN",
-      "status": "active",
-      "role": "Member",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-228f63df",
-      "display_name": "ADA",
-      "status": "active",
-      "role": "Member",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-2a78075a",
-      "display_name": "ایران",
-      "status": "active",
-      "role": "Member",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-398a64ef",
-      "display_name": "ALI",
-      "status": "active",
-      "role": "Member",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-3aea04ed",
-      "display_name": "mohammad",
-      "status": "active",
-      "role": "Member",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-3fa0be0c",
-      "display_name": "Worker Ant",
-      "status": "active",
-      "role": "Member",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-4d1964e1",
-      "display_name": "saied",
-      "status": "active",
-      "role": "Member",
-      "first_seen_snapshot": "S03",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-4f6131d3",
-      "display_name": "Extreme",
-      "status": "former",
-      "role": "Member",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S02"
-    },
-    {
-      "player_id": "GOLDEN-UI-57d7de44",
-      "display_name": "007",
-      "status": "former",
-      "role": "Member",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S01"
-    },
-    {
-      "player_id": "GOLDEN-UI-5cd5c824",
-      "display_name": "تکاور",
-      "status": "active",
-      "role": "Member",
-      "first_seen_snapshot": "S02",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-6090c5a7",
-      "display_name": "SORENA",
-      "status": "active",
-      "role": "Member",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-653e1f20",
-      "display_name": "SOMMER",
-      "status": "former",
-      "role": "Member",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S01"
-    },
-    {
-      "player_id": "GOLDEN-UI-6584895d",
-      "display_name": "حسين",
-      "status": "active",
-      "role": "Member",
-      "first_seen_snapshot": "S02",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-663f2128",
-      "display_name": "khoozestan212",
-      "status": "former",
-      "role": "Member",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S01"
-    },
-    {
-      "player_id": "GOLDEN-UI-68ce691b",
-      "display_name": "ARM CR7",
-      "status": "active",
-      "role": "Member",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-745c00f3",
-      "display_name": "F 35",
-      "status": "active",
-      "role": "Co-Leader",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-766f236c",
-      "display_name": "Armin Lukas",
-      "status": "active",
-      "role": "Member",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-77810fed",
-      "display_name": "Mehrad_Persion",
-      "status": "active",
-      "role": "Member",
-      "first_seen_snapshot": "S02",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-7798bfbf",
-      "display_name": "محمد",
-      "status": "active",
-      "role": "Member",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-783c48e6",
-      "display_name": "Jul",
-      "status": "active",
-      "role": "Member",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-7b68e46d",
-      "display_name": "Morteza Safari",
-      "status": "active",
-      "role": "Member",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-88e48dfa",
-      "display_name": "kaveh",
-      "status": "active",
-      "role": "Member",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-9072ba2b",
-      "display_name": "NaViD",
-      "status": "active",
-      "role": "Member",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-9a3f6fb0",
-      "display_name": "Alini",
-      "status": "active",
-      "role": "Member",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-9e742439",
-      "display_name": "KSIBAN 00",
-      "status": "active",
-      "role": "Member",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-9ffb39ae",
-      "display_name": "Masoudpas_4612",
-      "status": "active",
-      "role": "Member",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-a1fe3ef9",
-      "display_name": "persian boy",
-      "status": "active",
-      "role": "Member",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-a7fa62b0",
-      "display_name": "hamid.iran",
-      "status": "active",
-      "role": "Member",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-aa6526af",
-      "display_name": "Shahram68",
-      "status": "active",
-      "role": "Member",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-b01b4a3a",
-      "display_name": "ehsan",
-      "status": "active",
-      "role": "Co-Leader",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-b0365625",
-      "display_name": "ДАВИД",
-      "status": "active",
-      "role": "Member",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-b6aaeca4",
-      "display_name": "majid",
-      "status": "active",
-      "role": "Member",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-b7a17725",
-      "display_name": "meysam javid",
-      "status": "active",
-      "role": "Member",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-bb9c843a",
-      "display_name": "Cpt. Of Persia",
-      "status": "active",
-      "role": "Leader",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-bcfbba19",
-      "display_name": "Elvin",
-      "status": "former",
-      "role": "Member",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S01"
-    },
-    {
-      "player_id": "GOLDEN-UI-bdc6a56b",
-      "display_name": "JoseGregorio",
-      "status": "former",
-      "role": "Member & MVP",
-      "first_seen_snapshot": "S02",
-      "last_seen_snapshot": "S02"
-    },
-    {
-      "player_id": "GOLDEN-UI-be80058f",
-      "display_name": "hisystem",
-      "status": "active",
-      "role": "Co-Leader",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-c0c989be",
-      "display_name": "Sajjad",
-      "status": "active",
-      "role": "Member",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-c32b2006",
-      "display_name": "RADMAN",
-      "status": "active",
-      "role": "Member",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-c7f5a6cb",
-      "display_name": "hamedir",
-      "status": "active",
-      "role": "Member",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-c8d718e2",
-      "display_name": "boz qurd",
-      "status": "active",
-      "role": "Member",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-cec317c1",
-      "display_name": "Reza_Gh",
-      "status": "active",
-      "role": "Member",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-d280f340",
-      "display_name": "حمید رضا",
-      "status": "active",
-      "role": "Member",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-d44e7f4a",
-      "display_name": "paradise",
-      "status": "active",
-      "role": "Member",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-d9e8ec1a",
-      "display_name": "Commander",
-      "status": "active",
-      "role": "Member & MVP",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-e1d797c9",
-      "display_name": "Dariush",
-      "status": "active",
-      "role": "Elder",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-e4d80454",
-      "display_name": "MaZmoud",
-      "status": "active",
-      "role": "Member",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-e8c357de",
-      "display_name": "Ardalan",
-      "status": "active",
-      "role": "Member",
-      "first_seen_snapshot": "S01",
-      "last_seen_snapshot": "S03"
-    },
-    {
-      "player_id": "GOLDEN-UI-f3520ca3",
+      "player_id": "GOLDEN-UI-024b7d87",
       "display_name": "ایرانی باوقار",
       "status": "active",
       "role": "Member",
@@ -452,7 +12,311 @@
       "last_seen_snapshot": "S03"
     },
     {
-      "player_id": "GOLDEN-UI-f788228c",
+      "player_id": "GOLDEN-UI-0371cab2",
+      "display_name": "SOMMER",
+      "status": "former",
+      "role": "Member",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S01"
+    },
+    {
+      "player_id": "GOLDEN-UI-03ee2725",
+      "display_name": "Cpt. Of Persia",
+      "status": "active",
+      "role": "Leader",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-0fcae438",
+      "display_name": "kaveh",
+      "status": "active",
+      "role": "Member",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-1025470b",
+      "display_name": "ali",
+      "status": "active",
+      "role": "Member",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-12827a7b",
+      "display_name": "محمد",
+      "status": "active",
+      "role": "Member",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-17bd3755",
+      "display_name": "mohammad",
+      "status": "active",
+      "role": "Member",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-1ead477d",
+      "display_name": "meysam javid",
+      "status": "active",
+      "role": "Member",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-2156ad2a",
+      "display_name": "khoozestan212",
+      "status": "former",
+      "role": "Member",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S01"
+    },
+    {
+      "player_id": "GOLDEN-UI-2cd6c9c2",
+      "display_name": "Alini",
+      "status": "active",
+      "role": "Member",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-3323c1a4",
+      "display_name": "Ardalan",
+      "status": "active",
+      "role": "Member",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-34179c93",
+      "display_name": "Hunter",
+      "status": "active",
+      "role": "Member",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-3ee94798",
+      "display_name": "ایران",
+      "status": "active",
+      "role": "Member",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-44002084",
+      "display_name": "Sajjad",
+      "status": "active",
+      "role": "Member",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-44c12ebc",
+      "display_name": "Jul",
+      "status": "active",
+      "role": "Member",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-462633c8",
+      "display_name": "paradise",
+      "status": "active",
+      "role": "Member",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-52618d6b",
+      "display_name": "ALI",
+      "status": "active",
+      "role": "Member",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-5506c41e",
+      "display_name": "MaZmoud",
+      "status": "active",
+      "role": "Member",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-570f4191",
+      "display_name": "saied",
+      "status": "active",
+      "role": "Member",
+      "first_seen_snapshot": "S03",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-5fc574a5",
+      "display_name": "Commander",
+      "status": "active",
+      "role": "Member & MVP",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-6247b47d",
+      "display_name": "ДАВИД",
+      "status": "active",
+      "role": "Member",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-6538e5ee",
+      "display_name": "majid",
+      "status": "active",
+      "role": "Member",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-6722d45c",
+      "display_name": "RADMAN",
+      "status": "active",
+      "role": "Member",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-67a3a06e",
+      "display_name": "تکاور",
+      "status": "active",
+      "role": "Member",
+      "first_seen_snapshot": "S02",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-691127d0",
+      "display_name": "boz qurd",
+      "status": "active",
+      "role": "Member",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-6f4f48ae",
+      "display_name": "JoseGregorio",
+      "status": "former",
+      "role": "Member & MVP",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S02"
+    },
+    {
+      "player_id": "GOLDEN-UI-734bfd33",
+      "display_name": "SORENA",
+      "status": "active",
+      "role": "Member",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-7889cafa",
+      "display_name": "ehsan",
+      "status": "active",
+      "role": "Co-Leader",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-7a75541b",
+      "display_name": "ADA",
+      "status": "active",
+      "role": "Member",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-847c93ab",
+      "display_name": "Shahram68",
+      "status": "active",
+      "role": "Member",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-86773cf7",
+      "display_name": "F 35",
+      "status": "active",
+      "role": "Co-Leader",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-97c42552",
+      "display_name": "حمید رضا",
+      "status": "active",
+      "role": "Member",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-991f32c2",
+      "display_name": "hamid.iran",
+      "status": "active",
+      "role": "Member",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-9d33274f",
+      "display_name": "ARM CR7",
+      "status": "active",
+      "role": "Member",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-9d6edc05",
+      "display_name": "Eren",
+      "status": "active",
+      "role": "Member",
+      "first_seen_snapshot": "S02",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-a78c5539",
+      "display_name": "KSIBAN 00",
+      "status": "active",
+      "role": "Member",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-b92e6855",
+      "display_name": "Mehrad_Persion",
+      "status": "active",
+      "role": "Member",
+      "first_seen_snapshot": "S02",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-c24fca93",
+      "display_name": "gilacecombat3",
+      "status": "former",
+      "role": "Member",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S01"
+    },
+    {
+      "player_id": "GOLDEN-UI-c2b2cc45",
+      "display_name": "حسين",
+      "status": "active",
+      "role": "Member",
+      "first_seen_snapshot": "S02",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-c749a5e6",
       "display_name": "Power",
       "status": "active",
       "role": "Member",
@@ -460,12 +324,132 @@
       "last_seen_snapshot": "S03"
     },
     {
-      "player_id": "GOLDEN-UI-fbf079e4",
-      "display_name": "JoseGregorio",
+      "player_id": "GOLDEN-UI-c9b3a4f1",
+      "display_name": "Reza_Gh",
+      "status": "active",
+      "role": "Member",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-cbee4219",
+      "display_name": "Elvin",
       "status": "former",
       "role": "Member",
       "first_seen_snapshot": "S01",
       "last_seen_snapshot": "S01"
+    },
+    {
+      "player_id": "GOLDEN-UI-cfb4a7b7",
+      "display_name": "Extreme",
+      "status": "former",
+      "role": "Member",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S02"
+    },
+    {
+      "player_id": "GOLDEN-UI-d81bbb7f",
+      "display_name": "hamedir",
+      "status": "active",
+      "role": "Member",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-d9857adf",
+      "display_name": "NaViD",
+      "status": "active",
+      "role": "Member",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-dbc9c143",
+      "display_name": "hisystem",
+      "status": "active",
+      "role": "Co-Leader",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-e2cb360e",
+      "display_name": "007",
+      "status": "former",
+      "role": "Member",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S01"
+    },
+    {
+      "player_id": "GOLDEN-UI-ea1cbdd5",
+      "display_name": "Morteza Safari",
+      "status": "active",
+      "role": "Member",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-ea8aa279",
+      "display_name": "persian boy",
+      "status": "active",
+      "role": "Member",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-eafa5fcd",
+      "display_name": "Dariush",
+      "status": "active",
+      "role": "Elder",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-f51a84f5",
+      "display_name": "ADNAN",
+      "status": "active",
+      "role": "Member",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-f610b7b6",
+      "display_name": "Mehdi",
+      "status": "active",
+      "role": "Member",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-f7d6db88",
+      "display_name": "MyLord",
+      "status": "active",
+      "role": "Member",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-fc82d3b4",
+      "display_name": "Masoudpas_4612",
+      "status": "active",
+      "role": "Member",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-fc91a066",
+      "display_name": "Worker Ant",
+      "status": "active",
+      "role": "Member",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S03"
+    },
+    {
+      "player_id": "GOLDEN-UI-fee89346",
+      "display_name": "Armin Lukas",
+      "status": "active",
+      "role": "Member",
+      "first_seen_snapshot": "S01",
+      "last_seen_snapshot": "S03"
     }
   ]
 }
