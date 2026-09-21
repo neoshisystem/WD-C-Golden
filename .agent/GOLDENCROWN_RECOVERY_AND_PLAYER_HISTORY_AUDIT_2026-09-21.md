@@ -66,11 +66,11 @@ The branch contains **17 commits after the merge base**. There is no PR.
 
 ### UI sync commits
 
-- `e4c6bd08...` — Sync PERSIA leaderboard UI behavior: `viewer.js`
-- `baee6c020...` — Sync PERSIA leaderboard UI behavior: `viewer-data.js`
-- `497e36d3...` — Sync PERSIA leaderboard UI behavior: `player-profile.js`
-- `f064d980...` — Sync PERSIA leaderboard UI behavior: `player-directory.js`
-- `d22250d1...` — Sync PERSIA leaderboard UI behavior: `member-history.js`
+- `e4c6bd08a06b1b82e6c0fa8ee342d5c95a05a62c` — Sync PERSIA leaderboard UI behavior: `viewer.js`
+- `baee6c0209d26ac566c4842f6d9981b6a33393c9` — Sync PERSIA leaderboard UI behavior: `viewer-data.js`
+- `497e36d3c86d10b71edafdb0ea7bd8af53c1bf3d` — Sync PERSIA leaderboard UI behavior: `player-profile.js`
+- `f064d980039c95f991ef475764c46c454cce23a3` — Sync PERSIA leaderboard UI behavior: `player-directory.js`
+- `d22250d1e0e52dcd48f6c3c5be842228ecd57ac1` — Sync PERSIA leaderboard UI behavior: `member-history.js`
 
 **Disposition:** **REWORK**, not blind merge.
 
@@ -78,20 +78,20 @@ Reason: the intent is useful and matches the requested PERSIA behavioral referen
 
 ### Compatibility-data commits
 
-- `50f39879...` — `players.json`
-- `1a20ea48...` — `player-observations.json`
-- `75969590...` — `player-observations-history.json`
-- `9c3d046e...` — `snapshots.json`
-- `fd9b008b...` — `leagues.json`
-- `ae6e4acc...` — `memberships.json`
+- `50f398799354e31d23ba92a85df60c6fa50ccc6b` — `players.json`
+- `1a20ea48092f097fc3b02781f49d9d2a2c28d1bd` — `player-observations.json`
+- `75969590d35e1c71a75d173886f15de32f61ad94` — `player-observations-history.json`
+- `9c3d046eff8679ffac2a85725f7a6925e6476044` — `snapshots.json`
+- `fd9b008b90839bfc6ffcd738acc7c746d14ab0f6` — `leagues.json`
+- `ae6e4acc0c1c838ac231b90f7ad4eef9e400c15e` — `memberships.json`
 
 Follow-up refinement commits:
 
-- `8954ade0...` — refine `players.json`
-- `68667a28...` — refine `player-observations-history.json`
-- `00d90ceb...` — refine `player-observations.json`
-- `f9d14a97...` — refine `snapshots.json`
-- `7cbd62a0...` — refine `leagues.json`
+- `8954ade03b8aa6024937ebca6a7ccef2fd6e842a` — refine `players.json`
+- `68667a28d714b0d5a69c1024ee730e5a63811244` — refine `player-observations-history.json`
+- `00d90cebf71874197cc6feaaaa8b96bfcea57e89` — refine `player-observations.json`
+- `f9d14a97a73380689ca712b0cc74a0cb68b79c87` — refine `snapshots.json`
+- `7cbd62a0a2cbbe18acd243a80fca0e25b06e18a6` — refine `leagues.json`
 
 **Disposition:** **DROP as a data/history layer.**
 
@@ -101,7 +101,7 @@ This is especially unsafe because Golden already contains identity-sensitive cas
 
 ### Report removal
 
-- `ad0635f2...` — Remove non-PERSIA GOLDENCROWN report page from leaderboard UI surface.
+- `ad0635f2a8093224e640a54f825e24885434edbb` — Remove non-PERSIA GOLDENCROWN report page from leaderboard UI surface.
 
 **Disposition:** **UNKNOWN / DO NOT MERGE.**
 
@@ -134,6 +134,19 @@ The previous handoff correctly identified several unfinished areas, and the curr
 5. **`report.html` status remains unresolved.**
    - It is not removed.
    - No safe proof exists that it should be removed.
+
+---
+
+# 4-D. Not actually implemented
+
+The following earlier-intended outcomes are explicitly **NOT IMPLEMENTED** on current `main`:
+
+- Full pixel/behavior parity across every PERSIA surface (especially Players, Member History, and any secondary report surface) is not established.
+- Permanent Golden `player_id` assignment for G-S01/G-S02/G-S03 is not implemented; this remains intentionally null.
+- Removal of `clan-leaderboard/report.html` is not implemented; the file remains on `main` because its safe removal was not proven.
+- Direct live-site PASS verification is not implemented/available through the current web retrieval path.
+
+These are deliberate UNKNOWN/OPEN states, not silently assumed complete.
 
 ---
 
