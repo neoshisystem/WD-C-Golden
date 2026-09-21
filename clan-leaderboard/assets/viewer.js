@@ -39,7 +39,54 @@
     return members;
   };
 
-  const snapshotPath = requestedSource || '../data/canonical/G-S02.json'; fetchJson(snapshotPath).then(snapshot=>{const isBaseline=snapshot.snapshot_id==='G-S01';const target={...snapshot,members:snapshot.member_count,date_persian:snapshot.official_timestamp_persian.split(' ')[0],time_iran:snapshot.official_timestamp_persian.split(' ')[1],type:isBaseline?'baseline':'period'};const canonical=viewerData.buildMembers(snapshot);const metrics={baseline_snapshot_id:'G-S01',league_week:snapshot.snapshot_id,period_clan_medals_change:isBaseline?0:1451196,period_kills_change:isBaseline?0:128098,weekly_clan_medals_earned:isBaseline?0:1451196,weekly_kills_earned:isBaseline?0:128098};render(target,metrics,canonical.members,requestedMode,'canonical',[target]);}).catch(error=>{console.error(error);root.innerHTML='<p class="error">دادهٔ Snapshot رسمی GOLDENCROWN قابل بارگذاری نیست.</p>';});
+  Promise.all([
+    fetchJson('data/player-observations.json'),
+    fetchJson('data/player-observations-history.json'),
+    fetchJson('data/player-observations-history-s05.json').catch(() => ({ snapshots: {} })),
+    fetchJson('data/player-observations-history-s06.json').catch(() => ({ snapshots: {} })),
+    fetchJson('data/players.json'),
+    fetchJson('data/snapshots.json'),
+    fetchJson('data/leagues.json')
+  ]).then(([currentData, historyData, historyS05, historyS06, playersData, snapshotsData, leaguesData]) => {
+    const snapshots = [...(snapshotsData.snapshots || [])].sort((a, b) => a.captured_at_utc.localeCompare(b.captured_at_utc));
+    const basename = value => String(value || '').split('/').pop();
+    const sourceMatch = requestedSource ? snapshots.find(snapshot => snapshot.source_report && basename(snapshot.source_report) === basename(requestedSource)) : null;
+    const snapshotKey = sourceMatch?.snapshot_id || snapshotsData.current_snapshot_id;
+    const target = snapshots.find(snapshot => snapshot.snapshot_id === snapshotKey) || snapshots[snapshots.length - 1];
+    if (!target) throw new Error('snapshot');
+
+    const observationSets = [historyData, historyS05, historyS06, currentData];
+    const metrics = performance.computeAll(snapshotsData, observationSets, leaguesData)[target.snapshot_id] || {
+      league_week: performance.leagueWeekId(target.captured_at_utc, leaguesData.reset),
+      baseline_snapshot_id: target.snapshot_id,
+      period_clan_medals_change: 0,
+      period_kills_change: 0,
+      period_players: {},
+      weekly_clan_medals_earned: 0,
+      weekly_kills_earned: 0
+    };
+
+    const expectedMembers = Number(target.members || 0);
+    const canonical = viewerData.buildMembers(target.snapshot_id, observationSets, playersData, metrics);
+    if (canonical.members.length === expectedMembers) {
+      render(target, metrics, canonical.members, requestedMode, 'canonical', snapshots);
+      return;
+    }
+
+    fetchText(fallbackSource).then(sourceHtml => {
+      const fallbackMembers = parseSourceMembers(sourceHtml);
+      if (!fallbackMembers.length) throw new Error(`${target.snapshot_id}: canonical rows ${canonical.members.length}/${expectedMembers}; fallback source has no grid`);
+      render(target, metrics, fallbackMembers, requestedMode, 'fallback', snapshots);
+    }).catch(error => { throw error; });
+  }).catch(error => {
+    console.error(error);
+    fetchText(fallbackSource).then(sourceHtml => {
+      const members = parseSourceMembers(sourceHtml);
+      if (!members.length) throw error;
+      root.innerHTML = `<section class="hero"><span class="badge">GOLDENCROWN · Leaderboard fallback</span><h1>جدول جامع عملکرد و تغییرات اعضای کلن</h1><p>نمایش پشتیبان فعال است؛ دادهٔ canonical در دسترس نیست.</p></section><div class="count">${members.length} نتیجه</div>${fallbackTable(members)}`;
+    }).catch(() => { root.innerHTML = '<p class="error">منبع داده قابل بارگذاری نیست.</p>'; });
+  });
+
   function fallbackTable(members) {
     const keys = viewerData.KEYS;
     return `<div class="table-wrap"><table><thead><tr>${['رتبه','نام کاربری','سمت',...keys].map(key => `<th>${key}</th>`).join('')}</tr></thead><tbody>${members.map(member => `<tr><td>${esc(member.rank)}</td><td>${esc(member.name)}</td><td>${esc(member.role)}</td>${keys.map(key => `<td>${esc(member.stats[key] || '—')}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
@@ -47,7 +94,7 @@
 
   function render(target, metrics, members, mode, dataMode, snapshots) {
     const keys = viewerData.KEYS.slice();
-    const playerById = new Map(members.map(member => [member.name, member.snapshot_member_key || member.player_id]));
+    const playerById = new Map(members.filter(member => member.player_id).map(member => [member.name, member.player_id]));
     const playerName = name => { const id = playerById.get(name); return id ? `<a class="player-name-link" href="${navUrl('player.html', `?id=${encodeURIComponent(id)}`)}">${esc(name)}</a>` : esc(name); };
     const index = snapshots.findIndex(snapshot => snapshot.snapshot_id === target.snapshot_id);
     const previous = index > 0 ? snapshots[index - 1] : null;
