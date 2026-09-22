@@ -2,13 +2,13 @@
   "version": 1,
   "dataset": "goldencrown-leaderboard",
   "status": "current-published",
-  "current_snapshot_id": "G-S03",
+  "current_snapshot_id": "G-S04",
   "files": {
-    "current_snapshot": "data/canonical/G-S03.json",
-    "source_normalization": "data/snapshots/G-S03.json",
+    "current_snapshot": "data/canonical/G-S04.json",
+    "source_normalization": "data/snapshots/G-S04.json",
     "common_schema": "schemas/common-snapshot.schema.json",
     "golden_source_schema": "schemas/golden-snapshot.schema.json",
-    "evidence_report": "docs/G-S03_EVIDENCE_REPORT.md"
+    "evidence_report": "docs/G-S04_EVIDENCE_REPORT.md"
   },
   "rules": {
     "player_id_is_stable_identity_key": true,
@@ -21,11 +21,14 @@
     "g_s02_permanent_player_ids_assigned": false,
     "g_s02_snapshot_member_keys_unique": true,
     "g_s03_permanent_player_ids_assigned": false,
-    "g_s03_snapshot_member_keys_unique": true
+    "g_s03_snapshot_member_keys_unique": true,
+    "g_s04_permanent_player_ids_assigned": false,
+    "g_s04_snapshot_member_keys_unique": true
   },
   "published_snapshot_ids": [
     "G-S01",
     "G-S02",
-    "G-S03"
+    "G-S03",
+    "G-S04"
   ]
 }

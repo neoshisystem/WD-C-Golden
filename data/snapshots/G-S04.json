@@ -1,0 +1,498 @@
+{
+  "snapshot_id": "G-S04",
+  "clan": "GOLDENCROWN",
+  "official_timestamp_persian": "1405-06-30 24:00",
+  "member_count": 50,
+  "baseline_rule": {
+    "total_kills": "cumulative",
+    "clan_medals": "cumulative",
+    "kills_delta": null,
+    "clan_medals_delta": null
+  },
+  "fields": [
+    "rank",
+    "display_name",
+    "role",
+    "level",
+    "current_league_medals",
+    "total_kills",
+    "clan_medals_total"
+  ],
+  "members": [
+    {
+      "rank": 1,
+      "display_name": "ehsan",
+      "role": "Co-Leader",
+      "level": 69,
+      "current_league_medals": 422488,
+      "total_kills": 266355,
+      "clan_medals_total": 1757650
+    },
+    {
+      "rank": 2,
+      "display_name": "Cpt. Of Persia",
+      "role": "Leader",
+      "level": 49,
+      "current_league_medals": 393292,
+      "total_kills": 302321,
+      "clan_medals_total": 393292
+    },
+    {
+      "rank": 3,
+      "display_name": "ДАВИД",
+      "role": "Member",
+      "level": 231,
+      "current_league_medals": 350132,
+      "total_kills": 785518,
+      "clan_medals_total": 358154
+    },
+    {
+      "rank": 4,
+      "display_name": "paradise",
+      "role": "Member",
+      "level": 28,
+      "current_league_medals": 285320,
+      "total_kills": 153580,
+      "clan_medals_total": 285320
+    },
+    {
+      "rank": 5,
+      "display_name": "Eren",
+      "role": "Member",
+      "level": 25,
+      "current_league_medals": 284806,
+      "total_kills": 164179,
+      "clan_medals_total": 284806
+    },
+    {
+      "rank": 6,
+      "display_name": "Commander",
+      "role": "Member & MVP",
+      "level": 58,
+      "current_league_medals": 276973,
+      "total_kills": 255040,
+      "clan_medals_total": 276973
+    },
+    {
+      "rank": 7,
+      "display_name": "kaveh",
+      "role": "Member",
+      "level": 40,
+      "current_league_medals": 266592,
+      "total_kills": 179502,
+      "clan_medals_total": 266592
+    },
+    {
+      "rank": 8,
+      "display_name": "F 35",
+      "role": "Co-Leader",
+      "level": 54,
+      "current_league_medals": 256619,
+      "total_kills": 245362,
+      "clan_medals_total": 1264250
+    },
+    {
+      "rank": 9,
+      "display_name": "MaZmoud",
+      "role": "Member",
+      "level": 70,
+      "current_league_medals": 240401,
+      "total_kills": 172088,
+      "clan_medals_total": 313752
+    },
+    {
+      "rank": 10,
+      "display_name": "SORENA",
+      "role": "Member",
+      "level": 28,
+      "current_league_medals": 189461,
+      "total_kills": 142268,
+      "clan_medals_total": 189461
+    },
+    {
+      "rank": 11,
+      "display_name": "Alini",
+      "role": "Member",
+      "level": 53,
+      "current_league_medals": 181314,
+      "total_kills": 348875,
+      "clan_medals_total": 181314
+    },
+    {
+      "rank": 12,
+      "display_name": "Ardalan",
+      "role": "Member",
+      "level": 37,
+      "current_league_medals": 179493,
+      "total_kills": 143619,
+      "clan_medals_total": 179493
+    },
+    {
+      "rank": 13,
+      "display_name": "Worker Ant",
+      "role": "Member",
+      "level": 59,
+      "current_league_medals": 163695,
+      "total_kills": 252040,
+      "clan_medals_total": 1155667
+    },
+    {
+      "rank": 14,
+      "display_name": "hisystem",
+      "role": "Co-Leader",
+      "level": 27,
+      "current_league_medals": 157971,
+      "total_kills": 185959,
+      "clan_medals_total": 157971
+    },
+    {
+      "rank": 15,
+      "display_name": "mohammad",
+      "role": "Member",
+      "level": 19,
+      "current_league_medals": 156995,
+      "total_kills": 121341,
+      "clan_medals_total": 156995
+    },
+    {
+      "rank": 16,
+      "display_name": "RADMAN",
+      "role": "Member",
+      "level": 50,
+      "current_league_medals": 152149,
+      "total_kills": 214568,
+      "clan_medals_total": 765247
+    },
+    {
+      "rank": 17,
+      "display_name": "Dariush",
+      "role": "Elder",
+      "level": 34,
+      "current_league_medals": 146644,
+      "total_kills": 126048,
+      "clan_medals_total": 710721
+    },
+    {
+      "rank": 18,
+      "display_name": "boz qurd",
+      "role": "Member",
+      "level": 26,
+      "current_league_medals": 137090,
+      "total_kills": 88812,
+      "clan_medals_total": 174552
+    },
+    {
+      "rank": 19,
+      "display_name": "hamedir",
+      "role": "Member",
+      "level": 31,
+      "current_league_medals": 129604,
+      "total_kills": 130108,
+      "clan_medals_total": 129604
+    },
+    {
+      "rank": 20,
+      "display_name": "NaViD",
+      "role": "Member",
+      "level": 49,
+      "current_league_medals": 122767,
+      "total_kills": 170876,
+      "clan_medals_total": 122767
+    },
+    {
+      "rank": 21,
+      "display_name": "ARM CR7",
+      "role": "Member",
+      "level": 36,
+      "current_league_medals": 122340,
+      "total_kills": 143319,
+      "clan_medals_total": 204774
+    },
+    {
+      "rank": 22,
+      "display_name": "حسين",
+      "role": "Member",
+      "level": 10,
+      "current_league_medals": 118759,
+      "total_kills": 219898,
+      "clan_medals_total": 118759
+    },
+    {
+      "rank": 23,
+      "display_name": "Power",
+      "role": "Member",
+      "level": 36,
+      "current_league_medals": 117395,
+      "total_kills": 104332,
+      "clan_medals_total": 168339
+    },
+    {
+      "rank": 24,
+      "display_name": "Shahram68",
+      "role": "Member",
+      "level": 39,
+      "current_league_medals": 114264,
+      "total_kills": 150554,
+      "clan_medals_total": 114264
+    },
+    {
+      "rank": 25,
+      "display_name": "ADA",
+      "role": "Member",
+      "level": 28,
+      "current_league_medals": 113838,
+      "total_kills": 134019,
+      "clan_medals_total": 161318
+    },
+    {
+      "rank": 26,
+      "display_name": "Masoudpas_4612",
+      "role": "Member",
+      "level": 28,
+      "current_league_medals": 104408,
+      "total_kills": 144288,
+      "clan_medals_total": 341310
+    },
+    {
+      "rank": 27,
+      "display_name": "ایران",
+      "role": "Member",
+      "level": 35,
+      "current_league_medals": 101792,
+      "total_kills": 84765,
+      "clan_medals_total": 330092
+    },
+    {
+      "rank": 28,
+      "display_name": "ALI",
+      "role": "Member",
+      "level": 46,
+      "current_league_medals": 99217,
+      "total_kills": 107789,
+      "clan_medals_total": 99217
+    },
+    {
+      "rank": 29,
+      "display_name": "Jul",
+      "role": "Member",
+      "level": 26,
+      "current_league_medals": 97479,
+      "total_kills": 89234,
+      "clan_medals_total": 180525
+    },
+    {
+      "rank": 30,
+      "display_name": "majid",
+      "role": "Member",
+      "level": 38,
+      "current_league_medals": 76721,
+      "total_kills": 144095,
+      "clan_medals_total": 353795
+    },
+    {
+      "rank": 31,
+      "display_name": "hamid.iran",
+      "role": "Member",
+      "level": 14,
+      "current_league_medals": 75886,
+      "total_kills": 45788,
+      "clan_medals_total": 346740
+    },
+    {
+      "rank": 32,
+      "display_name": "MyLord",
+      "role": "Member",
+      "level": 39,
+      "current_league_medals": 73146,
+      "total_kills": 284200,
+      "clan_medals_total": 249383
+    },
+    {
+      "rank": 33,
+      "display_name": "Armin Lukas",
+      "role": "Member",
+      "level": 37,
+      "current_league_medals": 70213,
+      "total_kills": 140570,
+      "clan_medals_total": 80301
+    },
+    {
+      "rank": 34,
+      "display_name": "ADNAN",
+      "role": "Member",
+      "level": 37,
+      "current_league_medals": 67564,
+      "total_kills": 159943,
+      "clan_medals_total": 256535
+    },
+    {
+      "rank": 35,
+      "display_name": "Reza_Gh",
+      "role": "Member",
+      "level": 25,
+      "current_league_medals": 67247,
+      "total_kills": 84738,
+      "clan_medals_total": 347197
+    },
+    {
+      "rank": 36,
+      "display_name": "محمد",
+      "role": "Member",
+      "level": 20,
+      "current_league_medals": 64594,
+      "total_kills": 67242,
+      "clan_medals_total": 372998
+    },
+    {
+      "rank": 37,
+      "display_name": "meysam javid",
+      "role": "Member",
+      "level": 34,
+      "current_league_medals": 63528,
+      "total_kills": 85678,
+      "clan_medals_total": 63528
+    },
+    {
+      "rank": 38,
+      "display_name": "ali",
+      "role": "Member",
+      "level": 28,
+      "current_league_medals": 63289,
+      "total_kills": 48192,
+      "clan_medals_total": 63289
+    },
+    {
+      "rank": 39,
+      "display_name": "Hunter",
+      "role": "Member",
+      "level": 26,
+      "current_league_medals": 62282,
+      "total_kills": 61513,
+      "clan_medals_total": 310952
+    },
+    {
+      "rank": 40,
+      "display_name": "saied",
+      "role": "Member",
+      "level": 21,
+      "current_league_medals": 55267,
+      "total_kills": 64447,
+      "clan_medals_total": 55267
+    },
+    {
+      "rank": 41,
+      "display_name": "ایرانی باوقار",
+      "role": "Member",
+      "level": 25,
+      "current_league_medals": 50242,
+      "total_kills": 118504,
+      "clan_medals_total": 50242
+    },
+    {
+      "rank": 42,
+      "display_name": "Sajjad",
+      "role": "Member",
+      "level": 48,
+      "current_league_medals": 49824,
+      "total_kills": 182525,
+      "clan_medals_total": 424578
+    },
+    {
+      "rank": 43,
+      "display_name": "Mehdi",
+      "role": "Member",
+      "level": 66,
+      "current_league_medals": 48763,
+      "total_kills": 221984,
+      "clan_medals_total": 48763
+    },
+    {
+      "rank": 44,
+      "display_name": "Morteza Safari",
+      "role": "Member",
+      "level": 46,
+      "current_league_medals": 43583,
+      "total_kills": 125570,
+      "clan_medals_total": 207862
+    },
+    {
+      "rank": 45,
+      "display_name": "KSIBAN 00",
+      "role": "Member",
+      "level": 35,
+      "current_league_medals": 41903,
+      "total_kills": 67722,
+      "clan_medals_total": 80118
+    },
+    {
+      "rank": 46,
+      "display_name": "حمید رضا",
+      "role": "Member",
+      "level": 48,
+      "current_league_medals": 35320,
+      "total_kills": 61052,
+      "clan_medals_total": 303406
+    },
+    {
+      "rank": 47,
+      "display_name": "persian boy",
+      "role": "Member",
+      "level": 33,
+      "current_league_medals": 31664,
+      "total_kills": 125121,
+      "clan_medals_total": 370025
+    },
+    {
+      "rank": 48,
+      "display_name": "Mehrad_Persion",
+      "role": "Member",
+      "level": 47,
+      "current_league_medals": 31262,
+      "total_kills": 106365,
+      "clan_medals_total": 31262
+    },
+    {
+      "rank": 49,
+      "display_name": "تکاور",
+      "role": "Member",
+      "level": 30,
+      "current_league_medals": 22454,
+      "total_kills": 76947,
+      "clan_medals_total": 22454
+    },
+    {
+      "rank": 50,
+      "display_name": "مصطفی",
+      "role": "Member",
+      "level": 44,
+      "current_league_medals": 14394,
+      "total_kills": 159648,
+      "clan_medals_total": 14394
+    }
+  ],
+  "integrity": {
+    "rank_range": [
+      1,
+      50
+    ],
+    "unique_ranks": true,
+    "members_50": true,
+    "sum_current_league_medals": 6592444,
+    "sum_total_kills": 8058501,
+    "sum_clan_medals_total": 14896268,
+    "continuing_members": 49,
+    "new_identities": [
+      "مصطفی"
+    ],
+    "departed_from_gs03": [],
+    "source_zip_sha256": "6ce45e349b0cfcd4664c5873b07d82523fb841c16507e7e64ae2b26740f92a25"
+  },
+  "source_evidence": {
+    "image_count": 58,
+    "ranking_images": 8,
+    "profile_images": 50,
+    "profile_coverage": "50/50",
+    "ranking_coverage": "Ranks 1-50; 8 leaderboard screenshots",
+    "membership_check": "49 G-S03 -> 49 continuing + 1 new = 50 G-S04"
+  }
+}
