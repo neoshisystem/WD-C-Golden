@@ -42,20 +42,60 @@
   const snapshotIdFromSource = source => (String(source ?? '').match(/G-S[0-9]+/) || [null])[0];
   const sumContinuingDeltas = (snapshot, field) => (snapshot.members || []).reduce((sum, member) => sum + (Number.isFinite(member[field]) ? member[field] : 0), 0);
   const loadViewer = async () => {
-    const manifest = await fetchJson('../data/manifest.json');
+    const [manifest, leaguesData, historyIndex] = await Promise.all([
+      fetchJson('../data/manifest.json'),
+      fetchJson('../clan-leaderboard/data/leagues.json'),
+      fetchJson('../data/derived/player-history-index.json')
+    ]);
     const publishedIds = Array.isArray(manifest.published_snapshot_ids) && manifest.published_snapshot_ids.length
       ? manifest.published_snapshot_ids
       : ['G-S01', 'G-S02', 'G-S03'];
     const requestedSnapshotId = qs.get('snapshot') || snapshotIdFromSource(requestedSource) || manifest.current_snapshot_id;
     const snapshots = await Promise.all(publishedIds.map(id => fetchJson(`../data/canonical/${encodeURIComponent(id)}.json`)));
+    snapshots.sort((a, b) => String(a.captured_at_utc || '').localeCompare(String(b.captured_at_utc || '')));
     let snapshot = snapshots.find(item => item.snapshot_id === requestedSnapshotId);
     if (!snapshot && requestedSource) {
       snapshot = await fetchJson(requestedSource);
     }
     if (!snapshot) throw new Error(`Snapshot not found: ${requestedSnapshotId}`);
-    const isBaseline = snapshot.snapshot_id === 'G-S01';
-    const periodClanMedals = isBaseline ? 0 : sumContinuingDeltas(snapshot, 'clan_medals_delta');
-    const periodKills = isBaseline ? 0 : sumContinuingDeltas(snapshot, 'kills_delta');
+
+    const keyMap = historyIndex?.key_map || {};
+    const snapshotRows = {};
+    const performanceSnapshots = snapshots.map((item, index) => {
+      const weekId = performance.leagueWeekId(item.captured_at_utc, leaguesData.reset);
+      const previous = index > 0 ? snapshots[index - 1] : null;
+      const previousWeek = previous ? performance.leagueWeekId(previous.captured_at_utc, leaguesData.reset) : null;
+      const leagueBoundary = !previous || previousWeek !== weekId ? 'start' : null;
+      const rows = (item.members || []).map(member => ({
+        player_id: keyMap[member.snapshot_member_key] || member.snapshot_member_key,
+        clan_medals: member.clan_medals,
+        total_kills: member.total_kills
+      }));
+      snapshotRows[item.snapshot_id] = rows;
+      return {
+        snapshot_id: item.snapshot_id,
+        captured_at_utc: item.captured_at_utc,
+        league_boundary: leagueBoundary,
+        members: item.member_count
+      };
+    });
+
+    const observationSets = [{ snapshots: snapshotRows }];
+    const metrics = performance.computeAll(
+      { snapshots: performanceSnapshots },
+      observationSets,
+      leaguesData
+    )[snapshot.snapshot_id] || {
+      league_week: performance.leagueWeekId(snapshot.captured_at_utc, leaguesData.reset),
+      baseline_snapshot_id: snapshot.snapshot_id,
+      period_clan_medals_change: 0,
+      period_kills_change: 0,
+      period_players: {},
+      weekly_clan_medals_earned: 0,
+      weekly_kills_earned: 0
+    };
+
+    const isBaseline = snapshot.snapshot_id === publishedIds[0];
     const target = {
       ...snapshot,
       members: snapshot.member_count,
@@ -64,14 +104,6 @@
       type: isBaseline ? 'baseline' : 'period'
     };
     const canonical = viewerData.buildMembers(snapshot);
-    const metrics = {
-      baseline_snapshot_id: 'G-S01',
-      league_week: snapshot.snapshot_id,
-      period_clan_medals_change: periodClanMedals,
-      period_kills_change: periodKills,
-      weekly_clan_medals_earned: periodClanMedals,
-      weekly_kills_earned: periodKills
-    };
     render(target, metrics, canonical.members, requestedMode, 'canonical', snapshots);
   };
   loadViewer().catch(error => {
