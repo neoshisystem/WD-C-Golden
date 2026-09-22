@@ -139,7 +139,7 @@
     const observationIdByName = (snapshotId, name) => {
       for (const group of Object.values(historyIndex?.groups || {})) {
         const observation = (group.observations || []).find(item => item.snapshot_id === snapshotId && item.display_name === name);
-        if (observation) return historyIndex?.key_map?.[observation.snapshot_member_key] || observation.snapshot_member_key;
+        if (observation) return observation.snapshot_member_key;
       }
       return null;
     };
