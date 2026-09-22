@@ -55,8 +55,11 @@
     const groups = Array.isArray(ctx.historyIndex?.groups) ? ctx.historyIndex.groups : [];
     let groupId = keyMap[requestedId] || null;
 
-    if (!groupId && !/^G-S\d+-R\d+$/i.test(requestedId)) {
-      const candidate = groups.find(group => group.canonical_player_id === requestedId);
+    if (!groupId) {
+      const candidate = groups.find(group =>
+        group.canonical_player_id === requestedId ||
+        (group.observations || []).some(observation => observation.snapshot_member_key === requestedId)
+      );
       groupId = candidate?.history_group_id || null;
     }
 
