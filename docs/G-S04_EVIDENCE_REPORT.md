@@ -9,9 +9,10 @@
 - Membership: **50/50** current members.
 - Continuity against G-S03: **49 continuing + 1 new (مصطفی) + 0 departed**.
 - Snapshot rank coverage: **1–50**.
+- Canonical profile fields restored from the supplied profile evidence: **Honor Medals (gold/silver/bronze), weapon levels (25mm/Hydra/Hellfire), weapon upgrade deltas against G-S03, and Last Online**.
+- Member-level kill and clan-medal deltas remain calculated from G-S03 for the 49 continuing members; the new member has no prior-snapshot delta.
 - Sum current league medals: **6,592,444**
 - Sum total kills: **8,058,501**
 - Sum clan medals: **14,896,268**
-- Continuing-member delta totals used for the period: **+1,367,305 clan medals; +114,488 kills**.
 - Permanent player IDs remain unassigned; identity continuity is based on exact display-name continuity only.
-- Honor-medal badge counts, weapon levels, and last-online text are present in the source screenshots but are intentionally not normalized into G-S04 because they were not required for the canonical publication fields and were not machine-verified here.
+- The source archive remains immutable; this repair only completes the normalized/canonical publication fields.
