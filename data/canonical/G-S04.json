@@ -23,7 +23,23 @@
       "clan_medals": 1757650,
       "clan_medals_delta": 84403,
       "total_kills": 266355,
-      "kills_delta": 4714
+      "kills_delta": 4714,
+      "honor_medals": {
+        "gold": 2,
+        "silver": 4,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 1285,
+        "hydra": 436,
+        "hellfire": 70,
+        "upgrade_deltas": {
+          "25mm": 3,
+          "hydra": 2,
+          "hellfire": 0
+        }
+      },
+      "last_online_display": "1h ago"
     },
     {
       "snapshot_member_key": "G-S04-R002",
@@ -38,7 +54,23 @@
       "clan_medals": 393292,
       "clan_medals_delta": 108447,
       "total_kills": 302321,
-      "kills_delta": 4441
+      "kills_delta": 4441,
+      "honor_medals": {
+        "gold": 3,
+        "silver": 4,
+        "bronze": 3
+      },
+      "weapons": {
+        "25mm": 1013,
+        "hydra": 353,
+        "hellfire": 94,
+        "upgrade_deltas": {
+          "25mm": 0,
+          "hydra": 4,
+          "hellfire": 0
+        }
+      },
+      "last_online_display": "2h ago"
     },
     {
       "snapshot_member_key": "G-S04-R003",
@@ -53,7 +85,23 @@
       "clan_medals": 358154,
       "clan_medals_delta": 71817,
       "total_kills": 785518,
-      "kills_delta": 803
+      "kills_delta": 803,
+      "honor_medals": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 6
+      },
+      "weapons": {
+        "25mm": 2179,
+        "hydra": 540,
+        "hellfire": 120,
+        "upgrade_deltas": {
+          "25mm": 0,
+          "hydra": 0,
+          "hellfire": 0
+        }
+      },
+      "last_online_display": "2h ago"
     },
     {
       "snapshot_member_key": "G-S04-R004",
@@ -68,7 +116,23 @@
       "clan_medals": 285320,
       "clan_medals_delta": 40202,
       "total_kills": 153580,
-      "kills_delta": 2937
+      "kills_delta": 2937,
+      "honor_medals": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 668,
+        "hydra": 192,
+        "hellfire": 56,
+        "upgrade_deltas": {
+          "25mm": 6,
+          "hydra": 5,
+          "hellfire": 2
+        }
+      },
+      "last_online_display": "2h ago"
     },
     {
       "snapshot_member_key": "G-S04-R005",
@@ -83,7 +147,23 @@
       "clan_medals": 284806,
       "clan_medals_delta": 73888,
       "total_kills": 164179,
-      "kills_delta": 4983
+      "kills_delta": 4983,
+      "honor_medals": {
+        "gold": 2,
+        "silver": 2,
+        "bronze": 0
+      },
+      "weapons": {
+        "25mm": 628,
+        "hydra": 258,
+        "hellfire": 63,
+        "upgrade_deltas": {
+          "25mm": 0,
+          "hydra": 0,
+          "hellfire": 0
+        }
+      },
+      "last_online_display": "2h ago"
     },
     {
       "snapshot_member_key": "G-S04-R006",
@@ -98,7 +178,23 @@
       "clan_medals": 276973,
       "clan_medals_delta": 69278,
       "total_kills": 255040,
-      "kills_delta": 7180
+      "kills_delta": 7180,
+      "honor_medals": {
+        "gold": 3,
+        "silver": 3,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 1013,
+        "hydra": 257,
+        "hellfire": 68,
+        "upgrade_deltas": {
+          "25mm": 5,
+          "hydra": 4,
+          "hellfire": 0
+        }
+      },
+      "last_online_display": "14m ago"
     },
     {
       "snapshot_member_key": "G-S04-R007",
@@ -113,7 +209,23 @@
       "clan_medals": 266592,
       "clan_medals_delta": 47385,
       "total_kills": 179502,
-      "kills_delta": 2622
+      "kills_delta": 2622,
+      "honor_medals": {
+        "gold": 3,
+        "silver": 3,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 943,
+        "hydra": 315,
+        "hellfire": 81,
+        "upgrade_deltas": {
+          "25mm": 0,
+          "hydra": 4,
+          "hellfire": 2
+        }
+      },
+      "last_online_display": "2h ago"
     },
     {
       "snapshot_member_key": "G-S04-R008",
@@ -128,7 +240,23 @@
       "clan_medals": 1264250,
       "clan_medals_delta": 47942,
       "total_kills": 245362,
-      "kills_delta": 3489
+      "kills_delta": 3489,
+      "honor_medals": {
+        "gold": 4,
+        "silver": 6,
+        "bronze": 4
+      },
+      "weapons": {
+        "25mm": 1036,
+        "hydra": 294,
+        "hellfire": 54,
+        "upgrade_deltas": {
+          "25mm": 8,
+          "hydra": 0,
+          "hellfire": 0
+        }
+      },
+      "last_online_display": "1h ago"
     },
     {
       "snapshot_member_key": "G-S04-R009",
@@ -143,7 +271,23 @@
       "clan_medals": 313752,
       "clan_medals_delta": 57645,
       "total_kills": 172088,
-      "kills_delta": 1696
+      "kills_delta": 1696,
+      "honor_medals": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 1
+      },
+      "weapons": {
+        "25mm": 1372,
+        "hydra": 345,
+        "hellfire": 48,
+        "upgrade_deltas": {
+          "25mm": 0,
+          "hydra": 0,
+          "hellfire": 0
+        }
+      },
+      "last_online_display": "2h ago"
     },
     {
       "snapshot_member_key": "G-S04-R010",
@@ -158,7 +302,23 @@
       "clan_medals": 189461,
       "clan_medals_delta": 14100,
       "total_kills": 142268,
-      "kills_delta": 700
+      "kills_delta": 700,
+      "honor_medals": {
+        "gold": 2,
+        "silver": 3,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 910,
+        "hydra": 263,
+        "hellfire": 72,
+        "upgrade_deltas": {
+          "25mm": 8,
+          "hydra": 0,
+          "hellfire": 0
+        }
+      },
+      "last_online_display": "2h ago"
     },
     {
       "snapshot_member_key": "G-S04-R011",
@@ -173,7 +333,23 @@
       "clan_medals": 181314,
       "clan_medals_delta": 51700,
       "total_kills": 348875,
-      "kills_delta": 7665
+      "kills_delta": 7665,
+      "honor_medals": {
+        "gold": 5,
+        "silver": 5,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 1062,
+        "hydra": 312,
+        "hellfire": 51,
+        "upgrade_deltas": {
+          "25mm": 6,
+          "hydra": 5,
+          "hellfire": 0
+        }
+      },
+      "last_online_display": "2h ago"
     },
     {
       "snapshot_member_key": "G-S04-R012",
@@ -188,7 +364,23 @@
       "clan_medals": 179493,
       "clan_medals_delta": 51567,
       "total_kills": 143619,
-      "kills_delta": 2495
+      "kills_delta": 2495,
+      "honor_medals": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 813,
+        "hydra": 208,
+        "hellfire": 69,
+        "upgrade_deltas": {
+          "25mm": 0,
+          "hydra": 4,
+          "hellfire": 0
+        }
+      },
+      "last_online_display": "2h ago"
     },
     {
       "snapshot_member_key": "G-S04-R013",
@@ -203,7 +395,23 @@
       "clan_medals": 1155667,
       "clan_medals_delta": 34177,
       "total_kills": 252040,
-      "kills_delta": 2624
+      "kills_delta": 2624,
+      "honor_medals": {
+        "gold": 3,
+        "silver": 5,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 1122,
+        "hydra": 373,
+        "hellfire": 84,
+        "upgrade_deltas": {
+          "25mm": 6,
+          "hydra": 4,
+          "hellfire": 0
+        }
+      },
+      "last_online_display": "4h ago"
     },
     {
       "snapshot_member_key": "G-S04-R014",
@@ -218,7 +426,23 @@
       "clan_medals": 157971,
       "clan_medals_delta": 45039,
       "total_kills": 185959,
-      "kills_delta": 2575
+      "kills_delta": 2575,
+      "honor_medals": {
+        "gold": 2,
+        "silver": 3,
+        "bronze": 3
+      },
+      "weapons": {
+        "25mm": 572,
+        "hydra": 248,
+        "hellfire": 58,
+        "upgrade_deltas": {
+          "25mm": 4,
+          "hydra": 4,
+          "hellfire": 2
+        }
+      },
+      "last_online_display": "<1m ago"
     },
     {
       "snapshot_member_key": "G-S04-R015",
@@ -233,7 +457,23 @@
       "clan_medals": 156995,
       "clan_medals_delta": 26760,
       "total_kills": 121341,
-      "kills_delta": 3518
+      "kills_delta": 3518,
+      "honor_medals": {
+        "gold": 2,
+        "silver": 3,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 444,
+        "hydra": 160,
+        "hellfire": 34,
+        "upgrade_deltas": {
+          "25mm": 0,
+          "hydra": 4,
+          "hellfire": 0
+        }
+      },
+      "last_online_display": "1h ago"
     },
     {
       "snapshot_member_key": "G-S04-R016",
@@ -248,7 +488,23 @@
       "clan_medals": 765247,
       "clan_medals_delta": 14486,
       "total_kills": 214568,
-      "kills_delta": 1335
+      "kills_delta": 1335,
+      "honor_medals": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 1086,
+        "hydra": 381,
+        "hellfire": 78,
+        "upgrade_deltas": {
+          "25mm": -2,
+          "hydra": 4,
+          "hellfire": 0
+        }
+      },
+      "last_online_display": "2h ago"
     },
     {
       "snapshot_member_key": "G-S04-R017",
@@ -263,7 +519,23 @@
       "clan_medals": 710721,
       "clan_medals_delta": 17850,
       "total_kills": 126048,
-      "kills_delta": 2679
+      "kills_delta": 2679,
+      "honor_medals": {
+        "gold": 1,
+        "silver": 3,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 671,
+        "hydra": 250,
+        "hellfire": 50,
+        "upgrade_deltas": {
+          "25mm": 3,
+          "hydra": 0,
+          "hellfire": 1
+        }
+      },
+      "last_online_display": "2h ago"
     },
     {
       "snapshot_member_key": "G-S04-R018",
@@ -278,7 +550,23 @@
       "clan_medals": 174552,
       "clan_medals_delta": 26378,
       "total_kills": 88812,
-      "kills_delta": 3558
+      "kills_delta": 3558,
+      "honor_medals": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      },
+      "weapons": {
+        "25mm": 575,
+        "hydra": 226,
+        "hellfire": 38,
+        "upgrade_deltas": {
+          "25mm": 6,
+          "hydra": 0,
+          "hellfire": 2
+        }
+      },
+      "last_online_display": "2h ago"
     },
     {
       "snapshot_member_key": "G-S04-R019",
@@ -293,7 +581,23 @@
       "clan_medals": 129604,
       "clan_medals_delta": 42612,
       "total_kills": 130108,
-      "kills_delta": 4849
+      "kills_delta": 4849,
+      "honor_medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 693,
+        "hydra": 190,
+        "hellfire": 42,
+        "upgrade_deltas": {
+          "25mm": 9,
+          "hydra": 0,
+          "hellfire": 0
+        }
+      },
+      "last_online_display": "2h ago"
     },
     {
       "snapshot_member_key": "G-S04-R020",
@@ -308,7 +612,23 @@
       "clan_medals": 122767,
       "clan_medals_delta": 33311,
       "total_kills": 170876,
-      "kills_delta": 2077
+      "kills_delta": 2077,
+      "honor_medals": {
+        "gold": 3,
+        "silver": 5,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 936,
+        "hydra": 329,
+        "hellfire": 63,
+        "upgrade_deltas": {
+          "25mm": 6,
+          "hydra": 4,
+          "hellfire": 0
+        }
+      },
+      "last_online_display": "1h ago"
     },
     {
       "snapshot_member_key": "G-S04-R021",
@@ -323,7 +643,23 @@
       "clan_medals": 204774,
       "clan_medals_delta": 30932,
       "total_kills": 143319,
-      "kills_delta": 1807
+      "kills_delta": 1807,
+      "honor_medals": {
+        "gold": 4,
+        "silver": 4,
+        "bronze": 1
+      },
+      "weapons": {
+        "25mm": 637,
+        "hydra": 383,
+        "hellfire": 95,
+        "upgrade_deltas": {
+          "25mm": 6,
+          "hydra": 0,
+          "hellfire": 0
+        }
+      },
+      "last_online_display": "8h ago"
     },
     {
       "snapshot_member_key": "G-S04-R022",
@@ -338,7 +674,23 @@
       "clan_medals": 118759,
       "clan_medals_delta": 48065,
       "total_kills": 219898,
-      "kills_delta": 11193
+      "kills_delta": 11193,
+      "honor_medals": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 251,
+        "hydra": 78,
+        "hellfire": 46,
+        "upgrade_deltas": {
+          "25mm": 0,
+          "hydra": 0,
+          "hellfire": 0
+        }
+      },
+      "last_online_display": "10m ago"
     },
     {
       "snapshot_member_key": "G-S04-R023",
@@ -353,7 +705,23 @@
       "clan_medals": 168339,
       "clan_medals_delta": 10494,
       "total_kills": 104332,
-      "kills_delta": 529
+      "kills_delta": 529,
+      "honor_medals": {
+        "gold": 2,
+        "silver": 6,
+        "bronze": 3
+      },
+      "weapons": {
+        "25mm": 656,
+        "hydra": 303,
+        "hellfire": 51,
+        "upgrade_deltas": {
+          "25mm": 4,
+          "hydra": 1,
+          "hellfire": 0
+        }
+      },
+      "last_online_display": "5h ago"
     },
     {
       "snapshot_member_key": "G-S04-R024",
@@ -368,7 +736,23 @@
       "clan_medals": 114264,
       "clan_medals_delta": 9900,
       "total_kills": 150554,
-      "kills_delta": 652
+      "kills_delta": 652,
+      "honor_medals": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      },
+      "weapons": {
+        "25mm": 925,
+        "hydra": 423,
+        "hellfire": 74,
+        "upgrade_deltas": {
+          "25mm": 22,
+          "hydra": 1,
+          "hellfire": 0
+        }
+      },
+      "last_online_display": "2h ago"
     },
     {
       "snapshot_member_key": "G-S04-R025",
@@ -383,7 +767,23 @@
       "clan_medals": 161318,
       "clan_medals_delta": 24098,
       "total_kills": 134019,
-      "kills_delta": 3046
+      "kills_delta": 3046,
+      "honor_medals": {
+        "gold": 2,
+        "silver": 5,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 678,
+        "hydra": 239,
+        "hellfire": 80,
+        "upgrade_deltas": {
+          "25mm": 6,
+          "hydra": 0,
+          "hellfire": 0
+        }
+      },
+      "last_online_display": "3h ago"
     },
     {
       "snapshot_member_key": "G-S04-R026",
@@ -398,7 +798,23 @@
       "clan_medals": 341310,
       "clan_medals_delta": 13662,
       "total_kills": 144288,
-      "kills_delta": 1678
+      "kills_delta": 1678,
+      "honor_medals": {
+        "gold": 2,
+        "silver": 5,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 500,
+        "hydra": 210,
+        "hellfire": 37,
+        "upgrade_deltas": {
+          "25mm": 3,
+          "hydra": -30,
+          "hellfire": 0
+        }
+      },
+      "last_online_display": "2m ago"
     },
     {
       "snapshot_member_key": "G-S04-R027",
@@ -413,7 +829,23 @@
       "clan_medals": 330092,
       "clan_medals_delta": 11316,
       "total_kills": 84765,
-      "kills_delta": 1482
+      "kills_delta": 1482,
+      "honor_medals": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 651,
+        "hydra": 165,
+        "hellfire": 60,
+        "upgrade_deltas": {
+          "25mm": -4,
+          "hydra": 4,
+          "hellfire": 0
+        }
+      },
+      "last_online_display": "4h ago"
     },
     {
       "snapshot_member_key": "G-S04-R028",
@@ -428,7 +860,23 @@
       "clan_medals": 99217,
       "clan_medals_delta": 40281,
       "total_kills": 107789,
-      "kills_delta": 936
+      "kills_delta": 936,
+      "honor_medals": {
+        "gold": 0,
+        "silver": 3,
+        "bronze": 3
+      },
+      "weapons": {
+        "25mm": 1084,
+        "hydra": 270,
+        "hellfire": 60,
+        "upgrade_deltas": {
+          "25mm": 0,
+          "hydra": 4,
+          "hellfire": 0
+        }
+      },
+      "last_online_display": "4h ago"
     },
     {
       "snapshot_member_key": "G-S04-R029",
@@ -443,7 +891,23 @@
       "clan_medals": 180525,
       "clan_medals_delta": 1491,
       "total_kills": 89234,
-      "kills_delta": 0
+      "kills_delta": 0,
+      "honor_medals": {
+        "gold": 1,
+        "silver": 3,
+        "bronze": 1
+      },
+      "weapons": {
+        "25mm": 457,
+        "hydra": 253,
+        "hellfire": 45,
+        "upgrade_deltas": {
+          "25mm": 0,
+          "hydra": 0,
+          "hellfire": 0
+        }
+      },
+      "last_online_display": "3h ago"
     },
     {
       "snapshot_member_key": "G-S04-R030",
@@ -458,7 +922,23 @@
       "clan_medals": 353795,
       "clan_medals_delta": 13979,
       "total_kills": 144095,
-      "kills_delta": 190
+      "kills_delta": 190,
+      "honor_medals": {
+        "gold": 2,
+        "silver": 3,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 703,
+        "hydra": 333,
+        "hellfire": 57,
+        "upgrade_deltas": {
+          "25mm": 0,
+          "hydra": -1,
+          "hellfire": 0
+        }
+      },
+      "last_online_display": "2h ago"
     },
     {
       "snapshot_member_key": "G-S04-R031",
@@ -473,7 +953,23 @@
       "clan_medals": 346740,
       "clan_medals_delta": 17179,
       "total_kills": 45788,
-      "kills_delta": 1402
+      "kills_delta": 1402,
+      "honor_medals": {
+        "gold": 2,
+        "silver": 3,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 296,
+        "hydra": 128,
+        "hellfire": 32,
+        "upgrade_deltas": {
+          "25mm": 6,
+          "hydra": 0,
+          "hellfire": 0
+        }
+      },
+      "last_online_display": "1h ago"
     },
     {
       "snapshot_member_key": "G-S04-R032",
@@ -488,7 +984,23 @@
       "clan_medals": 249383,
       "clan_medals_delta": 3306,
       "total_kills": 284200,
-      "kills_delta": 505
+      "kills_delta": 505,
+      "honor_medals": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 802,
+        "hydra": 440,
+        "hellfire": 128,
+        "upgrade_deltas": {
+          "25mm": 6,
+          "hydra": 0,
+          "hellfire": 0
+        }
+      },
+      "last_online_display": "11h ago"
     },
     {
       "snapshot_member_key": "G-S04-R033",
@@ -503,7 +1015,23 @@
       "clan_medals": 80301,
       "clan_medals_delta": 8142,
       "total_kills": 140570,
-      "kills_delta": 1722
+      "kills_delta": 1722,
+      "honor_medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      },
+      "weapons": {
+        "25mm": 813,
+        "hydra": 306,
+        "hellfire": 52,
+        "upgrade_deltas": {
+          "25mm": 8,
+          "hydra": 1,
+          "hellfire": 0
+        }
+      },
+      "last_online_display": "1h ago"
     },
     {
       "snapshot_member_key": "G-S04-R034",
@@ -518,7 +1046,23 @@
       "clan_medals": 256535,
       "clan_medals_delta": 5405,
       "total_kills": 159943,
-      "kills_delta": 994
+      "kills_delta": 994,
+      "honor_medals": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 631,
+        "hydra": 425,
+        "hellfire": 74,
+        "upgrade_deltas": {
+          "25mm": 0,
+          "hydra": 0,
+          "hellfire": 0
+        }
+      },
+      "last_online_display": "8h ago"
     },
     {
       "snapshot_member_key": "G-S04-R035",
@@ -533,7 +1077,23 @@
       "clan_medals": 347197,
       "clan_medals_delta": 16522,
       "total_kills": 84738,
-      "kills_delta": 1399
+      "kills_delta": 1399,
+      "honor_medals": {
+        "gold": 2,
+        "silver": 4,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 520,
+        "hydra": 277,
+        "hellfire": 62,
+        "upgrade_deltas": {
+          "25mm": 6,
+          "hydra": 1,
+          "hellfire": 0
+        }
+      },
+      "last_online_display": "<1m ago"
     },
     {
       "snapshot_member_key": "G-S04-R036",
@@ -548,7 +1108,23 @@
       "clan_medals": 372998,
       "clan_medals_delta": 5368,
       "total_kills": 67242,
-      "kills_delta": 804
+      "kills_delta": 804,
+      "honor_medals": {
+        "gold": 1,
+        "silver": 3,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 440,
+        "hydra": 149,
+        "hellfire": 31,
+        "upgrade_deltas": {
+          "25mm": 0,
+          "hydra": 0,
+          "hellfire": 1
+        }
+      },
+      "last_online_display": "3h ago"
     },
     {
       "snapshot_member_key": "G-S04-R037",
@@ -563,7 +1139,23 @@
       "clan_medals": 63528,
       "clan_medals_delta": 5182,
       "total_kills": 85678,
-      "kills_delta": 1401
+      "kills_delta": 1401,
+      "honor_medals": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 0
+      },
+      "weapons": {
+        "25mm": 668,
+        "hydra": 246,
+        "hellfire": 34,
+        "upgrade_deltas": {
+          "25mm": 4,
+          "hydra": 1,
+          "hellfire": 0
+        }
+      },
+      "last_online_display": "4h ago"
     },
     {
       "snapshot_member_key": "G-S04-R038",
@@ -578,7 +1170,23 @@
       "clan_medals": 63289,
       "clan_medals_delta": 5838,
       "total_kills": 48192,
-      "kills_delta": 303
+      "kills_delta": 303,
+      "honor_medals": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      },
+      "weapons": {
+        "25mm": 521,
+        "hydra": 165,
+        "hellfire": 34,
+        "upgrade_deltas": {
+          "25mm": 1,
+          "hydra": 0,
+          "hellfire": 1
+        }
+      },
+      "last_online_display": "4h ago"
     },
     {
       "snapshot_member_key": "G-S04-R039",
@@ -593,7 +1201,23 @@
       "clan_medals": 310952,
       "clan_medals_delta": 22380,
       "total_kills": 61513,
-      "kills_delta": 2557
+      "kills_delta": 2557,
+      "honor_medals": {
+        "gold": 2,
+        "silver": 3,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 474,
+        "hydra": 116,
+        "hellfire": 31,
+        "upgrade_deltas": {
+          "25mm": 12,
+          "hydra": 0,
+          "hellfire": 0
+        }
+      },
+      "last_online_display": "2h ago"
     },
     {
       "snapshot_member_key": "G-S04-R040",
@@ -608,7 +1232,23 @@
       "clan_medals": 55267,
       "clan_medals_delta": 32927,
       "total_kills": 64447,
-      "kills_delta": 3846
+      "kills_delta": 3846,
+      "honor_medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "weapons": {
+        "25mm": 528,
+        "hydra": 88,
+        "hellfire": 29,
+        "upgrade_deltas": {
+          "25mm": 11,
+          "hydra": 0,
+          "hellfire": 0
+        }
+      },
+      "last_online_display": "2h ago"
     },
     {
       "snapshot_member_key": "G-S04-R041",
@@ -623,7 +1263,23 @@
       "clan_medals": 50242,
       "clan_medals_delta": 23268,
       "total_kills": 118504,
-      "kills_delta": 4014
+      "kills_delta": 4014,
+      "honor_medals": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 1
+      },
+      "weapons": {
+        "25mm": 508,
+        "hydra": 160,
+        "hellfire": 22,
+        "upgrade_deltas": {
+          "25mm": 17,
+          "hydra": 0,
+          "hellfire": 0
+        }
+      },
+      "last_online_display": "1h ago"
     },
     {
       "snapshot_member_key": "G-S04-R042",
@@ -638,7 +1294,23 @@
       "clan_medals": 424578,
       "clan_medals_delta": 14292,
       "total_kills": 182525,
-      "kills_delta": 534
+      "kills_delta": 534,
+      "honor_medals": {
+        "gold": 0,
+        "silver": 3,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 1101,
+        "hydra": 181,
+        "hellfire": 43,
+        "upgrade_deltas": {
+          "25mm": 0,
+          "hydra": 0,
+          "hellfire": 0
+        }
+      },
+      "last_online_display": "3h ago"
     },
     {
       "snapshot_member_key": "G-S04-R043",
@@ -653,7 +1325,23 @@
       "clan_medals": 48763,
       "clan_medals_delta": 5343,
       "total_kills": 221984,
-      "kills_delta": 568
+      "kills_delta": 568,
+      "honor_medals": {
+        "gold": 2,
+        "silver": 2,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 1190,
+        "hydra": 315,
+        "hellfire": 70,
+        "upgrade_deltas": {
+          "25mm": 3,
+          "hydra": 0,
+          "hellfire": 0
+        }
+      },
+      "last_online_display": "1h ago"
     },
     {
       "snapshot_member_key": "G-S04-R044",
@@ -668,7 +1356,23 @@
       "clan_medals": 207862,
       "clan_medals_delta": 4187,
       "total_kills": 125570,
-      "kills_delta": 1804
+      "kills_delta": 1804,
+      "honor_medals": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 901,
+        "hydra": 250,
+        "hellfire": 64,
+        "upgrade_deltas": {
+          "25mm": 0,
+          "hydra": 12,
+          "hellfire": 0
+        }
+      },
+      "last_online_display": "39m ago"
     },
     {
       "snapshot_member_key": "G-S04-R045",
@@ -683,7 +1387,23 @@
       "clan_medals": 80118,
       "clan_medals_delta": 2418,
       "total_kills": 67722,
-      "kills_delta": 172
+      "kills_delta": 172,
+      "honor_medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      },
+      "weapons": {
+        "25mm": 611,
+        "hydra": 154,
+        "hellfire": 38,
+        "upgrade_deltas": {
+          "25mm": 2,
+          "hydra": 0,
+          "hellfire": 0
+        }
+      },
+      "last_online_display": "6h ago"
     },
     {
       "snapshot_member_key": "G-S04-R046",
@@ -698,7 +1418,23 @@
       "clan_medals": 303406,
       "clan_medals_delta": 7255,
       "total_kills": 61052,
-      "kills_delta": 841
+      "kills_delta": 841,
+      "honor_medals": {
+        "gold": 2,
+        "silver": 3,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 895,
+        "hydra": 264,
+        "hellfire": 47,
+        "upgrade_deltas": {
+          "25mm": 4,
+          "hydra": 0,
+          "hellfire": 0
+        }
+      },
+      "last_online_display": "2h ago"
     },
     {
       "snapshot_member_key": "G-S04-R047",
@@ -713,7 +1449,23 @@
       "clan_medals": 370025,
       "clan_medals_delta": 0,
       "total_kills": 125121,
-      "kills_delta": 89
+      "kills_delta": 89,
+      "honor_medals": {
+        "gold": 1,
+        "silver": 3,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 715,
+        "hydra": 205,
+        "hellfire": 36,
+        "upgrade_deltas": {
+          "25mm": 0,
+          "hydra": 0,
+          "hellfire": 0
+        }
+      },
+      "last_online_display": "5h ago"
     },
     {
       "snapshot_member_key": "G-S04-R048",
@@ -728,7 +1480,23 @@
       "clan_medals": 31262,
       "clan_medals_delta": 2637,
       "total_kills": 106365,
-      "kills_delta": 870
+      "kills_delta": 870,
+      "honor_medals": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 885,
+        "hydra": 323,
+        "hellfire": 62,
+        "upgrade_deltas": {
+          "25mm": 3,
+          "hydra": 3,
+          "hellfire": 0
+        }
+      },
+      "last_online_display": "3h ago"
     },
     {
       "snapshot_member_key": "G-S04-R049",
@@ -743,7 +1511,23 @@
       "clan_medals": 22454,
       "clan_medals_delta": 22451,
       "total_kills": 76947,
-      "kills_delta": 2210
+      "kills_delta": 2210,
+      "honor_medals": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 1
+      },
+      "weapons": {
+        "25mm": 658,
+        "hydra": 220,
+        "hellfire": 33,
+        "upgrade_deltas": {
+          "25mm": 18,
+          "hydra": 0,
+          "hellfire": 0
+        }
+      },
+      "last_online_display": "2h ago"
     },
     {
       "snapshot_member_key": "G-S04-R050",
@@ -758,7 +1542,18 @@
       "clan_medals": 14394,
       "clan_medals_delta": null,
       "total_kills": 159648,
-      "kills_delta": null
+      "kills_delta": null,
+      "honor_medals": {
+        "gold": 3,
+        "silver": 4,
+        "bronze": 2
+      },
+      "weapons": {
+        "25mm": 809,
+        "hydra": 202,
+        "hellfire": 57
+      },
+      "last_online_display": "2h ago"
     }
   ]
 }
