@@ -2,6 +2,7 @@
   "snapshot_id": "G-S04",
   "clan": "GOLDENCROWN",
   "official_timestamp_persian": "1405-06-30 24:00",
+  "captured_at_utc": "2026-09-21T20:30:00Z",
   "member_count": 50,
   "baseline_rule": {
     "total_kills": "baseline",
