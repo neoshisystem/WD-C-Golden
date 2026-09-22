@@ -160,7 +160,7 @@
               <span class="badge">HISTORY</span>
               <h2>تاریخچه عملکرد کاربر</h2>
               <p class="muted">
-                تمام Snapshotهای منتشرشده بررسی می‌شوند؛ Snapshotهایی که بازیکن در آنها حضور نداشته نیز صریحاً ثبت می‌شوند.
+                هر سطر یک دوره ثبت‌شده است؛ تاریخ و Snapshot همان Observation را نشان می‌دهد و تغییرات از دادهٔ Canonical همان Snapshot خوانده می‌شوند.
               </p>
             </div>
           </div>
@@ -190,6 +190,16 @@
     const role = latestObservation?.role || selected?.role || 'Member';
     const displayName = latestObservation?.display_name || selected?.display_name || requestedId;
     const currentState = latestObservation || selected;
+    const selectedIndex = snapshots.findIndex(snapshot => snapshot.snapshot_id === selectedSnapshot?.snapshot_id);
+    const performanceRows = selectedIndex >= 0 ? rows.slice(selectedIndex).filter(row => row.observation) : rows.filter(row => row.observation);
+    const sumObservationDelta = field => performanceRows.reduce((sum, row) => {
+      const value = row.observation?.[field];
+      return sum + (value == null ? 0 : Number(value) || 0);
+    }, 0);
+    const weeklyClan = sumObservationDelta('clan_medals_delta');
+    const weeklyKills = sumObservationDelta('kills_delta');
+    const cumulativeClan = rows.filter(row => row.observation).reduce((sum, row) => sum + (Number(row.observation?.clan_medals_delta) || 0), 0);
+    const cumulativeKills = rows.filter(row => row.observation).reduce((sum, row) => sum + (Number(row.observation?.kills_delta) || 0), 0);
     const permanentIdLabel = currentState?.player_id
       ? ` · Canonical player_id: ${esc(currentState.player_id)}`
       : ' · Canonical player_id: unassigned';
@@ -228,7 +238,6 @@
           <div class="profile-stat"><span>مدال کل کلن</span><strong>${fmt(currentState?.clan_medals)}</strong></div>
           <div class="profile-stat"><span>مجموع کیل 💀</span><strong>${fmt(currentState?.total_kills)}</strong></div>
           <div class="profile-stat"><span>مدال افتخار</span><strong>${esc(honors(currentState))}</strong></div>
-          <div class="profile-stat"><span>لول سلاح‌ها</span><strong>${esc(weapons(currentState))}</strong></div>
           <div class="profile-stat"><span>آخرین آنلاین</span><strong>${esc(currentState?.last_online_display || '—')}</strong></div>
         </div>
       </section>
@@ -255,18 +264,27 @@
       <section class="panel progression-panel">
         <div class="snapshot-heading">
           <div>
-            <span class="badge">TIMELINE</span>
-            <h2>خط زمانی Snapshotها</h2>
-            <p class="muted">${rows.filter(row => row.observation).length} Observation از ${rows.length} Snapshot منتشرشده.</p>
+            <span class="badge">عملکرد</span>
+            <h2>عملکرد این هفته</h2>
+            <p class="muted">تغییر مدال کلن از ابتدای Snapshotهای منتشرشده و افزایش Kill بر اساس Observationهای ثبت‌شده محاسبه می‌شود.</p>
           </div>
         </div>
         <div class="profile-stats">
-          ${rows.map(row => `<div class="profile-stat">
-            <span>${snapshotLabel(row.snapshot)}</span>
-            <strong>${row.observation
-              ? `Rank ${fmt(row.observation.rank)} · ${fmt(row.observation.total_kills)} Kill`
-              : 'در این Snapshot حضور ندارد'}</strong>
-          </div>`).join('')}
+          <div class="profile-stat"><span>تغییر مدال کلن</span><strong>${weeklyClan === 0 ? '0' : signed(weeklyClan)}</strong></div>
+          <div class="profile-stat"><span>افزایش کیل</span><strong>${weeklyKills === 0 ? '0' : signed(weeklyKills)}</strong></div>
+        </div>
+      </section>
+      <section class="panel progression-panel">
+        <div class="snapshot-heading">
+          <div>
+            <span class="badge">CUMULATIVE</span>
+            <h2>عملکرد تجمعی</h2>
+            <p class="muted">از اولین ثبت معتبر این بازیکن تا آخرین Observation موجود؛ با فاصله بین Snapshotها صفر نمی‌شود.</p>
+          </div>
+        </div>
+        <div class="profile-stats">
+          <div class="profile-stat"><span>مجموع مدال کلن کسب‌شده</span><strong>${cumulativeClan === 0 ? '0' : signed(cumulativeClan)}</strong></div>
+          <div class="profile-stat"><span>مجموع Kill کسب‌شده</span><strong>${cumulativeKills === 0 ? '0' : signed(cumulativeKills)}</strong></div>
         </div>
       </section>
 
