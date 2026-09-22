@@ -149,11 +149,11 @@
           Rank و نام به‌تنهایی Identity محسوب نشده‌اند؛ تطبیق‌های فعلی از گزارش‌های Snapshot و تطابق یک‌به‌یک نام + Fingerprint استفاده می‌کنند.
         </section>`
       : `<section class="panel source-note">
-          <strong>وضعیت تاریخچه:</strong> برای این Observation هنوز گروه‌بندی تاریخی تأییدشده‌ای وجود ندارد.
-          فقط همان Snapshot نمایش داده می‌شود و هیچ Identity بین Snapshotها حدس زده نمی‌شود.
+          <strong>وضعیت تاریخچه:</strong> Observationهای موجود در چند Snapshot نمایش داده می‌شوند، اما این گروه هنوز <code>evidence-resolved-for-ui</code> نیست.
+          بنابراین این Timeline برای نمایش داده‌های مشاهده‌شده است و به‌عنوان Identity دائمی یا تأیید قطعی هویت بین Snapshotها تفسیر نمی‌شود.
         </section>`;
 
-    const historySection = isEvidenceHistory
+    const historySection = hasMultiSnapshotHistory
       ? `<section class="panel progression-panel">
           <div class="snapshot-heading">
             <div>
@@ -183,7 +183,7 @@
             </div>
           </div>
           <div class="panel empty">
-            تاریخچهٔ بین Snapshotها برای این Observation تأیید نشده است.
+            برای این بازیکن فقط یک Observation در Snapshotهای منتشرشده وجود دارد؛ بنابراین تاریخچهٔ بین Snapshotها قابل نمایش نیست.
           </div>
         </section>`;
 
