@@ -1,0 +1,22 @@
+# G-S05 Evidence Report
+
+- Snapshot: **G-S05**
+- Clan: **GOLDENCROWN**
+- Official timestamp: **1405-06-31 24:00**
+- Captured at UTC: **2026-09-22T20:30:00Z**
+- Source archive: `G-S05.zip`
+- Source archive SHA-256: `5467d2240dc955132d624d096acbc4259a75761814a3d76c3fca4a524d7dec82`
+- Evidence images: **50** total — 0 ranking + 50 profile screenshots.
+- Membership: **50/50** current members.
+- Continuity against G-S04: **50 continuing + 0 new + 0 departed**.
+- Snapshot rank coverage: **1–50**, supported by profile-card order and embedded rank markers.
+- Canonical profile fields restored from the supplied profile evidence: **Stage, Role, Total Kills, Clan Medals, Honor Medals (gold/silver/bronze), weapon levels (25mm/Hydra/Hellfire), and Last Online**.
+- Current League Medals are **not directly present in the supplied G-S05 profile cards**. They are derived for canonical continuity as: **G-S04 league_medals + G-S05 clan-medals delta**, because G-S04 → G-S05 is within the same league period. This derivation is recorded in normalized source evidence and is not presented as direct ranking evidence.
+- Member-level clan-medal and kill deltas are calculated directly against the G-S04 canonical values.
+- Sum current league medals (derived): **7,353,400**
+- Sum total kills: **8,133,187**
+- Sum clan medals: **15,657,224**
+- Aggregate clan-medal delta: **+760,956**
+- Aggregate kill delta: **+74,686**
+- Permanent player IDs remain unassigned by Golden design; continuity is retained through the existing derived noncanonical history groups.
+- The source archive remains immutable; this publication adds the normalized snapshot, canonical snapshot, derived history continuity, manifest pointer, and archive entry.
