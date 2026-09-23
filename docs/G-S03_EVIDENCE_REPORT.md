@@ -58,3 +58,9 @@ The raw Total Kills decrease is not used as a continuing-member period delta; me
 - Membership arithmetic 50 - 2 + 1 = 49: PASS
 - Negative continuing cumulative deltas silently clamped: NO
 - GitHub publication performed only after Project Authority conditional approval in the conversation.
+
+## Repair pass — 2026-09-23
+
+- Eren Honor Medals corrected **2/2/1 → 2/2/0** from supplied profile evidence.
+- boz qurd Honor Medals corrected **2/5/5 → 1/1/0** from supplied profile evidence.
+- No cumulative kill, clan-medal, stage, or weapon-level value changed in this pass.
