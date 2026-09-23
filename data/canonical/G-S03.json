@@ -158,7 +158,7 @@
       "honor_medals": {
         "gold": 2,
         "silver": 2,
-        "bronze": 1
+        "bronze": 0
       },
       "weapons": {
         "25mm": 628,
@@ -468,9 +468,9 @@
       "total_kills": 85254,
       "kills_delta": 4394,
       "honor_medals": {
-        "gold": 2,
-        "silver": 5,
-        "bronze": 5
+        "gold": 1,
+        "silver": 1,
+        "bronze": 0
       },
       "weapons": {
         "25mm": 569,
