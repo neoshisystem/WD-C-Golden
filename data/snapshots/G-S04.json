@@ -71,9 +71,9 @@
       "total_kills": 785518,
       "clan_medals_total": 358154,
       "honor_medals": {
-        "gold": 1,
+        "gold": 6,
         "silver": 1,
-        "bronze": 6
+        "bronze": 1
       },
       "weapons": {
         "25mm": 2179,
@@ -91,9 +91,9 @@
       "total_kills": 153580,
       "clan_medals_total": 285320,
       "honor_medals": {
-        "gold": 1,
+        "gold": 2,
         "silver": 2,
-        "bronze": 2
+        "bronze": 1
       },
       "weapons": {
         "25mm": 668,
@@ -131,9 +131,9 @@
       "total_kills": 255040,
       "clan_medals_total": 276973,
       "honor_medals": {
-        "gold": 3,
+        "gold": 2,
         "silver": 3,
-        "bronze": 2
+        "bronze": 3
       },
       "weapons": {
         "25mm": 1013,
@@ -151,9 +151,9 @@
       "total_kills": 179502,
       "clan_medals_total": 266592,
       "honor_medals": {
-        "gold": 3,
+        "gold": 2,
         "silver": 3,
-        "bronze": 2
+        "bronze": 3
       },
       "weapons": {
         "25mm": 943,
@@ -231,9 +231,9 @@
       "total_kills": 348875,
       "clan_medals_total": 181314,
       "honor_medals": {
-        "gold": 5,
+        "gold": 2,
         "silver": 5,
-        "bronze": 2
+        "bronze": 5
       },
       "weapons": {
         "25mm": 1062,
@@ -251,9 +251,9 @@
       "total_kills": 143619,
       "clan_medals_total": 179493,
       "honor_medals": {
-        "gold": 1,
+        "gold": 2,
         "silver": 1,
-        "bronze": 2
+        "bronze": 1
       },
       "weapons": {
         "25mm": 813,
@@ -271,9 +271,9 @@
       "total_kills": 252040,
       "clan_medals_total": 1155667,
       "honor_medals": {
-        "gold": 3,
+        "gold": 2,
         "silver": 5,
-        "bronze": 2
+        "bronze": 3
       },
       "weapons": {
         "25mm": 1122,
@@ -291,9 +291,9 @@
       "total_kills": 185959,
       "clan_medals_total": 157971,
       "honor_medals": {
-        "gold": 2,
+        "gold": 3,
         "silver": 3,
-        "bronze": 3
+        "bronze": 2
       },
       "weapons": {
         "25mm": 572,
@@ -331,12 +331,12 @@
       "total_kills": 214568,
       "clan_medals_total": 765247,
       "honor_medals": {
-        "gold": 1,
+        "gold": 2,
         "silver": 2,
-        "bronze": 2
+        "bronze": 1
       },
       "weapons": {
-        "25mm": 1086,
+        "25mm": 1088,
         "hydra": 381,
         "hellfire": 78
       },
@@ -351,9 +351,9 @@
       "total_kills": 126048,
       "clan_medals_total": 710721,
       "honor_medals": {
-        "gold": 1,
+        "gold": 2,
         "silver": 3,
-        "bronze": 2
+        "bronze": 1
       },
       "weapons": {
         "25mm": 671,
@@ -371,9 +371,9 @@
       "total_kills": 88812,
       "clan_medals_total": 174552,
       "honor_medals": {
-        "gold": 0,
+        "gold": 1,
         "silver": 1,
-        "bronze": 1
+        "bronze": 0
       },
       "weapons": {
         "25mm": 575,
@@ -391,9 +391,9 @@
       "total_kills": 130108,
       "clan_medals_total": 129604,
       "honor_medals": {
-        "gold": 0,
+        "gold": 2,
         "silver": 0,
-        "bronze": 2
+        "bronze": 0
       },
       "weapons": {
         "25mm": 693,
@@ -411,9 +411,9 @@
       "total_kills": 170876,
       "clan_medals_total": 122767,
       "honor_medals": {
-        "gold": 3,
+        "gold": 2,
         "silver": 5,
-        "bronze": 2
+        "bronze": 3
       },
       "weapons": {
         "25mm": 936,
@@ -431,9 +431,9 @@
       "total_kills": 143319,
       "clan_medals_total": 204774,
       "honor_medals": {
-        "gold": 4,
+        "gold": 1,
         "silver": 4,
-        "bronze": 1
+        "bronze": 4
       },
       "weapons": {
         "25mm": 637,
@@ -451,9 +451,9 @@
       "total_kills": 219898,
       "clan_medals_total": 118759,
       "honor_medals": {
-        "gold": 0,
+        "gold": 2,
         "silver": 2,
-        "bronze": 2
+        "bronze": 0
       },
       "weapons": {
         "25mm": 251,
@@ -471,9 +471,9 @@
       "total_kills": 104332,
       "clan_medals_total": 168339,
       "honor_medals": {
-        "gold": 2,
+        "gold": 3,
         "silver": 6,
-        "bronze": 3
+        "bronze": 2
       },
       "weapons": {
         "25mm": 656,
@@ -537,7 +537,7 @@
       },
       "weapons": {
         "25mm": 500,
-        "hydra": 210,
+        "hydra": 240,
         "hellfire": 37
       },
       "last_online_display": "2m ago"
@@ -551,12 +551,12 @@
       "total_kills": 84765,
       "clan_medals_total": 330092,
       "honor_medals": {
-        "gold": 0,
+        "gold": 2,
         "silver": 1,
-        "bronze": 2
+        "bronze": 0
       },
       "weapons": {
-        "25mm": 651,
+        "25mm": 661,
         "hydra": 165,
         "hellfire": 60
       },
@@ -571,9 +571,9 @@
       "total_kills": 107789,
       "clan_medals_total": 99217,
       "honor_medals": {
-        "gold": 0,
+        "gold": 3,
         "silver": 3,
-        "bronze": 3
+        "bronze": 0
       },
       "weapons": {
         "25mm": 1084,
@@ -617,7 +617,7 @@
       },
       "weapons": {
         "25mm": 703,
-        "hydra": 333,
+        "hydra": 334,
         "hellfire": 57
       },
       "last_online_display": "2h ago"
@@ -671,9 +671,9 @@
       "total_kills": 140570,
       "clan_medals_total": 80301,
       "honor_medals": {
-        "gold": 0,
+        "gold": 1,
         "silver": 0,
-        "bronze": 1
+        "bronze": 0
       },
       "weapons": {
         "25mm": 813,
@@ -691,9 +691,9 @@
       "total_kills": 159943,
       "clan_medals_total": 256535,
       "honor_medals": {
-        "gold": 0,
+        "gold": 2,
         "silver": 2,
-        "bronze": 2
+        "bronze": 0
       },
       "weapons": {
         "25mm": 631,
@@ -731,9 +731,9 @@
       "total_kills": 67242,
       "clan_medals_total": 372998,
       "honor_medals": {
-        "gold": 1,
+        "gold": 2,
         "silver": 3,
-        "bronze": 2
+        "bronze": 1
       },
       "weapons": {
         "25mm": 440,
@@ -771,9 +771,9 @@
       "total_kills": 48192,
       "clan_medals_total": 63289,
       "honor_medals": {
-        "gold": 0,
+        "gold": 1,
         "silver": 1,
-        "bronze": 1
+        "bronze": 0
       },
       "weapons": {
         "25mm": 521,
@@ -831,9 +831,9 @@
       "total_kills": 118504,
       "clan_medals_total": 50242,
       "honor_medals": {
-        "gold": 0,
+        "gold": 1,
         "silver": 2,
-        "bronze": 1
+        "bronze": 0
       },
       "weapons": {
         "25mm": 508,
@@ -851,9 +851,9 @@
       "total_kills": 182525,
       "clan_medals_total": 424578,
       "honor_medals": {
-        "gold": 0,
+        "gold": 2,
         "silver": 3,
-        "bronze": 2
+        "bronze": 0
       },
       "weapons": {
         "25mm": 1101,
@@ -891,9 +891,9 @@
       "total_kills": 125570,
       "clan_medals_total": 207862,
       "honor_medals": {
-        "gold": 1,
+        "gold": 2,
         "silver": 2,
-        "bronze": 2
+        "bronze": 1
       },
       "weapons": {
         "25mm": 901,
@@ -911,9 +911,9 @@
       "total_kills": 67722,
       "clan_medals_total": 80118,
       "honor_medals": {
-        "gold": 0,
+        "gold": 1,
         "silver": 0,
-        "bronze": 1
+        "bronze": 0
       },
       "weapons": {
         "25mm": 611,
@@ -951,9 +951,9 @@
       "total_kills": 125121,
       "clan_medals_total": 370025,
       "honor_medals": {
-        "gold": 1,
+        "gold": 2,
         "silver": 3,
-        "bronze": 2
+        "bronze": 1
       },
       "weapons": {
         "25mm": 715,
@@ -971,9 +971,9 @@
       "total_kills": 106365,
       "clan_medals_total": 31262,
       "honor_medals": {
-        "gold": 1,
+        "gold": 2,
         "silver": 2,
-        "bronze": 2
+        "bronze": 1
       },
       "weapons": {
         "25mm": 885,
@@ -1011,9 +1011,9 @@
       "total_kills": 159648,
       "clan_medals_total": 14394,
       "honor_medals": {
-        "gold": 3,
+        "gold": 2,
         "silver": 4,
-        "bronze": 2
+        "bronze": 3
       },
       "weapons": {
         "25mm": 809,
