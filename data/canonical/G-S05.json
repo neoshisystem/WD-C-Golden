@@ -88,9 +88,9 @@
       "total_kills": 785652,
       "kills_delta": 134,
       "honor_medals": {
-        "gold": 1,
+        "gold": 6,
         "silver": 1,
-        "bronze": 6
+        "bronze": 1
       },
       "weapons": {
         "25mm": 2179,
@@ -119,9 +119,9 @@
       "total_kills": 167372,
       "kills_delta": 3193,
       "honor_medals": {
-        "gold": 0,
+        "gold": 2,
         "silver": 2,
-        "bronze": 2
+        "bronze": 0
       },
       "weapons": {
         "25mm": 628,
@@ -150,9 +150,9 @@
       "total_kills": 182022,
       "kills_delta": 2520,
       "honor_medals": {
-        "gold": 3,
+        "gold": 2,
         "silver": 3,
-        "bronze": 2
+        "bronze": 3
       },
       "weapons": {
         "25mm": 943,
@@ -181,9 +181,9 @@
       "total_kills": 156111,
       "kills_delta": 2531,
       "honor_medals": {
-        "gold": 1,
+        "gold": 2,
         "silver": 2,
-        "bronze": 2
+        "bronze": 1
       },
       "weapons": {
         "25mm": 668,
@@ -212,9 +212,9 @@
       "total_kills": 257837,
       "kills_delta": 2797,
       "honor_medals": {
-        "gold": 3,
+        "gold": 2,
         "silver": 3,
-        "bronze": 2
+        "bronze": 3
       },
       "weapons": {
         "25mm": 1022,
@@ -305,9 +305,9 @@
       "total_kills": 354784,
       "kills_delta": 5909,
       "honor_medals": {
-        "gold": 5,
+        "gold": 2,
         "silver": 5,
-        "bronze": 2
+        "bronze": 5
       },
       "weapons": {
         "25mm": 1062,
@@ -367,9 +367,9 @@
       "total_kills": 146075,
       "kills_delta": 2456,
       "honor_medals": {
-        "gold": 1,
+        "gold": 2,
         "silver": 1,
-        "bronze": 2
+        "bronze": 1
       },
       "weapons": {
         "25mm": 819,
@@ -398,9 +398,9 @@
       "total_kills": 255136,
       "kills_delta": 3096,
       "honor_medals": {
-        "gold": 3,
+        "gold": 2,
         "silver": 5,
-        "bronze": 2
+        "bronze": 3
       },
       "weapons": {
         "25mm": 1130,
@@ -429,9 +429,9 @@
       "total_kills": 188064,
       "kills_delta": 2105,
       "honor_medals": {
-        "gold": 2,
+        "gold": 3,
         "silver": 3,
-        "bronze": 3
+        "bronze": 2
       },
       "weapons": {
         "25mm": 582,
@@ -460,9 +460,9 @@
       "total_kills": 128528,
       "kills_delta": 2480,
       "honor_medals": {
-        "gold": 1,
+        "gold": 2,
         "silver": 3,
-        "bronze": 2
+        "bronze": 1
       },
       "weapons": {
         "25mm": 671,
@@ -491,12 +491,12 @@
       "total_kills": 215769,
       "kills_delta": 1201,
       "honor_medals": {
-        "gold": 1,
+        "gold": 2,
         "silver": 2,
-        "bronze": 2
+        "bronze": 1
       },
       "weapons": {
-        "25mm": 1086,
+        "25mm": 1088,
         "hydra": 385,
         "hellfire": 78,
         "upgrade_deltas": {
@@ -553,9 +553,9 @@
       "total_kills": 90637,
       "kills_delta": 1825,
       "honor_medals": {
-        "gold": 0,
+        "gold": 1,
         "silver": 1,
-        "bronze": 1
+        "bronze": 0
       },
       "weapons": {
         "25mm": 575,
@@ -584,9 +584,9 @@
       "total_kills": 227762,
       "kills_delta": 7864,
       "honor_medals": {
-        "gold": 0,
+        "gold": 2,
         "silver": 2,
-        "bronze": 2
+        "bronze": 0
       },
       "weapons": {
         "25mm": 257,
@@ -615,9 +615,9 @@
       "total_kills": 130516,
       "kills_delta": 408,
       "honor_medals": {
-        "gold": 0,
+        "gold": 2,
         "silver": 0,
-        "bronze": 2
+        "bronze": 0
       },
       "weapons": {
         "25mm": 693,
@@ -646,9 +646,9 @@
       "total_kills": 171402,
       "kills_delta": 526,
       "honor_medals": {
-        "gold": 3,
+        "gold": 2,
         "silver": 5,
-        "bronze": 2
+        "bronze": 3
       },
       "weapons": {
         "25mm": 936,
@@ -677,9 +677,9 @@
       "total_kills": 143933,
       "kills_delta": 614,
       "honor_medals": {
-        "gold": 4,
+        "gold": 1,
         "silver": 4,
-        "bronze": 1
+        "bronze": 4
       },
       "weapons": {
         "25mm": 637,
@@ -708,9 +708,9 @@
       "total_kills": 104744,
       "kills_delta": 412,
       "honor_medals": {
-        "gold": 2,
+        "gold": 3,
         "silver": 6,
-        "bronze": 3
+        "bronze": 2
       },
       "weapons": {
         "25mm": 659,
@@ -745,7 +745,7 @@
       },
       "weapons": {
         "25mm": 500,
-        "hydra": 210,
+        "hydra": 240,
         "hellfire": 37,
         "upgrade_deltas": {
           "25mm": 0,
@@ -832,16 +832,16 @@
       "total_kills": 85340,
       "kills_delta": 575,
       "honor_medals": {
-        "gold": 0,
+        "gold": 2,
         "silver": 1,
-        "bronze": 2
+        "bronze": 0
       },
       "weapons": {
         "25mm": 661,
         "hydra": 169,
         "hellfire": 60,
         "upgrade_deltas": {
-          "25mm": 10,
+          "25mm": 0,
           "hydra": 4,
           "hellfire": 0
         }
@@ -863,9 +863,9 @@
       "total_kills": 108407,
       "kills_delta": 618,
       "honor_medals": {
-        "gold": 0,
+        "gold": 3,
         "silver": 3,
-        "bronze": 3
+        "bronze": 0
       },
       "weapons": {
         "25mm": 1093,
@@ -997,7 +997,7 @@
         "hellfire": 57,
         "upgrade_deltas": {
           "25mm": 6,
-          "hydra": 1,
+          "hydra": 0,
           "hellfire": 0
         }
       },
@@ -1018,9 +1018,9 @@
       "total_kills": 142185,
       "kills_delta": 1615,
       "honor_medals": {
-        "gold": 0,
+        "gold": 1,
         "silver": 0,
-        "bronze": 1
+        "bronze": 0
       },
       "weapons": {
         "25mm": 819,
@@ -1080,9 +1080,9 @@
       "total_kills": 160835,
       "kills_delta": 892,
       "honor_medals": {
-        "gold": 0,
+        "gold": 2,
         "silver": 2,
-        "bronze": 2
+        "bronze": 0
       },
       "weapons": {
         "25mm": 631,
@@ -1173,9 +1173,9 @@
       "total_kills": 121540,
       "kills_delta": 3036,
       "honor_medals": {
-        "gold": 0,
+        "gold": 1,
         "silver": 2,
-        "bronze": 1
+        "bronze": 0
       },
       "weapons": {
         "25mm": 516,
@@ -1235,9 +1235,9 @@
       "total_kills": 48393,
       "kills_delta": 201,
       "honor_medals": {
-        "gold": 0,
+        "gold": 1,
         "silver": 1,
-        "bronze": 1
+        "bronze": 0
       },
       "weapons": {
         "25mm": 523,
@@ -1266,9 +1266,9 @@
       "total_kills": 67318,
       "kills_delta": 76,
       "honor_medals": {
-        "gold": 1,
+        "gold": 2,
         "silver": 3,
-        "bronze": 2
+        "bronze": 1
       },
       "weapons": {
         "25mm": 441,
@@ -1328,9 +1328,9 @@
       "total_kills": 107567,
       "kills_delta": 1202,
       "honor_medals": {
-        "gold": 1,
+        "gold": 2,
         "silver": 2,
-        "bronze": 2
+        "bronze": 1
       },
       "weapons": {
         "25mm": 891,
@@ -1359,9 +1359,9 @@
       "total_kills": 182525,
       "kills_delta": 0,
       "honor_medals": {
-        "gold": 0,
+        "gold": 2,
         "silver": 3,
-        "bronze": 2
+        "bronze": 0
       },
       "weapons": {
         "25mm": 1101,
@@ -1387,12 +1387,12 @@
       "league_medals_delta": 3476,
       "clan_medals": 83594,
       "clan_medals_delta": 3476,
-      "total_kills": 62870,
-      "kills_delta": -4852,
+      "total_kills": 67870,
+      "kills_delta": 148,
       "honor_medals": {
-        "gold": 0,
+        "gold": 1,
         "silver": 0,
-        "bronze": 1
+        "bronze": 0
       },
       "weapons": {
         "25mm": 613,
@@ -1421,9 +1421,9 @@
       "total_kills": 126222,
       "kills_delta": 652,
       "honor_medals": {
-        "gold": 1,
+        "gold": 2,
         "silver": 2,
-        "bronze": 2
+        "bronze": 1
       },
       "weapons": {
         "25mm": 901,
@@ -1452,7 +1452,7 @@
       "total_kills": 78983,
       "kills_delta": 2036,
       "honor_medals": {
-        "gold": 0,
+        "gold": 1,
         "silver": 2,
         "bronze": 1
       },
@@ -1514,9 +1514,9 @@
       "total_kills": 125874,
       "kills_delta": 753,
       "honor_medals": {
-        "gold": 1,
+        "gold": 2,
         "silver": 3,
-        "bronze": 2
+        "bronze": 1
       },
       "weapons": {
         "25mm": 726,
@@ -1545,9 +1545,9 @@
       "total_kills": 160749,
       "kills_delta": 1101,
       "honor_medals": {
-        "gold": 3,
+        "gold": 2,
         "silver": 4,
-        "bronze": 2
+        "bronze": 3
       },
       "weapons": {
         "25mm": 816,
