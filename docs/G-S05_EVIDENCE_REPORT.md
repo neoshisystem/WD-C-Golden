@@ -14,9 +14,16 @@
 - Current League Medals are **not directly present in the supplied G-S05 profile cards**. They are derived for canonical continuity as: **G-S04 league_medals + G-S05 clan-medals delta**, because G-S04 → G-S05 is within the same league period. This derivation is recorded in normalized source evidence and is not presented as direct ranking evidence.
 - Member-level clan-medal and kill deltas are calculated directly against the G-S04 canonical values.
 - Sum current league medals (derived): **7,353,400**
-- Sum total kills: **8,133,187**
+- Sum total kills: **8,138,187**
 - Sum clan medals: **15,657,224**
 - Aggregate clan-medal delta: **+760,956**
-- Aggregate kill delta: **+74,686**
+- Aggregate kill delta: **+79,686**
 - Permanent player IDs remain unassigned by Golden design; continuity is retained through the existing derived noncanonical history groups.
 - The source archive remains immutable; this publication adds the normalized snapshot, canonical snapshot, derived history continuity, manifest pointer, and archive entry.
+
+## Repair pass — 2026-09-23
+
+- Honor Medals reconciled against corrected G-S04 for **31 members**; **تکاور** is explicitly corrected to **1/2/1** from supplied profile evidence.
+- Weapon continuity corrections: **Masoudpas_4612 Hydra 210 → 240**, **RADMAN 25mm 1086 → 1088**.
+- KSIBAN 00 Total Kills corrected **62,870 → 67,870**; period delta is **+148** instead of **−4,852**.
+- Aggregate G-S05 Total Kills is now **8,138,187** and aggregate kill delta **+79,686**.
